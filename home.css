@@ -5,7 +5,7 @@ html {
 }
 
 section {
-    padding: 64px 32px 64px 32px;
+    padding: 64px 24px;
 }
 
 .section-title {
@@ -125,11 +125,13 @@ border-radius: 24px;
     text-align: center;
 }
 
-#chain-column .chain-row:nth-of-type(1) {
-    flex-flow: row;
-}
-#chain-column .chain-row:nth-of-type(2) {
-    flex-flow: row-reverse;
+@media (min-width: 768px) {
+    #chain-column .chain-row:nth-of-type(1) {
+        flex-flow: row;
+    }
+    #chain-column .chain-row:nth-of-type(2) {
+        flex-flow: row-reverse;
+    }
 }
 
 
