@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="home.css">
 
 </head>
@@ -55,16 +57,16 @@
     <!-- The carosuel -->
     <div id="homeCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#homeCarousel" data-slide-to="1"></li>
+        <li data-target="#homeCarousel" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img class="d-block w-100"
             src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_home/Curd-Homepage_Main_Banner_1440x640.jpg?$ORIGIN_JPG$"
             alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block to-animate">
             <h5>Hello World</h5>
             <p>Why it is?</p>
           </div>
@@ -73,10 +75,9 @@
           <!-- <img class="d-block w-100"
             src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_home/Curd-Homepage_Main_Banner_1440x640.jpg?$ORIGIN_JPG$"
             alt="Second slide"> -->
-          <video
-          id="second-slide-video"
+          <video id="second-slide-video"
             src="https://images.samsung.com/is/content/samsung/assets/in/galaxy-note20/galaxy-s20fe/home/S20_FE_Home_MainCarousel_Animated_KV_5Colors_1440X640.mp4"></video>
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block to-animate">
             <h5>Let's see</h5>
             <p>How</p>
           </div>
@@ -85,95 +86,123 @@
           <img class="d-block w-100"
             src="https://images.samsung.com/is/image/samsung/assets/in/p6_gro1/p6_initial_home/Curd-Homepage_Main_Banner_1440x640.jpg?$ORIGIN_JPG$"
             alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-block to-animate">
             <h5>Yo</h5>
             <p>Yeah</p>
           </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
     </div>
 
+
     <section id="pros">
       <h1 class="text-center section-title" data-aos="fade-up">Our Products</h1>
 
       <div class="container">
-          <div class="row">
+        <div class="row">
 
-              <div class="col-sm-4 col-lg-4">
-                  <div class="card" data-aos="fade-up">
-                      <img class="card-img-top" src="/static/img/sugg2.png" alt="Card image cap"
-                          style=" margin-top: 30px;width:250px;height:250px;">
-                      <div class="card-body">
-                          <h5 class="card-title">Content Suggestions</h5>
-                          <p class="card-text">Selected Music, Movies and Books suggestions. Binge, listen to songs
-                              or read books, everything in a single place!</p>
-                          <div style="text-align: center;">
-                              <a href="/suggestions" class="btn btn-info">Browse content</a>
-                          </div>
-                      </div>
-                  </div>
+          <div class="col-sm-4 col-lg-4">
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="/static/img/sugg2.png" alt="Card image cap"
+                style=" margin-top: 30px;width:250px;height:250px;">
+              <div class="card-body">
+                <h5 class="card-title">Content Suggestions</h5>
+                <p class="card-text">Selected Music, Movies and Books suggestions. Binge, listen to songs
+                  or read books, everything in a single place!</p>
+                <div style="text-align: center;">
+                  <a href="/suggestions" class="btn btn-info">Browse content</a>
+                </div>
               </div>
-
-              <div class="col-sm-4 col-lg-4">
-                  <div class="card" data-aos="fade-up">
-                      <img class="card-img-top" src="/static/img/time-management-removebg-preview.png"
-                          alt="Card image cap" style=" margin-top: 30px;width:250px;height:250px;">
-                      <div class="card-body">
-                          <h5 class="card-title">Time-Table and Future Goals</h5>
-                          <p class="card-text">Schedule your week and create short term and long term goals. Design
-                              your future and chase your dreams!</p>
-                          <div style="text-align: center;">
-                              <a href="/time" class="btn btn-info">Schedule your life</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-sm-4 col-lg-4">
-                  <div class="card" data-aos="fade-in">
-                      <img class="card-img-top" src="/static/img/yoga-svgrepo-com.svg" alt="Card image cap"
-                          style=" margin-top: 30px;width:250px;height:250px;">
-                      <div class="card-body">
-                          <h5 class="card-title">Yoga Tutorials</h5>
-                          <p class="card-text">
-                              Got tired with your daily schedule?
-                              <br> Checkout our daily Yoga tutorials and stay fit and healthy!
-                          </p>
-                          <div style="text-align: center;">
-                              <a href="/yoga" class="btn btn-info">Do Yoga</a>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
+            </div>
           </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="/static/img/time-management-removebg-preview.png" alt="Card image cap"
+                style=" margin-top: 30px;width:250px;height:250px;">
+              <div class="card-body">
+                <h5 class="card-title">Time-Table and Future Goals</h5>
+                <p class="card-text">Schedule your week and create short term and long term goals. Design
+                  your future and chase your dreams!</p>
+                <div style="text-align: center;">
+                  <a href="/time" class="btn btn-info">Schedule your life</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4">
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="/static/img/yoga-svgrepo-com.svg" alt="Card image cap"
+                style=" margin-top: 30px;width:250px;height:250px;">
+              <div class="card-body">
+                <h5 class="card-title">Yoga Tutorials</h5>
+                <p class="card-text">
+                  Got tired with your daily schedule?
+                  <br> Checkout our daily Yoga tutorials and stay fit and healthy!
+                </p>
+                <div style="text-align: center;">
+                  <a href="/yoga" class="btn btn-info">Do Yoga</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
       </div>
+    </section>
 
-      <section id="quote">
-        <style>
-          #quote {
-              font-style: italic;
-          }
+    <section id="chain">
+      <div id="chain-column">
+        <div class="row chain-row">
+          <div class="col" data-aos="zoom-in-up" data-aos-offset="400">
+            <img class="chain-img" src="/static/img/sugg2.png">
+          </div>
+          <div class="col chain-info" data-aos="zoom-in-left" data-aos-offset="400">
+            <div>
+              <h2> About this </h2>
+              <p>Hello</p>
+            </div>
+          </div>
+        </div>
+        <div class="row chain-row">
+          <div class="col" data-aos="zoom-in-up" data-aos-offset="400">
+            <img class="chain-img" src="/static/img/chat-svgrepo-com.svg">
+          </div>
+          <div class="col chain-info" data-aos="zoom-in-right" data-aos-offset="400">
+            <div>
+              <h2> About this </h2>
+              <p>Hello</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          #writer {
-              text-align: right;
-              margin-right: 60px;
-          }
+    <section id="quote">
+      <style>
+        #quote {
+          font-style: italic;
+        }
+
+        #writer {
+          text-align: right;
+          margin-right: 60px;
+        }
       </style>
       <div class="jumbotron" style="background: white; margin-top: 64px;" data-aos="fade-in">
-          <h2 id="quote" class="text-center" style="margin-top: 32px;">"Be Positive!"</h2>
-          <h3 id="writer"></h3>
+        <h2 id="quote" class="text-center" style="margin-top: 32px;">"Be Positive!"</h2>
+        <h3 id="writer">- Writer</h3>
       </div>
-      </section>
-  </section>
+    </section>
 
   </main>
 
@@ -242,21 +271,26 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <!-- Adding custom scripts here -->
   <script>
+
+    AOS.init();
+
     //  For the home carousel
     $('.carousel').carousel({
       interval: 6000,
       pause: false
     });
-    
+
     // Setting time for second carousel (To remove if not video used)
     $('#homeCarousel').on('slid.bs.carousel', function (val) {
       // do something…
       console.log("Yes check now", val)
       console.log(val.from)
       console.log(val.to)
-      if (val.from == 0 && val.to ==1) {
+      if (val.from == 0 && val.to == 1) {
         // Start playing the video
         console.log("Hello now play")
         document.getElementById('second-slide-video').play();
