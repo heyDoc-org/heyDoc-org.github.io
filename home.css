@@ -1,0 +1,89 @@
+/** Start with overall classes and settings */
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 64px 32px 64px 32px;
+}
+
+.section-title {
+    padding: 4px;
+    margin-bottom: 32px;
+    font-weight: 500;
+    font-size: 54px;
+    color: #000;
+}
+
+
+/** Navbar */
+#top-nav .navbar-brand {
+    color: #000;
+    font-size: 24px;
+}
+
+.nav-link {
+font-weight: 800;
+color: #000;
+}
+
+.nav-item {
+padding-left: 8px;
+padding-right: 8px;
+}
+
+
+.intro-imgs {
+    width: 100%;
+}
+
+
+/** Products */
+/* #intro .pro-intro {} */
+
+.pro-intro-head {
+    padding: 12px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    margin: 32px 0;
+}
+
+.pro-intro-list {
+    padding: 48px 0;
+}
+
+.our-logo {
+    width: 30vh;
+}
+
+#pros {
+    background: #f0f0f0;
+}
+
+#pros .card {
+    width: 100%;
+    margin: auto;
+    margin: 12px;
+    height: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15) !important;
+}
+
+.card-img-top {
+    width: 80%;
+    margin: 12px auto;
+}
+
+#left-img {
+    margin: auto;
+    width: 60%;
+    border-radius: 50%;
+}
+
+#left-heading {
+    padding-top: 48px;
+    color: #37750d !important;
+    font-style: italic;
+    font-weight: 600px;
+}
