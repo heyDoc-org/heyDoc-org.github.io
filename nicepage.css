@@ -31032,6 +31032,10 @@ a.u-link.u-text-hover-grey-90:hover {
         margin-top: 20px;
         margin-bottom: 20px;
         }
+        .u-body
+        {
+        background-attachment: fixed;
+        }
         /** common-rules **/
 
         /** publish-rules **/
@@ -31219,7 +31223,11 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
   }
 }
-
+@media (max-width: 575px) {
+  .u-header .u-image-1 {
+    width: auto;
+  }
+}
 .u-footer {
   background-image: none;
 }
