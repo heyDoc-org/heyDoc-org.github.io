@@ -982,6 +982,13 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+			color:black;
+			font-weight: bold;
+		}
+		
+		.image.logo
+		{
+			float: left;
 		}
 
 		.image.left {
@@ -2241,7 +2248,7 @@ input, select, textarea {
 
 		}
 
-/* Intro
+/*Intro*/
 
 	#intro {
 		background: url("images/overlay.png"), url("../../images/intro.jpg");
@@ -2251,7 +2258,7 @@ input, select, textarea {
 		background-repeat: repeat, no-repeat;
 	}
 
-*/
+
 
 /* One */
 
@@ -2275,6 +2282,18 @@ input, select, textarea {
 		background: url("images/overlay.png"), url("../../images/three.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
+		background-position: top left, center center;
+	}
+
+	#heydoc {
+		background: url("images/overlay.png"), url("../../images/heydoc-bg.png");
+		background-size: 256px 256px, cover;
+		background-position: top left, center center;
+	}
+
+	#docdash {
+		background: url("images/overlay.png"), url("../../images/docdash-bg.png");
+		background-size: 256px 256px, cover;
 		background-position: top left, center center;
 	}
 
