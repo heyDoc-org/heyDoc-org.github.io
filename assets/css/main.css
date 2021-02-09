@@ -1285,7 +1285,7 @@ input, select, textarea {
 
 		.poptrox-popup .caption {
 			position: absolute;
-			top: 0;
+			bottom: 0;
 			left: 0;
 			background: #ffffff;
 			width: 100%;
