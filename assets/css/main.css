@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
 /*
@@ -500,7 +499,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, textarea, select {
-		font-family: "Source Sans Pro", "sans-serif";
+		font-family: "sans-serif";
 		font-weight: 300;
 		font-size: 18pt;
 		line-height: 1.75em;
@@ -1286,14 +1285,14 @@ input, select, textarea {
 		.poptrox-popup .caption {
 			position: absolute;
 			bottom: 0;
-			left: 0;
 			background: #ffffff;
 			width: 100%;
-			height: 3em;
-			line-height: 2em;
+			height: 7em;
+			line-height: 1.5em;
 			text-align: center;
 			cursor: default;
 			z-index: 1;
+			font-weight: bold;
 			font-size: 0.9em;
 		}
 
