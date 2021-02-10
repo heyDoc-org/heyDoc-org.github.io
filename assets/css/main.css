@@ -985,6 +985,9 @@ input, select, textarea {
 			font-weight: bold;
 			
 		}
+		.image.fit:hover {
+			background-color: #eff;	
+		}
 		
 		.image.logo
 		{
