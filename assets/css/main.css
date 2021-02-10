@@ -2050,3 +2050,17 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;}
 		#video{width:100%; height:auto }
+
+/* mob desk*/
+div.mob{
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	div.desk{
+		display:none;
+	}
+	div.mob{
+		display: inline-block;
+	}
+}
