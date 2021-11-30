@@ -993,10 +993,9 @@ input, select, textarea {
 			
 		}
 		.image.docdash.fit {
-			display: block;
-			width: 100%;
 			color:black;
 			font-weight: bold;
+			align-items: center;
 			
 		}
 		.image.fit:hover {
