@@ -22,6 +22,42 @@
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?13477';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"HeyDoc",
+          "brandSubTitle":"Typically replies within a day",
+          "brandImg":"https://i.ibb.co/ZGjgCfm/heydoc.png",
+          "welcomeText":"Hi there!\nHow can I hp you?",
+          "messageText":"Hello, I have a question about {{page_link}}",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"918957742586"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
 </head>
 
 <body class="is-preload">
@@ -131,6 +167,19 @@
             </header>
         </div>
     </section>
+</section>
+<div class="whatsapp_float">
+   <button type="submit" formaction="heydoc.html"
+   style="background-color: rgb(61, 136, 139);font-size: small;">Book Free Demo</button>
+</div>    
+<Style>
+   .whatsapp_float{
+       position:fixed;
+       bottom:50px;
+       right:100px;
+       font-weight: bold;
+   }
+</Style>
     <!-- Footer -->
     <footer id="footer">
         <!-- Icons -->
