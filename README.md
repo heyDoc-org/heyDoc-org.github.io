@@ -61,4 +61,4 @@ This policy is effective as of 2021-11-30
 
 **Contact Us**
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at startupdoc2022@gmail.com.
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at startupdoc2022@gmail.com/+917820087857.
