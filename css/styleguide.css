@@ -1,0 +1,205 @@
+:root { 
+  --black: #000000;
+  --black-haze: #f7f7f7;
+  --blue-whale: #032b44;
+  --concrete: #f2f2f2;
+  --mercury: #e5e5e5;
+  --mine-shaft: #323232;
+  --mist-gray: #c4c4c4;
+  --mountain-mist: #929292;
+  --primary: #256fff;
+  --white: #ffffff;
+  --zircon: #f2faff;
+ 
+  --font-size-l: 16px;
+  --font-size-m: 14px;
+  --font-size-s: 12px;
+  --font-size-xl: 17px;
+  --font-size-xxl: 18px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 36px;
+ 
+  --font-family-manrope: "Manrope", Helvetica;
+}
+.manrope-normal-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-normal-mountain-mist-14px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-bold-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-mountain-mist-14px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-black-17px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-extra-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.manrope-extra-bold-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.manrope-bold-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-black-32px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-normal-black-12px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-normal-mine-shaft-14px {
+  color: var(--mine-shaft);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-normal-mist-gray-14px {
+  color: var(--mist-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-extra-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.manrope-normal-mist-gray-18px {
+  color: var(--mist-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-extra-bold-blue-16px {
+  color: var(--primary);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.manrope-extra-bold-mountain-mist-14px {
+  color: var(--mountain-mist);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.manrope-bold-black-19px {
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-2px-mercury {
+  border: 2px solid var(--mercury);
+}
+
+:root {
+}

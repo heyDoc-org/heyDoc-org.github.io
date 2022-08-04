@@ -1,0 +1,1359 @@
+/* screen - doctors-tab */
+
+.doctors-tab {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 4525px;
+  min-width: 600px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.doctors-tab .frame-1-E7sIqp {
+  background-color: var(--white);
+  height: 48px;
+  left: calc(50.00% - 180px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 360px;
+}
+
+.doctors-tab .helium-1-XjKsVl {
+  background-color: transparent;
+  height: 32px;
+  left: 16px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 55px;
+}
+
+.doctors-tab .all-icons-XjKsVl {
+  background-color: transparent;
+  cursor: pointer;
+  height: 28px;
+  left: 312px;
+  position: absolute;
+  top: 10px;
+  width: 28px;
+}
+
+.doctors-tab .frame-125-XjKsVl {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 4px;
+  height: min-content;
+  left: 84px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 10px;
+  width: min-content;
+}
+
+.doctors-tab .for-doctors-h8Klao {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -0.5px;
+  min-width: 75px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .all-icons-h8Klao {
+  background-color: transparent;
+  height: 20px;
+  min-width: 20px;
+  position: relative;
+}
+
+.doctors-tab .doctor-E7sIqp {
+  background-color: transparent;
+  height: 6.54%;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1.19%;
+  width: 100%;
+}
+
+.doctors-tab .supercharge-your-clinic-E7sIqp {
+  -webkit-text-stroke: 1px var(--white);
+  background-color: transparent;
+  height: auto;
+  left: 31px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 372px;
+  width: 535px;
+}
+
+.doctors-tab .run-your-patient-jou-E7sIqp {
+  background-color: transparent;
+  height: auto;
+  left: 33px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 430px;
+  width: 534px;
+}
+
+.doctors-tab .buttons-E7sIqp {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: 379px;
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  pointer-events: auto;
+  position: absolute;
+  top: 489px;
+  transition: all 0.2s ease;
+  width: min-content;
+}
+
+.doctors-tab .buttons-E7sIqp:hover {
+  transform: scale(1.1);
+}
+
+.doctors-tab .button-o5ahkT {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 124px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .frame-136-E7sIqp {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  left: 0px;
+  position: absolute;
+  top: 581px;
+  width: 100%;
+}
+
+.doctors-tab .frame-5-6UzHO5 {
+  align-self: stretch;
+  background-color: var(--zircon);
+  border-radius: 40px 40px 0px 0px;
+  height: 2315px;
+  min-width: 600px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .a-z-patient-care-at-ease-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: 33px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  width: calc(100.00% - 368px);
+}
+
+.doctors-tab .expand-your-presence-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 26px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 910px;
+  width: 294px;
+}
+
+.doctors-tab .all-clinic-functions-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: 32px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 87px;
+  width: calc(100.00% - 290px);
+}
+
+.doctors-tab .frame-8-lKRunT {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: min-content;
+  left: 32px;
+  position: absolute;
+  top: 175px;
+  width: calc(100.00% - 340px);
+}
+
+.doctors-tab .frame-139-O7ca7F {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 14px 14px 34px #0000001a;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 16px 16px 20px;
+  position: relative;
+}
+
+.doctors-tab .group-112-h8pRvp {
+  background-color: transparent;
+  height: 56px;
+  min-width: 56px;
+  position: relative;
+}
+
+.doctors-tab .ellipse-1-tUnBqz {
+  background-color: var(--concrete);
+  border-radius: 28px;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 56px;
+}
+
+.doctors-tab .gridiconsscheduled-tUnBqz {
+  background-color: transparent;
+  height: 28px;
+  left: 14px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 14px;
+  width: 28px;
+}
+
+.doctors-tab .frame-141-h8pRvp {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  height: min-content;
+  position: relative;
+}
+
+.doctors-tab .track-scheduled-consultations-G6ryhe {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .frame-141-O7ca7F {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 14px 14px 34px #0000001a;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 16px 16px 20px;
+  position: relative;
+}
+
+.doctors-tab .group-113-otS2K0 {
+  background-color: transparent;
+  height: 56px;
+  min-width: 56px;
+  position: relative;
+}
+
+.doctors-tab .ellipse-1-f3WvR5 {
+  background-color: var(--concrete);
+  border-radius: 28px;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 56px;
+}
+
+.doctors-tab .fa6-solidindian-rupee-sign-f3WvR5 {
+  background-color: transparent;
+  height: 23px;
+  left: 20px;
+  position: absolute;
+  top: 17px;
+  width: 14px;
+}
+
+.doctors-tab .frame-141-otS2K0 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  height: min-content;
+  position: relative;
+}
+
+.doctors-tab .online-prepayment-Sxa5xi {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .frame-12-lKRunT {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: min-content;
+  left: 308px;
+  position: absolute;
+  top: 505px;
+  width: calc(100.00% - 340px);
+}
+
+.doctors-tab .frame-139-XUA164 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 14px 14px 34px #0000001a;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 16px 16px 20px;
+  position: relative;
+}
+
+.doctors-tab .group-114-CaILxj {
+  background-color: transparent;
+  height: 56px;
+  min-width: 56px;
+  position: relative;
+}
+
+.doctors-tab .ellipse-1-xEWpfV {
+  background-color: var(--concrete);
+  border-radius: 28px;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 56px;
+}
+
+.doctors-tab .icon-park-outlinetable-report-xEWpfV {
+  background-color: transparent;
+  height: 24px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.doctors-tab .frame-141-CaILxj {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  height: min-content;
+  position: relative;
+}
+
+.doctors-tab .digital-prescriptions-and-reports-xSp66W {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .frame-141-XUA164 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 14px 14px 34px #0000001a;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 16px 16px 20px;
+  position: relative;
+}
+
+.doctors-tab .group-115-euxcnD {
+  background-color: transparent;
+  height: 56px;
+  min-width: 56px;
+  position: relative;
+}
+
+.doctors-tab .ellipse-1-rOmQm9 {
+  background-color: var(--concrete);
+  border-radius: 28px;
+  height: 56px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 56px;
+}
+
+.doctors-tab .bxsdata-rOmQm9 {
+  background-color: transparent;
+  height: 24px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 16px;
+  width: 24px;
+}
+
+.doctors-tab .frame-141-euxcnD {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 8px;
+  height: min-content;
+  position: relative;
+}
+
+.doctors-tab .store-access-patients-data-0rXmML {
+  align-self: stretch;
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .bring-your-practice-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: 274px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 978px;
+  width: calc(100.00% - 306px);
+}
+
+.doctors-tab .group-107-lKRunT {
+  background-color: transparent;
+  height: 255px;
+  left: calc(50.00% - 264px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 846px;
+  width: 214px;
+}
+
+.doctors-tab .connect-with-your-patients-on-video-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 264px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1289px;
+  width: 214px;
+}
+
+.doctors-tab .choose-between-telec-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1354px;
+  width: calc(100.00% - 307px);
+}
+
+.doctors-tab .group-106-lKRunT {
+  background-color: transparent;
+  height: 305px;
+  left: calc(50.00% + 76px);
+  position: absolute;
+  top: 1219px;
+  width: 141px;
+}
+
+.doctors-tab .video-call-7BY31A {
+  background-color: transparent;
+  height: 313px;
+  left: calc(50.00% - 70px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 149px;
+}
+
+.doctors-tab .rectangle-119-7BY31A {
+  background-color: var(--blue-whale);
+  border-radius: 10px;
+  height: 3px;
+  left: calc(50.00% - 19px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 11px;
+  width: 39px;
+}
+
+.doctors-tab .qr-codes-for-easy-access-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: 50.00%;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1730px;
+  width: 261px;
+}
+
+.doctors-tab .run-you-clinic-like-a-business-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 264px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2088px;
+  width: 222px;
+}
+
+.doctors-tab .use-smart-qr-codes-f-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: 300px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1784px;
+  width: calc(100.00% - 339px);
+}
+
+.doctors-tab .look-at-data-like-pa-lKRunT {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 264px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2152px;
+  width: 222px;
+}
+
+.doctors-tab .group-103-lKRunT {
+  background-color: transparent;
+  height: 280px;
+  left: calc(50.00% - 264px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 1658px;
+  width: 222px;
+}
+
+.doctors-tab .group-108-lKRunT {
+  background-color: transparent;
+  height: 280px;
+  left: calc(50.00% + 82px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 95px;
+  width: 182px;
+}
+
+.doctors-tab .records-lKRunT {
+  background-color: transparent;
+  height: 195px;
+  left: calc(50.00% - 260px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 510px;
+  width: 222px;
+}
+
+.doctors-tab .web_dashboard-3-lKRunT {
+  background-color: transparent;
+  height: 194px;
+  left: calc(50.00% - 58px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 2054px;
+  width: 344px;
+}
+
+.doctors-tab .frame-132-6UzHO5 {
+  align-self: stretch;
+  background-color: transparent;
+  height: 586px;
+  min-width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .join-the-health-care-6S9USv {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  width: 328px;
+}
+
+.doctors-tab .group-116-6S9USv {
+  background-color: transparent;
+  height: 258px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 287px;
+  width: 328px;
+}
+
+.doctors-tab .buttons-LrZbbZ {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: calc(50.00% - 164px);
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 71px;
+  width: 328px;
+}
+
+.doctors-tab .speciality-yxOm7Z {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 64px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.doctors-tab .speciality-yxOm7Z::placeholder {
+  color: #92929299;
+}
+
+.doctors-tab .buttons-obc7xF {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: calc(50.00% - 164px);
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 142px;
+  width: 328px;
+}
+
+.doctors-tab .x91-QCigQN {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 23px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .phone-number-QCigQN {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.doctors-tab .phone-number-QCigQN::placeholder {
+  color: #92929299;
+}
+
+.doctors-tab .buttons-x7ouGP {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: calc(50.00% - 164px);
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 0px;
+  width: 328px;
+}
+
+.doctors-tab .name-lyb4Oc {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 38px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.doctors-tab .name-lyb4Oc::placeholder {
+  color: #92929299;
+}
+
+.doctors-tab .buttons-9nFAyi {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 164px);
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  position: absolute;
+  top: 213px;
+  width: 328px;
+}
+
+.doctors-tab .button-6PT9D7 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 104px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .doctors-pana-1-2-1-6S9USv {
+  background-color: transparent;
+  height: 260px;
+  left: calc(50.00% - 130px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 260px;
+}
+
+.doctors-tab .frame-129-6UzHO5 {
+  align-self: stretch;
+  background-color: transparent;
+  height: 473px;
+  min-width: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .testimonials-S4GGRQ {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 131px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 261px;
+}
+
+.doctors-tab .frame-128-S4GGRQ {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  gap: 48px;
+  height: min-content;
+  left: calc(50.00% - 582px);
+  position: absolute;
+  top: 62px;
+  width: min-content;
+}
+
+.doctors-tab .frame-126-W4M5MO {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 348px;
+  min-width: 358px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .lorem-ipsum-dolor-si-TmiXWF {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 312px;
+}
+
+.doctors-tab .ellipse-5-TmiXWF {
+  background-color: var(--mist-gray);
+  border-radius: 24px;
+  bottom: 30px;
+  height: 48px;
+  left: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 48px;
+}
+
+.doctors-tab .dr-rajendra-verma-TmiXWF {
+  background-color: transparent;
+  bottom: 54px;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.doctors-tab .psycologist-delhi-TmiXWF {
+  background-color: transparent;
+  bottom: 30px;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.doctors-tab .frame-128-W4M5MO {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 348px;
+  min-width: 358px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .lorem-ipsum-dolor-si-EaX84G {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 312px;
+}
+
+.doctors-tab .ellipse-5-EaX84G {
+  background-color: var(--mist-gray);
+  border-radius: 24px;
+  bottom: 30px;
+  height: 48px;
+  left: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 48px;
+}
+
+.doctors-tab .dr-rajendra-verma-EaX84G {
+  background-color: transparent;
+  bottom: 54px;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.doctors-tab .psycologist-delhi-EaX84G {
+  background-color: transparent;
+  bottom: 30px;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.doctors-tab .frame-127-W4M5MO {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 348px;
+  min-width: 358px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .lorem-ipsum-dolor-si-2KBxx8 {
+  background-color: transparent;
+  height: auto;
+  left: 40px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: 312px;
+}
+
+.doctors-tab .ellipse-5-2KBxx8 {
+  background-color: var(--mist-gray);
+  border-radius: 24px;
+  bottom: 30px;
+  height: 48px;
+  left: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  width: 48px;
+}
+
+.doctors-tab .dr-rajendra-verma-2KBxx8 {
+  background-color: transparent;
+  bottom: 54px;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.doctors-tab .psycologist-delhi-2KBxx8 {
+  background-color: transparent;
+  bottom: 30px;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.doctors-tab .group-109-S4GGRQ {
+  background-color: transparent;
+  height: 28px;
+  left: calc(50.00% - 37px);
+  position: absolute;
+  top: 434px;
+  width: 74px;
+}
+
+.doctors-tab .all-icons-XaNybY {
+  background-color: transparent;
+  height: 28px;
+  left: calc(50.00% + 9px);
+  position: absolute;
+  top: 1px;
+  width: 28px;
+}
+
+.doctors-tab .all-icons-oDOVAb {
+  background-color: transparent;
+  height: 28px;
+  left: calc(50.00% - 37px);
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+
+.doctors-tab .frame-135-6UzHO5 {
+  background-color: var(--black-haze);
+  height: 570px;
+  min-width: 600px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.doctors-tab .helium-1-xRVA3i {
+  background-color: transparent;
+  height: 71px;
+  left: calc(50.00% - 59px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 291px;
+  width: 119px;
+}
+
+.doctors-tab .group-119-xRVA3i {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 208px;
+  width: 128px;
+}
+
+.doctors-tab .contact-us-91-782008-xRVA3i {
+  background-color: transparent;
+  height: 95px;
+  left: calc(50.00% - 125px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 411px;
+  width: auto;
+}
+
+.doctors-tab .group-118-xRVA3i {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% + 28px);
+  position: absolute;
+  top: 16px;
+  width: 127px;
+}
+
+.doctors-tab .start-free-trial-qHwHvx {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.doctors-tab .fa-qs-qHwHvx {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.doctors-tab .queries-qHwHvx {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.doctors-tab .tutorials-qHwHvx {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.doctors-tab .group-111-qHwHvx {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.doctors-tab .group-117-xRVA3i {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 16px;
+  width: 159px;
+}
+
+.doctors-tab .hey-doc-for-doctors-9qflEg {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.doctors-tab .hey-doc-for-patients-9qflEg {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.doctors-tab .data-security-9qflEg {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.doctors-tab .pricing-9qflEg {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.doctors-tab .akar-iconschevron-down-9qflEg {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.doctors-tab .akar-iconschevron-down-vczNnS {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 44px;
+  width: 12px;
+}
+
+.doctors-tab .akar-iconschevron-down-Q5ZXaZ {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 84px;
+  width: 12px;
+}
+
+.doctors-tab .akar-iconschevron-down-MBKons {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 124px;
+  width: 12px;
+}
+
+.doctors-tab .buttons-7cvEDg {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: 32px;
+  mix-blend-mode: normal;
+  padding: 12px 16px;
+  position: absolute;
+  top: 489px;
+  width: 328px;
+}
+
+.doctors-tab .x91-tlDjex {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 23px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.doctors-tab .phone-number-tlDjex {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.doctors-tab .phone-number-tlDjex::placeholder {
+  color: #92929299;
+}

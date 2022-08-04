@@ -1,0 +1,2092 @@
+/* screen - patients-desktop-all-breakpoints */
+
+.patients-desktop-all-breakpoints {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 4524px;
+  min-width: 1280px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.patients-desktop-all-breakpoints .frame-136-HQx8BE {
+  background-color: var(--black-haze);
+  height: 390px;
+  left: 1px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 4134px;
+  width: 100%;
+}
+
+.patients-desktop-all-breakpoints .icon-linkedin-qsJxCo {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 1px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 59px;
+  width: 40px;
+}
+
+.patients-desktop-all-breakpoints .amogh-nsmp-tech-priv-qsJxCo {
+  background-color: transparent;
+  height: 75px;
+  left: calc(50.00% - 607px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 237px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .helium-1-qsJxCo {
+  background-color: transparent;
+  height: 89px;
+  left: calc(50.00% - 605px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 149px;
+}
+
+.patients-desktop-all-breakpoints .icon-youtube-qsJxCo {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 95px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 59px;
+  width: 40px;
+}
+
+.patients-desktop-all-breakpoints .contact-us-91-7820087857-qsJxCo {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 607px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 184px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .group-133-qsJxCo {
+  background-color: transparent;
+  height: 145px;
+  left: calc(50.00% - 1px);
+  position: absolute;
+  top: 148px;
+  width: 208px;
+}
+
+.patients-desktop-all-breakpoints .group-132-3fijXE {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 104px);
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.patients-desktop-all-breakpoints .hey-doc-for-doctors-3fijXE {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .hey-doc-for-patients-3fijXE {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .data-security-3fijXE {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .pricing-3fijXE {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .group-135-qsJxCo {
+  background-color: transparent;
+  height: 145px;
+  left: calc(50.00% + 290px);
+  position: absolute;
+  top: 148px;
+  width: 165px;
+}
+
+.patients-desktop-all-breakpoints .group-134-3xpPxM {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 82px);
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.patients-desktop-all-breakpoints .start-free-trial-3xpPxM {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .fa-qs-3xpPxM {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .queries-3xpPxM {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .tutorials-3xpPxM {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .frame-132-HQx8BE {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  left: 1px;
+  position: absolute;
+  top: 64px;
+  width: 100%;
+}
+
+.patients-desktop-all-breakpoints .frame-131-fxZ843 {
+  align-self: stretch;
+  background-color: transparent;
+  height: 507px;
+  min-width: 1280px;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .untitled-1-1-GwJMip {
+  background-color: transparent;
+  height: 339px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  right: 152px;
+  top: 93px;
+  width: 509px;
+}
+
+.patients-desktop-all-breakpoints .your-window-to-digital-healthcare-GwJMip {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: calc(50.00% - 593px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 112px;
+  width: 553px;
+}
+
+.patients-desktop-all-breakpoints .manage-health-for-yo-GwJMip {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 593px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 264px;
+  width: 543px;
+}
+
+.patients-desktop-all-breakpoints .buttons-GwJMip {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 593px);
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  pointer-events: auto;
+  position: absolute;
+  top: calc(50.00% + 66px);
+  transition: all 0.2s ease;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .buttons-GwJMip:hover {
+  transform: scale(1.1);
+}
+
+.patients-desktop-all-breakpoints .button-UnyM5p {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 127px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-desktop-all-breakpoints .frame-5-fxZ843 {
+  align-self: stretch;
+  background-color: var(--zircon);
+  border-radius: 40px 40px 0px 0px;
+  height: 3058px;
+  min-width: 1280px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-159-qNh8VS {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 100px;
+  height: min-content;
+  left: calc(50.00% - 543px);
+  position: absolute;
+  top: 2123px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-174-xSw80g {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  position: relative;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-158-8Bw8Iz {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  position: relative;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .detailed-e-report-af-YXpJhy {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .easily-connect-with-YXpJhy {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .image-44-xSw80g {
+  background-color: transparent;
+  height: 386px;
+  margin-bottom: -12px;
+  margin-right: -12px;
+  margin-top: -4px;
+  min-width: 461px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-160-qNh8VS {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 118px;
+  height: min-content;
+  left: calc(50.00% - 544px);
+  position: absolute;
+  top: 2606px;
+  width: 958px;
+}
+
+.patients-desktop-all-breakpoints .frame-158-U9PwU9 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  position: relative;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .digitalize-your-payments-K2MKCS {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .make-online-transact-K2MKCS {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .group-103-U9PwU9 {
+  background-color: transparent;
+  height: 426px;
+  min-width: 337px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .more-features-as-required-qNh8VS {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: calc(50.00% - 103px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3274px;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .frame-154-qNh8VS {
+  background-color: transparent;
+  height: 267px;
+  left: calc(50.00% - 543px);
+  position: absolute;
+  top: 151px;
+  width: 1087px;
+}
+
+.patients-desktop-all-breakpoints .frame-169-kMh5vi {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 32px;
+  height: min-content;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-168-LgffoQ {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  position: relative;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .find-connect-4Ru1Kd {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .connect-with-experie-4Ru1Kd {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .frame-151-LgffoQ {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 32px;
+  height: min-content;
+  position: relative;
+  width: 552px;
+}
+
+.patients-desktop-all-breakpoints .image-39-dxzwuA {
+  background-color: transparent;
+  height: 297px;
+  margin-bottom: -29px;
+  margin-left: -1px;
+  margin-top: -1px;
+  min-width: 287px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .image-40-dxzwuA {
+  background-color: transparent;
+  height: 297px;
+  margin-bottom: -29px;
+  margin-right: -24px;
+  margin-top: -1px;
+  min-width: 288px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-153-qNh8VS {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 183px;
+  height: min-content;
+  left: calc(50.00% - 387px);
+  position: absolute;
+  top: 552px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-156-QMXBdu {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 183px;
+  height: min-content;
+  position: relative;
+  width: 886px;
+}
+
+.patients-desktop-all-breakpoints .image-41-UwCkYP {
+  background-color: transparent;
+  height: 450.36871337890625px;
+  margin-bottom: -8.0px;
+  min-width: 204px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-152-UwCkYP {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  position: relative;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .book-instant-appointments-XCLk04 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -2px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 505px;
+}
+
+.patients-desktop-all-breakpoints .book-instant-in-pers-XCLk04 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .frame-157-qNh8VS {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 183px;
+  height: min-content;
+  left: calc(50.00% - 543px);
+  position: absolute;
+  top: 1067px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-171-GweQVd {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  position: relative;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-172-3bUfbx {
+  background-color: transparent;
+  height: 149px;
+  min-width: 503px;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-173-xoPyK1 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .connect-with-doctors-over-video-5esSMz {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .find-specialist-doct-5esSMz {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .video-call-GweQVd {
+  background-color: transparent;
+  height: 435px;
+  margin-bottom: -8px;
+  margin-right: -8.00018310546875px;
+  min-width: 204.931640625px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-155-qNh8VS {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 92px;
+  height: min-content;
+  left: calc(50.00% - 543px);
+  position: absolute;
+  top: 1606px;
+  width: 890px;
+}
+
+.patients-desktop-all-breakpoints .image-43-ewW7Yd {
+  background-color: transparent;
+  height: 386px;
+  margin-bottom: -12px;
+  margin-left: -4px;
+  margin-top: -4px;
+  min-width: 461px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .frame-152-ewW7Yd {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  margin-right: -150px;
+  position: relative;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .prescription-at-your-fingertips-UITOyD {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -2px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 505px;
+}
+
+.patients-desktop-all-breakpoints .track-you-course-of-UITOyD {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 503px;
+}
+
+.patients-desktop-all-breakpoints .frame-129-fxZ843 {
+  align-self: stretch;
+  background-color: transparent;
+  height: 377px;
+  min-width: 1280px;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .testimonials-AuhFX3 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 130px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 26px;
+  width: 261px;
+}
+
+.patients-desktop-all-breakpoints .frame-129-AuhFX3 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  gap: 48px;
+  height: min-content;
+  left: calc(50.00% - 585px);
+  position: absolute;
+  top: 102px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .frame-126-c2dhXc {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 212px;
+  min-width: 358px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .i-was-able-to-connec-MlbGxt {
+  background-color: transparent;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 23px;
+  width: 312px;
+}
+
+.patients-desktop-all-breakpoints .rajat-singh-MlbGxt {
+  background-color: transparent;
+  bottom: 26px;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .frame-129-c2dhXc {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 212px;
+  min-width: 358px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .now-i-dont-have-to-c-iJTRud {
+  background-color: transparent;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 23px;
+  width: 312px;
+}
+
+.patients-desktop-all-breakpoints .praveen-gupta-iJTRud {
+  background-color: transparent;
+  bottom: 26px;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .frame-130-c2dhXc {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 212px;
+  min-width: 358px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-desktop-all-breakpoints .hey-doc-really-helpe-xBHqe1 {
+  background-color: transparent;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 23px;
+  width: 312px;
+}
+
+.patients-desktop-all-breakpoints .punit-daga-xBHqe1 {
+  background-color: transparent;
+  bottom: 26px;
+  height: auto;
+  left: 23px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.patients-desktop-all-breakpoints .group-109-AuhFX3 {
+  background-color: transparent;
+  height: 28px;
+  left: calc(50.00% - 37px);
+  position: absolute;
+  top: 466px;
+  width: 74px;
+}
+
+.patients-desktop-all-breakpoints .all-icons-i4Jieg {
+  background-color: transparent;
+  height: 28px;
+  left: calc(50.00% - 7928px);
+  position: absolute;
+  top: -1593px;
+  width: 28px;
+}
+
+.patients-desktop-all-breakpoints .all-icons-tkSO6b {
+  background-color: transparent;
+  height: 28px;
+  left: calc(50.00% - 7946px);
+  position: absolute;
+  top: -1565px;
+  width: 28px;
+}
+
+.patients-desktop-all-breakpoints .frame-1-HQx8BE {
+  background-color: var(--white);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0px;
+  width: calc(100.00% + 1px);
+}
+
+.patients-desktop-all-breakpoints .helium-1-wViW0D {
+  background-color: transparent;
+  height: 47px;
+  left: calc(50.00% - 592px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 79px;
+}
+
+.patients-desktop-all-breakpoints .frame-161-wViW0D {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 36px;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 465px);
+  position: absolute;
+  top: 29px;
+  width: min-content;
+}
+
+.patients-desktop-all-breakpoints .for-doctors-88wln6 {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 91px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-desktop-all-breakpoints .for-patients-88wln6 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-desktop-all-breakpoints .pricing-88wln6 {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 56px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-desktop-all-breakpoints .security-88wln6 {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 68px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+/* screen - patients-mobile */
+
+.patients-mobile {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 4602px;
+  min-width: 360px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.patients-mobile .frame-1-C7sKX8 {
+  background-color: var(--white);
+  height: 48px;
+  left: calc(50.00% - 176px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -72px;
+  width: 360px;
+}
+
+.patients-mobile .helium-1-QdVTWS {
+  background-color: transparent;
+  height: 32px;
+  left: -6430px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 2114px;
+  width: 55px;
+}
+
+.patients-mobile .all-icons-QdVTWS {
+  background-color: transparent;
+  height: 28px;
+  position: absolute;
+  right: 6466px;
+  top: 2118px;
+  width: 28px;
+}
+
+.patients-mobile .frame-125-QdVTWS {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 4px;
+  height: min-content;
+  left: 84px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 10px;
+  width: min-content;
+}
+
+.patients-mobile .for-doctors-3rXpOS {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -0.5px;
+  min-width: 75px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-mobile .all-icons-3rXpOS {
+  background-color: transparent;
+  height: 20px;
+  margin-bottom: -2098px;
+  margin-left: -6451px;
+  min-width: 20px;
+  position: relative;
+}
+
+.patients-mobile .frame-136-C7sKX8 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: min-content;
+  left: -1px;
+  position: absolute;
+  top: 541px;
+  width: 100%;
+}
+
+.patients-mobile .frame-5-IZU8hG {
+  align-self: stretch;
+  background-color: var(--zircon);
+  border-radius: 40px 40px 0px 0px;
+  height: 2735px;
+  min-width: 360px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-mobile .frame-129-IZU8hG {
+  align-self: stretch;
+  background-color: transparent;
+  height: 756px;
+  min-width: 360px;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-mobile .testimonials-fxFbyQ {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 131px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 16px;
+  width: 261px;
+}
+
+.patients-mobile .frame-120-fxFbyQ::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
+.patients-mobile .frame-120-fxFbyQ {
+  background-color: transparent;
+  height: 693px;
+  left: calc(50.00% - 180px);
+  overflow: hidden;
+  overflow-x: scroll;
+  position: absolute;
+  top: 62px;
+  width: 360px;
+}
+
+.patients-mobile .frame-128-qapUQH {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  height: min-content;
+  left: calc(50.00% - 158px);
+  position: relative;
+  top: 10px;
+  width: min-content;
+}
+
+.patients-mobile .frame-126-43T0qh {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 203px;
+  min-width: 316px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-mobile .i-was-able-to-connec-eFsIiS {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 82px);
+  width: 268px;
+}
+
+.patients-mobile .rajat-singh-eFsIiS {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% + 56px);
+  white-space: nowrap;
+  width: auto;
+}
+
+.patients-mobile .frame-130-43T0qh {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 203px;
+  min-width: 316px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-mobile .now-i-dont-have-to-c-7TUBuC {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 82px);
+  width: 268px;
+}
+
+.patients-mobile .praveen-gupta-7TUBuC {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% + 56px);
+  white-space: nowrap;
+  width: auto;
+}
+
+.patients-mobile .frame-131-43T0qh {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px #00000040;
+  height: 213px;
+  min-width: 316px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-mobile .hey-doc-really-helpe-xA6iqS {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 86px);
+  width: 268px;
+}
+
+.patients-mobile .punit-daga-xA6iqS {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.42px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% + 68px);
+  white-space: nowrap;
+  width: auto;
+}
+
+.patients-mobile .frame-135-IZU8hG {
+  align-self: stretch;
+  background-color: var(--black-haze);
+  height: 570px;
+  min-width: 360px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+}
+
+.patients-mobile .helium-1-FfJwrr {
+  background-color: transparent;
+  height: 71px;
+  left: calc(50.00% - 59px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 251px;
+  width: 119px;
+}
+
+.patients-mobile .group-119-FfJwrr {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 178px;
+  width: 128px;
+}
+
+.patients-mobile .contact-us-91-782008-FfJwrr {
+  background-color: transparent;
+  height: 95px;
+  left: calc(50.00% - 125px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 371px;
+  width: auto;
+}
+
+.patients-mobile .group-118-FfJwrr {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% + 28px);
+  position: absolute;
+  top: -24px;
+  width: 127px;
+}
+
+.patients-mobile .start-free-trial-OpT47G {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.patients-mobile .fa-qs-OpT47G {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.patients-mobile .queries-OpT47G {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.patients-mobile .tutorials-OpT47G {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.patients-mobile .group-111-OpT47G {
+  background-color: transparent;
+  height: 112px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 24px;
+  width: 12px;
+}
+
+.patients-mobile .group-117-FfJwrr {
+  background-color: transparent;
+  height: 146px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: -24px;
+  width: 159px;
+}
+
+.patients-mobile .hey-doc-for-doctors-kEok2Y {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.patients-mobile .hey-doc-for-patients-kEok2Y {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.patients-mobile .data-security-kEok2Y {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.patients-mobile .pricing-kEok2Y {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.patients-mobile .akar-iconschevron-down-kEok2Y {
+  background-color: transparent;
+  height: 2px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 24px;
+  width: 12px;
+}
+
+.patients-mobile .akar-iconschevron-down-5ezGER {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 54px;
+  width: 12px;
+}
+
+.patients-mobile .akar-iconschevron-down-x5xxe8 {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 94px;
+  width: 12px;
+}
+
+.patients-mobile .akar-iconschevron-down-rjiwVT {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 134px;
+  width: 12px;
+}
+
+.patients-mobile .frame-162-C7sKX8 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 328px;
+  left: calc(50.00% - 164px);
+  padding: 0px 0px 38px;
+  position: absolute;
+  top: 59px;
+  width: 328px;
+}
+
+.patients-mobile .untitled-1-1-GqijOW {
+  background-color: transparent;
+  height: 194px;
+  min-width: 291px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-mobile .frame-137-GqijOW {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 155px;
+  margin-bottom: -75px;
+  margin-left: -100.5px;
+  margin-right: -100.5px;
+  position: relative;
+  width: 529px;
+}
+
+.patients-mobile .frame-142-vkmyAk {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 155px;
+  position: relative;
+  width: 330px;
+}
+
+.patients-mobile .frame-143-c2Ajpm {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: min-content;
+  margin-bottom: -39px;
+  position: relative;
+  width: 329px;
+}
+
+.patients-mobile .your-personal-healthcare-assistant-LX5YNO {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 325px;
+}
+
+.patients-mobile .frame-139-LX5YNO {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  height: min-content;
+  justify-content: center;
+  position: relative;
+  width: 328px;
+}
+
+.patients-mobile .manage-health-for-yo-Gg7Aj0 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -1px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+  width: 329px;
+}
+
+.patients-mobile .buttons-Gg7Aj0 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.patients-mobile .buttons-Gg7Aj0:hover {
+  transform: scale(1.1);
+}
+
+.patients-mobile .button-7k3iB2 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 127px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-mobile .frame-167-C7sKX8 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: min-content;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 595px;
+  width: 328px;
+}
+
+.patients-mobile .frame-148-cQ0QiS {
+  background-color: transparent;
+  height: 75px;
+  min-width: 327px;
+  position: relative;
+}
+
+.patients-mobile .find-connect-80awch {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 328px;
+}
+
+.patients-mobile .connect-with-experie-80awch {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 43px;
+  width: 328px;
+}
+
+.patients-mobile .frame-151-cQ0QiS {
+  background-color: transparent;
+  height: 153px;
+  min-width: 328px;
+  position: relative;
+}
+
+.patients-mobile .image-39-rHHOkV {
+  background-color: transparent;
+  height: 183px;
+  left: -9px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: -9px;
+  width: 177px;
+}
+
+.patients-mobile .image-40-rHHOkV {
+  background-color: transparent;
+  height: 183px;
+  left: 170px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: -9px;
+  width: 174px;
+}
+
+.patients-mobile .frame-165-C7sKX8 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 368px;
+  left: calc(50.00% - 156px);
+  position: absolute;
+  top: 943px;
+  width: 320px;
+}
+
+.patients-mobile .frame-152-8yGskx {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  padding: 0px 29px 0px 0px;
+  position: relative;
+  width: 320px;
+}
+
+.patients-mobile .book-instant-appointments-vmH6Pv {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -29px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 320px;
+}
+
+.patients-mobile .book-instant-in-pers-vmH6Pv {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -29px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 320px;
+}
+
+.patients-mobile .frame-162-8yGskx {
+  background-color: transparent;
+  height: 326px;
+  margin-bottom: -61px;
+  min-width: 113px;
+  position: relative;
+}
+
+.patients-mobile .frame-156-lIA9Ym {
+  background-color: transparent;
+  height: 244px;
+  left: 0px;
+  position: relative;
+  top: 13px;
+  width: 109px;
+}
+
+.patients-mobile .image-41-gFAfEx {
+  background-color: transparent;
+  height: 251px;
+  left: 0px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 115px;
+}
+
+.patients-mobile .frame-162-arori5 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 403px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 1388px;
+  width: 328px;
+}
+
+.patients-mobile .frame-152-kx7xdz {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: min-content;
+  justify-content: center;
+  position: relative;
+  width: 320px;
+}
+
+.patients-mobile .teleconsultation-lnkzvF {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 320px;
+}
+
+.patients-mobile .find-specialist-doct-lnkzvF {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 320px;
+}
+
+.patients-mobile .video-call-kx7xdz {
+  background-color: transparent;
+  height: 260px;
+  min-width: 123px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.patients-mobile .frame-165-arori5 {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  height: min-content;
+  left: calc(50.00% - 162px);
+  position: absolute;
+  top: 1855px;
+  width: 326px;
+}
+
+.patients-mobile .frame-163-JJFCsM {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  position: relative;
+  width: 325px;
+}
+
+.patients-mobile .instant-prescription-at-you-fingertips-n8GW0j {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 325px;
+}
+
+.patients-mobile .track-you-course-of-n8GW0j {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 326px;
+}
+
+.patients-mobile .image-44-JJFCsM {
+  background-color: transparent;
+  height: 202px;
+  margin-bottom: -6px;
+  min-width: 241px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-mobile .frame-162-6xQ1V0 {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 172px);
+  position: absolute;
+  top: 2305px;
+  width: 335px;
+}
+
+.patients-mobile .frame-166-Cb7veP {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: min-content;
+  position: relative;
+  width: min-content;
+}
+
+.patients-mobile .frame-158-05Kmur {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 125px;
+  position: relative;
+  width: 320px;
+}
+
+.patients-mobile .detailed-e-report-af-NySoze {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -7px;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 327px;
+}
+
+.patients-mobile .easily-connect-with-NySoze {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-right: -15px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 335px;
+}
+
+.patients-mobile .image-44-05Kmur {
+  background-color: transparent;
+  height: 202px;
+  margin-bottom: -6px;
+  min-width: 241px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: relative;
+}
+
+.patients-mobile .frame-162-xZsJSC {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 465px;
+  left: calc(50.00% - 160px);
+  position: absolute;
+  top: 2775px;
+  width: 324px;
+}
+
+.patients-mobile .frame-158-Tw2FHK {
+  align-items: flex-start;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  margin-left: -3px;
+  margin-right: -3px;
+  position: relative;
+  width: 330px;
+}
+
+.patients-mobile .digitalize-your-payments-WGGf8O {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 327px;
+}
+
+.patients-mobile .make-online-transact-WGGf8O {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: center;
+  width: 330px;
+}
+
+.patients-mobile .group-103-Tw2FHK {
+  background-color: transparent;
+  height: 294.2669677734375px;
+  min-width: 233px;
+  mix-blend-mode: normal;
+  position: relative;
+}
+
+.patients-mobile .frame-166-C7sKX8 {
+  background-color: var(--white);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.patients-mobile .helium-1-xGLcdl {
+  background-color: transparent;
+  height: 32px;
+  left: 16px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 55px;
+}
+
+.patients-mobile .frame-2-xGLcdl {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  width: min-content;
+}
+
+.patients-mobile .doctors-Pqt3At {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 52px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-mobile .pricing-Pqt3At {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 45px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.patients-mobile .security-Pqt3At {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 54px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+@media screen and (max-width: 1279px) {
+  .screen.patients-desktop-all-breakpoints { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1280px) {
+  .screen.patients-mobile { 
+    display: none;
+   }
+}

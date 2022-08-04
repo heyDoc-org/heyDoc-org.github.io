@@ -1,0 +1,1537 @@
+/* screen - security-mobile */
+
+.security-mobile {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 5513px;
+  min-width: 360px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.security-mobile .rectangle-5-S89QYg {
+  background-color: var(--zircon);
+  height: 1187px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 519px;
+  width: 100%;
+}
+
+.security-mobile .rectangle-6-S89QYg {
+  background-color: var(--zircon);
+  height: 507px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 3850px;
+  width: 100%;
+}
+
+.security-mobile .your-data-has-only-one-owner-you-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 134px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 305px;
+  width: 270px;
+}
+
+.security-mobile .your-data-has-multiple-encrypted-backups-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2005px;
+  width: 328px;
+}
+
+.security-mobile .we-dont-sell-your-data-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2718px;
+  width: 328px;
+}
+
+.security-mobile .we-never-mix-doctors-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3454px;
+  width: 328px;
+}
+
+.security-mobile .all-data-is-backed-u-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 162px);
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2155px;
+  width: 324px;
+}
+
+.security-mobile .we-are-fully-aware-o-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 130px);
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 2858px;
+  width: 260px;
+}
+
+.security-mobile .our-platform-uses-in-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 130px);
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 3604px;
+  width: 260px;
+}
+
+.security-mobile .sec3-01-1-S89QYg {
+  background-color: transparent;
+  height: 236px;
+  left: calc(50.00% - 113px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 81px;
+  width: 236px;
+}
+
+.security-mobile .sec4-01-1-S89QYg {
+  background-color: transparent;
+  height: 264px;
+  left: calc(50.00% - 132px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1737px;
+  width: 264px;
+}
+
+.security-mobile .sec2-01-1-S89QYg {
+  background-color: transparent;
+  height: 198px;
+  left: calc(50.00% - 99px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 2483px;
+  width: 198px;
+}
+
+.security-mobile .sec5-01-1-S89QYg {
+  background-color: transparent;
+  height: 324px;
+  left: calc(50.00% - 162px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 3146px;
+  width: 324px;
+}
+
+.security-mobile .sec1-01-1-S89QYg {
+  background-color: transparent;
+  height: 287px;
+  left: calc(50.00% - 143px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 3875px;
+  width: 287px;
+}
+
+.security-mobile .image-1-S89QYg {
+  background-color: transparent;
+  height: 225px;
+  left: calc(50.00% - 131px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 547px;
+  width: 311px;
+}
+
+.security-mobile .secure-place-for-your-health-data-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 162px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 4159px;
+  width: 326px;
+}
+
+.security-mobile .keeping-your-data-sa-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 145px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 4277px;
+  width: 290px;
+}
+
+.security-mobile .frame-132-S89QYg {
+  background-color: transparent;
+  height: 586px;
+  left: 0px;
+  overflow: hidden;
+  position: absolute;
+  top: 4357px;
+  width: 100%;
+}
+
+.security-mobile .join-the-health-care-4RQx94 {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 37px;
+  width: 328px;
+}
+
+.security-mobile .group-116-4RQx94 {
+  background-color: transparent;
+  height: 258px;
+  left: 16px;
+  position: absolute;
+  top: 287px;
+  width: calc(100.00% - 32px);
+}
+
+.security-mobile .buttons-f9RMXn {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: 0px;
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 71px;
+  width: 100%;
+}
+
+.security-mobile .speciality-4isht3 {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 64px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.security-mobile .speciality-4isht3::placeholder {
+  color: #92929299;
+}
+
+.security-mobile .buttons-osd5k9 {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: 0px;
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 142px;
+  width: 100%;
+}
+
+.security-mobile .x91-fWMTQ1 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 23px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.security-mobile .phone-number-fWMTQ1 {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.security-mobile .phone-number-fWMTQ1::placeholder {
+  color: #92929299;
+}
+
+.security-mobile .buttons-Me8ecA {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: 0px;
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.security-mobile .name-0wZpbf {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 38px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.security-mobile .name-0wZpbf::placeholder {
+  color: #92929299;
+}
+
+.security-mobile .buttons-ZYufWS {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: 0px;
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  position: absolute;
+  top: 213px;
+  width: 100%;
+}
+
+.security-mobile .button-xpA5yC {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 104px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.security-mobile .doctors-pana-1-2-1-4RQx94 {
+  background-color: transparent;
+  height: 260px;
+  left: calc(50.00% - 130px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 260px;
+}
+
+.security-mobile .data-security-for-doctors-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 815px;
+  width: 328px;
+}
+
+.security-mobile .we-do-not-have-acces-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 947px;
+  width: 328px;
+}
+
+.security-mobile .data-security-for-patients-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1258px;
+  width: 328px;
+}
+
+.security-mobile .your-data-is-for-you-S89QYg {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 164px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1403px;
+  width: 328px;
+}
+
+.security-mobile .frame-135-S89QYg {
+  background-color: var(--black-haze);
+  height: 570px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 4943px;
+  width: 100%;
+}
+
+.security-mobile .helium-1-WdRMqy {
+  background-color: transparent;
+  height: 71px;
+  left: calc(50.00% - 59px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 291px;
+  width: 119px;
+}
+
+.security-mobile .group-119-WdRMqy {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 208px;
+  width: 128px;
+}
+
+.security-mobile .contact-us-91-782008-WdRMqy {
+  background-color: transparent;
+  height: 95px;
+  left: calc(50.00% - 125px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 411px;
+  width: auto;
+}
+
+.security-mobile .group-118-WdRMqy {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% + 28px);
+  position: absolute;
+  top: 16px;
+  width: 127px;
+}
+
+.security-mobile .start-free-trial-Uh3xbw {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.security-mobile .fa-qs-Uh3xbw {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.security-mobile .queries-Uh3xbw {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.security-mobile .tutorials-Uh3xbw {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.security-mobile .group-111-Uh3xbw {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.security-mobile .group-117-WdRMqy {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 16px;
+  width: 159px;
+}
+
+.security-mobile .hey-doc-for-doctors-xk262x {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.security-mobile .hey-doc-for-patients-xk262x {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.security-mobile .data-security-xk262x {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.security-mobile .pricing-xk262x {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.security-mobile .akar-iconschevron-down-xk262x {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.security-mobile .akar-iconschevron-down-Xn6fxl {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 44px;
+  width: 12px;
+}
+
+.security-mobile .akar-iconschevron-down-KVy67M {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 84px;
+  width: 12px;
+}
+
+.security-mobile .akar-iconschevron-down-2X17yu {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 124px;
+  width: 12px;
+}
+
+.security-mobile .frame-1-S89QYg {
+  background-color: var(--white);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.security-mobile .helium-1-r8DfbO {
+  background-color: transparent;
+  height: 32px;
+  left: 16px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 55px;
+}
+
+.security-mobile .frame-2-r8DfbO {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 19px;
+  top: 14px;
+  width: min-content;
+}
+
+.security-mobile .doctors-HcwaHJ {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 52px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.security-mobile .patients-HcwaHJ {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 55px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.security-mobile .pricing-HcwaHJ {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 45px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+/* screen - securitydesktop-all-breakpoints */
+
+.securitydesktop-all-breakpoints {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 3533px;
+  min-width: 1280px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.securitydesktop-all-breakpoints .rectangle-5-6Ul2zt {
+  background-color: var(--zircon);
+  height: 905px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 499px;
+  width: calc(100.00% + 1px);
+}
+
+.securitydesktop-all-breakpoints .rectangle-6-6Ul2zt {
+  background-color: var(--zircon);
+  height: 507px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 2088px;
+  width: calc(100.00% + 1px);
+}
+
+.securitydesktop-all-breakpoints .your-data-has-only-one-owner-you-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 271px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 355px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .your-data-has-multiple-encrypted-backups-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 607px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1687px;
+  width: 340px;
+}
+
+.securitydesktop-all-breakpoints .we-dont-sell-your-data-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 99px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1687px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .we-never-mix-doctors-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 267px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1687px;
+  width: 340px;
+}
+
+.securitydesktop-all-breakpoints .all-data-is-backed-u-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 607px);
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1761px;
+  width: 340px;
+}
+
+.securitydesktop-all-breakpoints .we-are-fully-aware-o-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 170px);
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1761px;
+  width: 340px;
+}
+
+.securitydesktop-all-breakpoints .our-platform-uses-in-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 280px);
+  letter-spacing: 0.00px;
+  line-height: 33px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 1761px;
+  width: 340px;
+}
+
+.securitydesktop-all-breakpoints .sec3-01-1-6Ul2zt {
+  background-color: transparent;
+  height: 236px;
+  left: calc(50.00% - 118px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 141px;
+  width: 236px;
+}
+
+.securitydesktop-all-breakpoints .sec4-01-1-6Ul2zt {
+  background-color: transparent;
+  height: 264px;
+  left: calc(50.00% - 573px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1423px;
+  width: 264px;
+}
+
+.securitydesktop-all-breakpoints .sec2-01-1-6Ul2zt {
+  background-color: transparent;
+  height: 198px;
+  left: calc(50.00% - 99px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1456px;
+  width: 198px;
+}
+
+.securitydesktop-all-breakpoints .sec5-01-1-6Ul2zt {
+  background-color: transparent;
+  height: 324px;
+  left: calc(50.00% + 252px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 1404px;
+  width: 324px;
+}
+
+.securitydesktop-all-breakpoints .sec1-01-1-6Ul2zt {
+  background-color: transparent;
+  height: 317px;
+  left: calc(50.00% - 159px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 2098px;
+  width: 317px;
+}
+
+.securitydesktop-all-breakpoints .image-1-6Ul2zt {
+  background-color: transparent;
+  height: 381px;
+  left: calc(50.00% - 272px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 539px;
+  width: 544px;
+}
+
+.securitydesktop-all-breakpoints .secure-place-for-your-health-data-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 288px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2397px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .keeping-your-data-sa-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 231px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2465px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .frame-135-6Ul2zt {
+  background-color: var(--black-haze);
+  height: 390px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 3143px;
+  width: calc(100.00% + 1px);
+}
+
+.securitydesktop-all-breakpoints .icon-linkedin-4VJk8B {
+  background-color: transparent;
+  height: 40px;
+  left: 50.00%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 59px;
+  width: 40px;
+}
+
+.securitydesktop-all-breakpoints .amogh-nsmp-tech-priv-4VJk8B {
+  background-color: transparent;
+  height: 75px;
+  left: calc(50.00% - 606px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 237px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .helium-1-4VJk8B {
+  background-color: transparent;
+  height: 89px;
+  left: calc(50.00% - 604px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 149px;
+}
+
+.securitydesktop-all-breakpoints .icon-youtube-4VJk8B {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 96px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 59px;
+  width: 40px;
+}
+
+.securitydesktop-all-breakpoints .contact-us-91-7820087857-4VJk8B {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 606px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 184px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .group-125-4VJk8B {
+  background-color: transparent;
+  height: 145px;
+  left: 50.00%;
+  position: absolute;
+  top: 148px;
+  width: 208px;
+}
+
+.securitydesktop-all-breakpoints .group-124-QZDaPy {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 104px);
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.securitydesktop-all-breakpoints .hey-doc-for-doctors-QZDaPy {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .hey-doc-for-patients-QZDaPy {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .data-security-QZDaPy {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .pricing-QZDaPy {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .group-127-4VJk8B {
+  background-color: transparent;
+  height: 145px;
+  left: calc(50.00% + 290px);
+  position: absolute;
+  top: 148px;
+  width: 165px;
+}
+
+.securitydesktop-all-breakpoints .group-126-8j2Zd0 {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 82px);
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.securitydesktop-all-breakpoints .start-free-trial-8j2Zd0 {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .fa-qs-8j2Zd0 {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .queries-8j2Zd0 {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .tutorials-8j2Zd0 {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.securitydesktop-all-breakpoints .data-security-for-doctors-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 544px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1004px;
+  width: 470px;
+}
+
+.securitydesktop-all-breakpoints .we-do-not-have-acces-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 544px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1096px;
+  width: 470px;
+}
+
+.securitydesktop-all-breakpoints .data-security-for-patients-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 53px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1004px;
+  width: 470px;
+}
+
+.securitydesktop-all-breakpoints .your-data-is-for-you-6Ul2zt {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 53px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 1096px;
+  width: 470px;
+}
+
+.securitydesktop-all-breakpoints .frame-130-6Ul2zt {
+  background-color: transparent;
+  height: 507px;
+  left: calc(50.00% - 655px);
+  overflow: hidden;
+  position: absolute;
+  top: 2636px;
+  width: 1310px;
+}
+
+.securitydesktop-all-breakpoints .join-the-health-care-YMDaxj {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% - 607px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 56px;
+  width: 440px;
+}
+
+.securitydesktop-all-breakpoints .buttons-YMDaxj {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: calc(50.00% - 608px);
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 257px;
+  width: 440px;
+}
+
+.securitydesktop-all-breakpoints .speciality-JyeV4Q {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 64px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.securitydesktop-all-breakpoints .speciality-JyeV4Q::placeholder {
+  color: #92929299;
+}
+
+.securitydesktop-all-breakpoints .buttons-x6C3tO {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: calc(50.00% - 608px);
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 328px;
+  width: 440px;
+}
+
+.securitydesktop-all-breakpoints .x91-7J8AIX {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 23px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.securitydesktop-all-breakpoints .phone-number-7J8AIX {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.securitydesktop-all-breakpoints .phone-number-7J8AIX::placeholder {
+  color: #92929299;
+}
+
+.securitydesktop-all-breakpoints .buttons-oj2XA2 {
+  align-items: center;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  gap: 12px;
+  height: min-content;
+  left: calc(50.00% - 608px);
+  mix-blend-mode: normal;
+  padding: 20px 16px;
+  position: absolute;
+  top: 186px;
+  width: 440px;
+}
+
+.securitydesktop-all-breakpoints .name-Z4gfiB {
+  background-color: transparent;
+  border: 0;
+  height: 19px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 38px;
+  mix-blend-mode: normal;
+  padding: 0;
+  position: relative;
+  resize: none;
+  text-align: left;
+}
+
+.securitydesktop-all-breakpoints .name-Z4gfiB::placeholder {
+  color: #92929299;
+}
+
+.securitydesktop-all-breakpoints .buttons-XQ4nJN {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 607px);
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  position: absolute;
+  top: 408px;
+  width: min-content;
+}
+
+.securitydesktop-all-breakpoints .button-OVsOsI {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 104px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.securitydesktop-all-breakpoints .doctors-pana-1-2-1-YMDaxj {
+  background-color: transparent;
+  height: 507px;
+  left: calc(50.00% - 29px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: 600px;
+}
+
+.securitydesktop-all-breakpoints .frame-1-6Ul2zt {
+  background-color: var(--white);
+  height: 80px;
+  left: calc(50.00% - 655px);
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0px;
+  width: 1311px;
+}
+
+.securitydesktop-all-breakpoints .helium-1-xYwn1W {
+  background-color: transparent;
+  height: 47px;
+  left: calc(50.00% - 592px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 16px;
+  width: 79px;
+}
+
+.securitydesktop-all-breakpoints .frame-3-xYwn1W {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 36px;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 452px);
+  position: absolute;
+  top: 29px;
+  width: min-content;
+}
+
+.securitydesktop-all-breakpoints .for-doctors-XTM6a1 {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 91px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.securitydesktop-all-breakpoints .for-doctors-XTM6a1:hover {
+  color: #000cc0
+}
+
+.securitydesktop-all-breakpoints .for-patients-XTM6a1 {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.securitydesktop-all-breakpoints .for-patients-XTM6a1:hover {
+  color: #000cc0
+}
+
+.securitydesktop-all-breakpoints .pricing-XTM6a1 {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 56px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.securitydesktop-all-breakpoints .pricing-XTM6a1:hover {
+  color: #000cc0
+}
+
+.securitydesktop-all-breakpoints .security-XTM6a1 {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 68px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.securitydesktop-all-breakpoints .buttons-xYwn1W {
+  align-items: center;
+  background-color: transparent;
+  border: 2px solid var(--primary);
+  border-radius: 8px;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% + 430px);
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  position: absolute;
+  top: 17px;
+  width: min-content;
+}
+
+.securitydesktop-all-breakpoints .button-QUB1l9 {
+  background-color: transparent;
+  color: var(--primary);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -2px;
+  min-width: 131px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+@media screen and (max-width: 1279px) {
+  .screen.securitydesktop-all-breakpoints { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1280px) {
+  .screen.security-mobile { 
+    display: none;
+   }
+}

@@ -1,0 +1,1141 @@
+/* screen - pricing-desktop-all-breakpoints */
+
+.pricing-desktop-all-breakpoints {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 2079px;
+  min-width: 1280px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.pricing-desktop-all-breakpoints .frame-5-GZ1EuF {
+  background-color: var(--zircon);
+  height: 1105px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 974px;
+  width: 100%;
+}
+
+.pricing-desktop-all-breakpoints .doctors-pana-1-2-2-GZ1EuF {
+  background-color: transparent;
+  height: 600px;
+  left: calc(50.00% + 12px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 47px;
+  width: 600px;
+}
+
+.pricing-desktop-all-breakpoints .frame-136-GZ1EuF {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 0px 32px #00000026;
+  height: 920px;
+  left: calc(50.00% - 302px);
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 662px;
+  width: 604px;
+}
+
+.pricing-desktop-all-breakpoints .our-offerings-H7PRn9 {
+  background-color: transparent;
+  color: var(--mist-gray);
+  font-family: var(--font-family-manrope);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  height: 56px;
+  left: 242px;
+  letter-spacing: 0.00px;
+  line-height: 56px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .group-1-H7PRn9 {
+  background-color: transparent;
+  height: 393px;
+  left: calc(50.00% - 218px);
+  position: absolute;
+  top: 144px;
+  width: 436px;
+}
+
+.pricing-desktop-all-breakpoints .buttons-H7PRn9 {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 18px;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  left: 12px;
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  position: absolute;
+  top: 848px;
+  width: 580px;
+}
+
+.pricing-desktop-all-breakpoints .button-1yMjBj {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  min-width: 104px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.pricing-desktop-all-breakpoints .schedule-appointment-H7PRn9 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 300;
+  height: 560px;
+  left: 148px;
+  letter-spacing: 0.00px;
+  line-height: 56px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .frame-137-H7PRn9 {
+  background-color: transparent;
+  height: 80px;
+  left: -1px;
+  overflow: hidden;
+  position: absolute;
+  top: 630px;
+  width: 605px;
+}
+
+.pricing-desktop-all-breakpoints .bxradio-circle-cp1kzB {
+  background-color: transparent;
+  height: 28px;
+  left: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 32px;
+  width: 28px;
+}
+
+.pricing-desktop-all-breakpoints .rs-999month-cp1kzB {
+  background-color: transparent;
+  height: 25px;
+  left: 110px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 32px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .x6-months-cp1kzB {
+  background-color: transparent;
+  height: 19px;
+  left: 485px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 35px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .standard-cp1kzB {
+  background-color: transparent;
+  height: 19px;
+  left: 111px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 9px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .frame-138-H7PRn9 {
+  background-color: #fbff6130;
+  height: 96px;
+  left: -1px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 710px;
+  width: 605px;
+}
+
+.pricing-desktop-all-breakpoints .bxradio-circle-marked-crdgvE {
+  background-color: transparent;
+  height: 28px;
+  left: 48px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 30px;
+  width: 28px;
+}
+
+.pricing-desktop-all-breakpoints .first-month-free-crdgvE {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+  height: 22px;
+  left: 108px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 59px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .rs-699month-crdgvE {
+  background-color: transparent;
+  height: 25px;
+  left: 108px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .x6-months-crdgvE {
+  background-color: transparent;
+  height: 19px;
+  left: 485px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 33px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .early-bird-crdgvE {
+  background-color: transparent;
+  height: 19px;
+  left: 108px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .get-started-with-you-GZ1EuF {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 800;
+  height: 261px;
+  left: calc(50.00% - 562px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 177px;
+  width: 624px;
+}
+
+.pricing-desktop-all-breakpoints .frame-137-GZ1EuF {
+  background-color: var(--zircon);
+  height: 390px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1689px;
+  width: calc(100.00% + 1px);
+}
+
+.pricing-desktop-all-breakpoints .icon-linkedin-jREw1f {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 14px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 59px;
+  width: 40px;
+}
+
+.pricing-desktop-all-breakpoints .amogh-nsmp-tech-priv-jREw1f {
+  background-color: transparent;
+  height: 75px;
+  left: calc(50.00% - 592px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 237px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .helium-1-jREw1f {
+  background-color: transparent;
+  height: 89px;
+  left: calc(50.00% - 590px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 45px;
+  width: 149px;
+}
+
+.pricing-desktop-all-breakpoints .icon-youtube-jREw1f {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 110px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 59px;
+  width: 40px;
+}
+
+.pricing-desktop-all-breakpoints .contact-us-91-7820087857-jREw1f {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 592px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 184px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .group-129-jREw1f {
+  background-color: transparent;
+  height: 145px;
+  left: calc(50.00% + 14px);
+  position: absolute;
+  top: 148px;
+  width: 208px;
+}
+
+.pricing-desktop-all-breakpoints .group-128-xSAWBL {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 104px);
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.pricing-desktop-all-breakpoints .hey-doc-for-doctors-xSAWBL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .hey-doc-for-patients-xSAWBL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .data-security-xSAWBL {
+  background-color: transparent;
+  cursor: pointer;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .pricing-xSAWBL {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 68px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .group-131-jREw1f {
+  background-color: transparent;
+  height: 145px;
+  left: calc(50.00% + 306px);
+  position: absolute;
+  top: 148px;
+  width: 165px;
+}
+
+.pricing-desktop-all-breakpoints .group-130-97zfKa {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 82px);
+  position: absolute;
+  top: 7px;
+  width: 12px;
+}
+
+.pricing-desktop-all-breakpoints .start-free-trial-97zfKa {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .fa-qs-97zfKa {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .queries-97zfKa {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .tutorials-97zfKa {
+  background-color: transparent;
+  height: 25px;
+  left: calc(50.00% - 44px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.pricing-desktop-all-breakpoints .frame-1-GZ1EuF {
+  background-color: var(--white);
+  height: 80px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0px;
+  width: calc(100.00% + 1px);
+}
+
+.pricing-desktop-all-breakpoints .helium-1-1OHRJc {
+  background-color: transparent;
+  height: 47px;
+  left: calc(50.00% - 592px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 24px);
+  width: 79px;
+}
+
+.pricing-desktop-all-breakpoints .frame-3-1OHRJc {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  gap: 36px;
+  height: min-content;
+  justify-content: center;
+  left: calc(50.00% - 452px);
+  position: absolute;
+  top: calc(50.00% - 11px);
+  width: min-content;
+}
+
+.pricing-desktop-all-breakpoints .for-doctors-PgahXB {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 91px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.pricing-desktop-all-breakpoints .for-doctors-PgahXB:hover {
+  color: #000cc0
+}
+
+.pricing-desktop-all-breakpoints .for-patients-PgahXB {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 96px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.pricing-desktop-all-breakpoints .for-patients-PgahXB:hover {
+  color: #000cc0
+}
+
+.pricing-desktop-all-breakpoints .pricing-PgahXB {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 56px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.pricing-desktop-all-breakpoints .security-PgahXB {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 68px;
+  mix-blend-mode: normal;
+  pointer-events: auto;
+  position: relative;
+  text-align: left;
+  transition: all 0.2s ease;
+}
+
+.pricing-desktop-all-breakpoints .security-PgahXB:hover {
+  color: #000cc0
+}
+/* screen - pricing-mobile */
+
+.pricing-mobile {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1970px;
+  min-width: 360px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.pricing-mobile .frame-5-qUxcAx {
+  background-color: var(--zircon);
+  height: 692px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 824px;
+  width: 360px;
+}
+
+.pricing-mobile .doctors-pana-1-2-2-qUxcAx {
+  background-color: transparent;
+  height: 304px;
+  left: calc(50.00% - 152px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 304px;
+}
+
+.pricing-mobile .get-started-with-you-qUxcAx {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  height: 132px;
+  left: calc(50.00% - 160px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 298px;
+  width: 320px;
+}
+
+.pricing-mobile .frame-136-qUxcAx {
+  background-color: var(--white);
+  border-radius: 30px;
+  box-shadow: 0px 0px 12px #00000026;
+  height: 818px;
+  left: calc(50.00% - 164px);
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 502px;
+  width: 328px;
+}
+
+.pricing-mobile .our-offerings-LsRc9Y {
+  background-color: transparent;
+  color: var(--mist-gray);
+  font-family: var(--font-family-manrope);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  height: 56px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: 56px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 11px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.pricing-mobile .group-1-LsRc9Y {
+  background-color: transparent;
+  height: 323px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 116px;
+  width: 328px;
+}
+
+.pricing-mobile .buttons-LsRc9Y {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 18px;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  left: calc(50.00% - 152px);
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  pointer-events: auto;
+  position: absolute;
+  top: 758px;
+  transition: all 0.2s ease;
+  width: 304px;
+}
+
+.pricing-mobile .buttons-LsRc9Y:hover {
+  transform: scale(1.1);
+}
+
+.pricing-mobile .button-FYCPSx {
+  background-color: transparent;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  min-width: 104px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.pricing-mobile .schedule-appointment-LsRc9Y {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+  height: 460px;
+  left: calc(50.00% - 120px);
+  letter-spacing: 0.00px;
+  line-height: 46px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 69px;
+  width: auto;
+}
+
+.pricing-mobile .frame-137-LsRc9Y {
+  background-color: transparent;
+  height: 88px;
+  left: calc(50.00% - 163px);
+  overflow: hidden;
+  position: absolute;
+  top: 531px;
+  width: 327px;
+}
+
+.pricing-mobile .bxradio-circle-VJ52PY {
+  background-color: transparent;
+  height: 28px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 32px;
+  width: 28px;
+}
+
+.pricing-mobile .rs-999month-VJ52PY {
+  background-color: transparent;
+  height: 25px;
+  left: 62px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 31px;
+  width: auto;
+}
+
+.pricing-mobile .standard-VJ52PY {
+  background-color: transparent;
+  height: 19px;
+  left: 63px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: auto;
+}
+
+.pricing-mobile .frame-138-LsRc9Y {
+  background-color: #fbff6130;
+  height: 96px;
+  left: calc(50.00% - 163px);
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 630px;
+  width: 327px;
+}
+
+.pricing-mobile .bxradio-circle-marked-rTsoxs {
+  background-color: transparent;
+  height: 28px;
+  left: 16px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 30px;
+  width: 28px;
+}
+
+.pricing-mobile .first-month-free-rTsoxs {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 300;
+  height: 22px;
+  left: 64px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 59px;
+  width: auto;
+}
+
+.pricing-mobile .rs-699month-rTsoxs {
+  background-color: transparent;
+  height: 25px;
+  left: 64px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 30px;
+  width: auto;
+}
+
+.pricing-mobile .early-bird-rTsoxs {
+  background-color: transparent;
+  height: 19px;
+  left: 64px;
+  letter-spacing: 1.12px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 8px;
+  width: auto;
+}
+
+.pricing-mobile .frame-135-qUxcAx {
+  background-color: var(--black-haze);
+  height: 570px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 1400px;
+  width: 100%;
+}
+
+.pricing-mobile .helium-1-AyFi7E {
+  background-color: transparent;
+  height: 71px;
+  left: calc(50.00% - 59px);
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 291px;
+  width: 119px;
+}
+
+.pricing-mobile .group-119-AyFi7E {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 208px;
+  width: 128px;
+}
+
+.pricing-mobile .contact-us-91-782008-AyFi7E {
+  background-color: transparent;
+  height: 95px;
+  left: calc(50.00% - 125px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 411px;
+  width: auto;
+}
+
+.pricing-mobile .group-118-AyFi7E {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% + 28px);
+  position: absolute;
+  top: 16px;
+  width: 127px;
+}
+
+.pricing-mobile .start-free-trial-WFR0F6 {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.pricing-mobile .fa-qs-WFR0F6 {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.pricing-mobile .queries-WFR0F6 {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.pricing-mobile .tutorials-WFR0F6 {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 36px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.pricing-mobile .group-111-WFR0F6 {
+  background-color: transparent;
+  height: 132px;
+  left: calc(50.00% - 64px);
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.pricing-mobile .group-117-AyFi7E {
+  background-color: transparent;
+  height: 139px;
+  left: calc(50.00% - 164px);
+  position: absolute;
+  top: 16px;
+  width: 159px;
+}
+
+.pricing-mobile .hey-doc-for-doctors-Yvt370 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  width: auto;
+}
+
+.pricing-mobile .hey-doc-for-patients-Yvt370 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 40px;
+  width: auto;
+}
+
+.pricing-mobile .data-security-Yvt370 {
+  background-color: transparent;
+  cursor: pointer;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 80px;
+  width: auto;
+}
+
+.pricing-mobile .pricing-Yvt370 {
+  background-color: transparent;
+  height: 19px;
+  left: calc(50.00% - 56px);
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 120px;
+  width: auto;
+}
+
+.pricing-mobile .akar-iconschevron-down-Yvt370 {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 4px;
+  width: 12px;
+}
+
+.pricing-mobile .akar-iconschevron-down-2MWpH3 {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 44px;
+  width: 12px;
+}
+
+.pricing-mobile .akar-iconschevron-down-xoHMkj {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 84px;
+  width: 12px;
+}
+
+.pricing-mobile .akar-iconschevron-down-tdqmcf {
+  background-color: transparent;
+  height: 12px;
+  left: calc(50.00% - 80px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 124px;
+  width: 12px;
+}
+
+.pricing-mobile .frame-1-qUxcAx {
+  background-color: var(--white);
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.pricing-mobile .helium-1-Hxxyhg {
+  background-color: transparent;
+  height: 32px;
+  left: 16px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 55px;
+}
+
+.pricing-mobile .frame-2-Hxxyhg {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 10px;
+  display: flex;
+  gap: 16px;
+  height: min-content;
+  justify-content: center;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  width: min-content;
+}
+
+.pricing-mobile .doctors-ccO2OE {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 52px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.pricing-mobile .patients-ccO2OE {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 55px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+
+.pricing-mobile .security-ccO2OE {
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  margin-top: -1px;
+  min-width: 54px;
+  mix-blend-mode: normal;
+  position: relative;
+  text-align: left;
+}
+@media screen and (max-width: 1279px) {
+  .screen.pricing-desktop-all-breakpoints { 
+    display: none;
+   }
+}
+@media screen and (min-width: 1280px) {
+  .screen.pricing-mobile { 
+    display: none;
+   }
+}
