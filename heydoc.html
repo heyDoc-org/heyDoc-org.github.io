@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
     <title>HeyDoc - your Personal Heathcare Assistant</title>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
     <meta name="description" content="Get real quick, top class treatment and Video consult with best doctors within minutes, right from anywhere.">
     <meta name="keywords" content="HeyDoc,Doc-Companion, DocDash, StartUp, HealthCare, HealthTech,Online HealthCare, healthcare revolution,Urgent care near me,
     Hospital near me, Walk-in clinic near me,Doctors near me,Dentist near me,
@@ -17,8 +16,13 @@
         StartUp in 2021, Successful HealtCare StartUps, StartUps by IITians,Medical Fitness Startup, Digitization of Medical Platforms,
         ">
         <meta name="robots" content="index,follow">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+        <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/patients-desktop-all-breakpoints.css" />
+    <style></style>
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+    <link rel="shortcut icon" type="image/png" href="img/helium-1@2x.png" />
     <noscript>
         <link rel="stylesheet" href="assets/css/noscript.css" />
     </noscript>
@@ -58,144 +62,353 @@
         x.parentNode.insertBefore(s, x);
     </script>
 </head>
-
-<body class="is-preload">
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="index.html"><img src="images/logo.png" class="image logo" width="50 vw"></a></h1>
-        <nav>
-            <ul>
-                <li><a href="index.html"><b>Home</b></a></li>
-                <li><a href="docdash.html"><b>DocDash</b></a></li>
-                <li><a href="doccompanion.html"><b>DocCompanion</b></a></li>
-             <!--     <li><a href="outreach.html"><b>Out Reach</b></a></li> -->
-                <li><a href="pricing.html"><b>Pricing</b></a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Intro -->
-    <section id="intro">
-        <div class="desk"><img src="images/heydoc-bg.png" class="image fit"></div>
-        <div class="mob"><img src="images/heydoc-mob.jpg" class="image fit"></div>
-    </section>
-    <!-- Work -->
-    <section id="about" class="main style3 primary">
-        <div class="content">
-            <header>
-                <h2><img src="images/thumbs/heydoc.png" width="250 vw"></h2>
-                <p>HeyDoc is the Mobile application built keeping in mind the needs of patients such that <i>Finding,
-                        Connecting & getting Treated</i> with best Doctors becomes a hassle-free task .
-                </p>
-                <p>HeyDoc is your own personal Healthcare Assistant which digitally stores your Medical reports, tracks
-                    your Health regime and even remind you to timely take your pills</p>
-                <p>
-                    <i>Healthcare solution built and powered by <b>IITians</b></i>
-                </p>
-            </header>
-            <!-- Gallery  -->
-            <a  href="https://play.google.com/store/apps/details?id=com.heyDoc.heyDoc" target="_blank" > 
-                <img src="images/playstore.jpg" height="70px" >
-            </a>
-            <div class="gallery">
-                <article class="from-left">
-                    <div class="image heydoc fit"><img src="images/heyDoc/Group 11.png"
-                            style="padding: 20px 0px 20px 10px" alt="">
-                        Find Specialists</div>
-                </article>
-                <article class="from-right">
-                    <div class="image heydoc fit"><img src="images/heyDoc/Group 7.png"
-                            style="padding: 20px 0px 20px 10px" alt="">
-                        Connect Instantly</div>
-                </article>
-            </div>
-
-            <header>
-                <h2>Find & Connect</h2>
-                <p>Connect with experienced and reputed <b>Specialist Doctors</b> at your <i>convenience </i></p>
-                <p><i>Instantly connect</i> with suggested doctors </p>
-                <p></p>
-                <p></p>
-                
-            </header>
-            <div class="gallery">
-                <article class="from-right">
-                    <div class="image heydoc fit"><img src="images/heyDoc/HeyDoc-4.jpg"
-                            style="padding: 0px 0px 0px 0px" alt="" />
-                        </div>
-                </article>
-                <article class="from-left">
-                    <div class="image heydoc fit"><img src="images/heyDoc/heydoc-3.jpg"
-                            style="padding: 0px 0px 0px 0px" alt="">
-                        </div>
-                </article>
-            </div>
-            <header>
-                <h2>Select & Consult</h2>
-                <p> Find specialist Doctors near you and<b> Video-Consult</b> . </p>
-                <p>Even book an <i>In-Person Appointment</i> with them at your convenience</p>
-                <p></p>
-                <p></p>
-            </header>
-            <div class="gallery">
-                <article class="from-right">
-                    <div class="image heydoc fit"><img src="images/heyDoc/heydoc-2.jpg" 
-                            style="padding: 0px 0px 0px 0px" alt="" />
-                        </div>
-                </article>
-                <article class="from-left">
-                    <div class="image heydoc fit"><img src="images/heyDoc/heydoc-5.jpg"
-                            style="padding: 0px 0px 0px 0px" alt="">
-                        </div>
-                </article>
-            </div>
-            <header>
-                <h2>Personal Healthcare Assistant</h2>
-                <p>Easily connect with <b>Referred Doctors</b> for further treatment with <i>Smart Reports</i> which
-                    store all your Medical report and all advised Prescriptions</p>
-                <p>Keep a track of your daily prescribed medicines with <i>Automated Prescriptions</i> and even add your
-                    own personal <i>reminders</i></p>
-            </header>
-
+<body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="patients-desktop-all-breakpoints" />
+    <div class="patients-desktop-all-breakpoints screen">
+      <div class="frame-136-HQx8BE">
+        <a href="https://www.linkedin.com/company/heydoc-healthtech/">
+        <img class="icon-linkedin-qsJxCo" src="img/akar-icons-linkedin-v2-fill-1@2x.png" />
+      </a>
+        <div class="amogh-nsmp-tech-priv-qsJxCo valign-text-middle manrope-normal-mine-shaft-18px">
+          © AMOGH NSMP TECH PRIVATE LIMITED <br /><br />heyDoc™ 2022
         </div>
-    </section>
-    <!-- Work -->
-    
-</section>
-<div class="whatsapp_float">
-    <a class="button" type="submit" href="https://api.whatsapp.com/send?phone=917820087857" target=_blank
-   style="background-color: black;font-size: small;">Book Free Demo</a>
-</div>    
-<Style>
-   .whatsapp_float{
-       position:fixed;
-       bottom:50px;
-       right:80px;
-       font-weight: bold;
-   }
-</Style>
-    <!-- Footer -->
-    <footer id="footer">
-        <!-- Icons -->
-        <ul class="icons">
-            <li><a href="https://www.linkedin.com/company/heydoc-healthtech" class="icon brands fa-linkedin-in"><span
-                        class="label">LinkedIn</span></a></li>
-        </ul>
-        <!-- Menu -->
-        <ul class="menu">
-            <li>&copy; AMOGH NSMP TECH PRIVATE LIMITED</li>
-            <li>+91 7820087857</li>
-            <li> heyDoc&#8482;  2022</li>
-        </ul>
-    </footer>
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.poptrox.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
-
+        <img class="helium-1-qsJxCo" src="img/helium-1-2@2x.png" />
+        <a href="https://youtu.be/rSQ3jB1U1w0">
+        <img class="icon-youtube-qsJxCo" src="img/ant-design-youtube-filled@2x.png" />
+        </a>
+        <div class="contact-us-91-7820087857-qsJxCo valign-text-middle manrope-normal-mine-shaft-18px">
+          Contact Us: +91 7820087857
+        </div>
+        <div class="group-133-qsJxCo">
+          <img class="group-132-3fijXE" src="img/group-111-4@2x.png" />
+          <a href="index.html"
+            ><div class="hey-doc-for-doctors-3fijXE valign-text-middle manrope-normal-black-18px">
+              heyDoc for Doctors
+            </div>
+          </a>
+          <div class="hey-doc-for-patients-3fijXE valign-text-middle manrope-normal-mist-gray-18px">
+            heyDoc for Patients
+          </div>
+          <a href="security.html"
+            ><div class="data-security-3fijXE valign-text-middle manrope-normal-black-18px">Data Security</div> </a
+          ><a href="pricing.html"
+            ><div class="pricing-3fijXE valign-text-middle manrope-normal-black-18px">Pricing</div>
+          </a>
+        </div>
+        <div class="group-135-qsJxCo">
+          <img class="group-134-3xpPxM" src="img/group-111-4@2x.png" />
+          <div class="start-free-trial-3xpPxM valign-text-middle manrope-normal-black-18px">Start Free trial</div>
+          <div class="fa-qs-3xpPxM valign-text-middle manrope-normal-black-18px">FAQs</div>
+          <div class="queries-3xpPxM valign-text-middle manrope-normal-black-18px">Queries</div>
+          <div class="tutorials-3xpPxM valign-text-middle manrope-normal-black-18px">Tutorials</div>
+        </div>
+      </div>
+      <div class="frame-132-HQx8BE">
+        <div class="frame-131-fxZ843">
+          <img class="untitled-1-1-GwJMip" src="img/untitled-1-1@1x.png" />
+          <div class="your-window-to-digital-healthcare-GwJMip">Your window to<br />Digital Healthcare</div>
+          <div class="manage-health-for-yo-GwJMip manrope-normal-black-17px">
+            Manage health for you &amp; your loved ones from a single app.
+          </div>
+          <a href="https://play.google.com/store/apps/details?id=com.heyDoc.heyDoc&hl=en_IN&gl=US">
+          <div class="buttons-GwJMip smart-layers-pointers">
+            <div class="button-UnyM5p valign-text-middle manrope-extra-bold-white-18px">Download App</div>
+          </div>
+        </a>
+        </div>
+        <div class="frame-5-fxZ843">
+          <div class="frame-159-qNh8VS">
+            <div class="frame-174-xSw80g">
+              <div class="frame-158-8Bw8Iz">
+                <div class="detailed-e-report-af-YXpJhy manrope-bold-black-36px">
+                  Detailed E- Report after every appointment
+                </div>
+                <div class="easily-connect-with-YXpJhy manrope-normal-black-17px">
+                  Easily connect with Referred Doctors for further treatment with Smart Reports which store all your
+                  Medical report and all advised Prescriptions
+                </div>
+              </div>
+            </div>
+            <img class="image-44-xSw80g" src="img/image-44@2x.png" />
+          </div>
+          <div class="frame-160-qNh8VS">
+            <div class="frame-158-U9PwU9">
+              <div class="digitalize-your-payments-K2MKCS manrope-bold-black-36px">Digitalize your payments</div>
+              <div class="make-online-transact-K2MKCS manrope-normal-black-17px">
+                Make online transactions to pre-book appointments and scan QR codes at clinic to pay fees.
+              </div>
+            </div>
+            <img class="group-103-U9PwU9" src="img/group-103-1@2x.png" />
+          </div>
+          <div class="more-features-as-required-qNh8VS">More Features, as required</div>
+          <div class="frame-154-qNh8VS">
+            <div class="frame-169-kMh5vi">
+              <div class="frame-168-LgffoQ">
+                <div class="find-connect-4Ru1Kd manrope-bold-black-36px">Find &amp; Connect</div>
+                <div class="connect-with-experie-4Ru1Kd manrope-normal-black-17px">
+                  Connect with experienced and reputed Specialist Doctors at your convenience
+                </div>
+              </div>
+              <div class="frame-151-LgffoQ">
+                <img class="image-39-dxzwuA" src="img/image-39@2x.png" />
+                <img class="image-40-dxzwuA" src="img/image-40@2x.png" />
+              </div>
+            </div>
+          </div>
+          <div class="frame-153-qNh8VS">
+            <div class="frame-156-QMXBdu">
+              <img class="image-41-UwCkYP" src="img/image-41@2x.png" />
+              <div class="frame-152-UwCkYP">
+                <div class="book-instant-appointments-XCLk04 manrope-bold-black-36px">Book instant appointments</div>
+                <div class="book-instant-in-pers-XCLk04 manrope-normal-black-17px">
+                  Book instant in-person appointment with specialist doctors
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-157-qNh8VS">
+            <div class="frame-171-GweQVd">
+              <div class="frame-172-3bUfbx">
+                <div class="frame-173-xoPyK1">
+                  <div class="connect-with-doctors-over-video-5esSMz manrope-bold-black-36px">
+                    Connect with doctors over Video
+                  </div>
+                  <div class="find-specialist-doct-5esSMz manrope-normal-black-17px">
+                    Find specialist doctors near you &amp; start discussing your symptoms
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="video-call-GweQVd" src="img/video-call-1@2x.png" />
+          </div>
+          <div class="frame-155-qNh8VS">
+            <img class="image-43-ewW7Yd" src="img/image-43@2x.png" />
+            <div class="frame-152-ewW7Yd">
+              <div class="prescription-at-your-fingertips-UITOyD manrope-bold-black-36px">
+                Prescription at your fingertips
+              </div>
+              <div class="track-you-course-of-UITOyD manrope-normal-black-17px">
+                Track you course of treatment &amp; get reminders for taking medicines.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-129-fxZ843">
+          <div class="testimonials-AuhFX3 manrope-bold-black-36px">Testimonials</div>
+          <div class="frame-129-AuhFX3">
+            <div class="frame-126-c2dhXc">
+              <div class="i-was-able-to-connec-MlbGxt manrope-normal-black-16px">
+                I was able to connect with a Doctor near me over a Tele-Consult followed by an In-Person Consultation
+                seamlessly. Finally a well thought Healthcare Solution.
+              </div>
+              <div class="rajat-singh-MlbGxt manrope-bold-mountain-mist-14px">Rajat Singh</div>
+            </div>
+            <div class="frame-129-c2dhXc">
+              <div class="now-i-dont-have-to-c-iJTRud manrope-normal-black-16px">
+                Now I don&#39;t have to carry my Reports everywhere as a Hardcopy. HeyDoc app stores all my Health
+                Records/Prescriptions in a chronological order.
+              </div>
+              <div class="praveen-gupta-iJTRud manrope-bold-mountain-mist-14px">Praveen Gupta</div>
+            </div>
+            <div class="frame-130-c2dhXc">
+              <div class="hey-doc-really-helpe-xBHqe1 manrope-normal-black-16px">
+                HeyDoc really helped me save time spent standing in a queue by scanning their Qr Code and providing my
+                essential information to the reception by the tap of a button.
+              </div>
+              <div class="punit-daga-xBHqe1 manrope-bold-mountain-mist-14px">Punit Daga</div>
+            </div>
+          </div>
+          <div class="group-109-AuhFX3">
+            <img class="all-icons-i4Jieg" src="img/vector@2x.png" />
+            <img class="all-icons-tkSO6b" src="img/vector@2x.png" />
+          </div>
+        </div>
+      </div>
+      <div class="frame-1-HQx8BE">
+        <img class="helium-1-wViW0D" src="img/helium-1@2x.png" />
+        <div class="frame-161-wViW0D">
+          <a href="index.html"
+            ><div class="for-doctors-88wln6 valign-text-middle manrope-extra-bold-black-16px">For Doctors</div>
+          </a>
+          <div class="for-patients-88wln6 valign-text-middle manrope-extra-bold-blue-16px">For Patients</div>
+          <a href="pricing.html"
+            ><div class="pricing-88wln6 valign-text-middle manrope-extra-bold-black-16px">Pricing</div> </a
+          ><a href="security.html"
+            ><div class="security-88wln6 valign-text-middle manrope-extra-bold-black-16px">Security</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="patients-mobile screen">
+      <div class="frame-1-C7sKX8">
+        <img class="helium-1-QdVTWS" src="img/vector-2@2x.png" />
+        <img class="all-icons-QdVTWS" src="img/vector-2@2x.png" />
+        <div class="frame-125-QdVTWS">
+          <div class="for-doctors-3rXpOS valign-text-middle manrope-normal-black-14px">For Doctors</div>
+          <img class="all-icons-3rXpOS" src="img/vector-2@2x.png" />
+        </div>
+      </div>
+      <div class="frame-136-C7sKX8">
+        <div class="frame-5-IZU8hG"></div>
+        <div class="frame-129-IZU8hG">
+          <div class="testimonials-fxFbyQ manrope-bold-black-19px">Testimonials</div>
+          <div class="frame-120-fxFbyQ">
+            <div class="frame-128-qapUQH">
+              <div class="frame-126-43T0qh">
+                <div class="i-was-able-to-connec-eFsIiS manrope-normal-black-14px">
+                  I was able to connect with a Doctor near me over a Tele-Consult followed by an In-Person Consultation
+                  seamlessly. Finally a well thought Healthcare Solution.
+                </div>
+                <div class="rajat-singh-eFsIiS manrope-bold-mountain-mist-14px">Rajat Singh</div>
+              </div>
+              <div class="frame-130-43T0qh">
+                <div class="now-i-dont-have-to-c-7TUBuC manrope-normal-black-14px">
+                  Now I don&#39;t have to carry my Reports everywhere as a Hardcopy. HeyDoc app stores all my Health
+                  Records/Prescriptions in a chronological order.
+                </div>
+                <div class="praveen-gupta-7TUBuC manrope-bold-mountain-mist-14px">Praveen Gupta</div>
+              </div>
+              <div class="frame-131-43T0qh">
+                <div class="hey-doc-really-helpe-xA6iqS manrope-normal-black-14px">
+                  HeyDoc really helped me save time spent standing in a queue by scanning their Qr Code and providing my
+                  essential information to the reception by the tap of a button.
+                </div>
+                <div class="punit-daga-xA6iqS manrope-bold-mountain-mist-14px">Punit Daga</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="frame-135-IZU8hG">
+          <img class="helium-1-FfJwrr" src="img/helium-1-11@2x.png" />
+          <img class="group-119-FfJwrr" src="img/group-119-3@2x.png" />
+          <div class="contact-us-91-782008-FfJwrr valign-text-middle manrope-normal-mine-shaft-14px">
+            Contact Us: +91 7820087857<br /><br />© AMOGH NSMP TECH PRIVATE LIMITED <br /><br />heyDoc™ 2022
+          </div>
+          <div class="group-118-FfJwrr">
+            <div class="start-free-trial-OpT47G valign-text-middle manrope-normal-black-14px">Start Free trial</div>
+            <div class="fa-qs-OpT47G valign-text-middle manrope-normal-black-14px">FAQs</div>
+            <div class="queries-OpT47G valign-text-middle manrope-normal-black-14px">Queries</div>
+            <div class="tutorials-OpT47G valign-text-middle manrope-normal-black-14px">Tutorials</div>
+            <img class="group-111-OpT47G" src="img/group-111-7@2x.png" />
+          </div>
+          <div class="group-117-FfJwrr">
+            <a href="index.html"
+              ><div class="hey-doc-for-doctors-kEok2Y valign-text-middle manrope-normal-black-14px">
+                heyDoc for Doctors
+              </div>
+            </a>
+            <div class="hey-doc-for-patients-kEok2Y valign-text-middle manrope-normal-mist-gray-14px">
+              heyDoc for Patients
+            </div>
+            <a href="security.html"
+              ><div class="data-security-kEok2Y valign-text-middle manrope-normal-black-14px">Data Security</div> </a
+            ><a href="pricing.html"
+              ><div class="pricing-kEok2Y valign-text-middle manrope-normal-black-14px">Pricing</div> </a
+            ><img class="akar-iconschevron-down-kEok2Y" src="img/akar-icons-chevron-down-12@2x.png" />
+            <img class="akar-iconschevron-down-5ezGER" src="img/akar-icons-chevron-down-13@2x.png" />
+            <img class="akar-iconschevron-down-x5xxe8" src="img/akar-icons-chevron-down-13@2x.png" />
+            <img class="akar-iconschevron-down-rjiwVT" src="img/akar-icons-chevron-down-13@2x.png" />
+          </div>
+        </div>
+      </div>
+      <div class="frame-162-C7sKX8">
+        <img class="untitled-1-1-GqijOW" src="img/untitled-1-1-1@2x.png" />
+        <div class="frame-137-GqijOW">
+          <div class="frame-142-vkmyAk">
+            <div class="frame-143-c2Ajpm">
+              <div class="your-personal-healthcare-assistant-LX5YNO">Your personal healthcare assistant</div>
+              <div class="frame-139-LX5YNO">
+                <div class="manage-health-for-yo-Gg7Aj0 manrope-normal-black-14px">
+                  Manage health for you &amp; your loved ones from a single app.
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.heyDoc.heyDoc&hl=en_IN&gl=US">
+                <div class="buttons-Gg7Aj0 smart-layers-pointers">
+                  <div class="button-7k3iB2 valign-text-middle manrope-extra-bold-white-18px">Download App</div>
+                </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="frame-167-C7sKX8">
+        <div class="frame-148-cQ0QiS">
+          <div class="find-connect-80awch manrope-bold-black-20px">Find &amp; Connect</div>
+          <div class="connect-with-experie-80awch manrope-normal-black-12px">
+            Connect with experienced and reputed Specialist Doctors at your convenience
+          </div>
+        </div>
+        <div class="frame-151-cQ0QiS">
+          <img class="image-39-rHHOkV" src="img/image-39-1@2x.png" />
+          <img class="image-40-rHHOkV" src="img/image-40-1@2x.png" />
+        </div>
+      </div>
+      <div class="frame-165-C7sKX8">
+        <div class="frame-152-8yGskx">
+          <div class="book-instant-appointments-vmH6Pv manrope-bold-black-20px">Book instant appointments</div>
+          <div class="book-instant-in-pers-vmH6Pv manrope-normal-black-12px">
+            Book instant in-person appointment with specialist doctors
+          </div>
+        </div>
+        <div class="frame-162-8yGskx">
+          <div class="frame-156-lIA9Ym"><img class="image-41-gFAfEx" src="img/image-41-1@2x.png" /></div>
+        </div>
+      </div>
+      <div class="frame-162-arori5">
+        <div class="frame-152-kx7xdz">
+          <div class="teleconsultation-lnkzvF manrope-bold-black-20px">Teleconsultation</div>
+          <div class="find-specialist-doct-lnkzvF manrope-normal-black-12px">
+            Find specialist Doctors near you and Video-Consult
+          </div>
+        </div>
+        <img class="video-call-kx7xdz" src="img/video-call-4@2x.png" />
+      </div>
+      <div class="frame-165-arori5">
+        <div class="frame-163-JJFCsM">
+          <div class="instant-prescription-at-you-fingertips-n8GW0j manrope-bold-black-20px">
+            Instant prescription at you fingertips
+          </div>
+          <div class="track-you-course-of-n8GW0j manrope-normal-black-12px">
+            Track you course of treatment &amp; get reminders for taking medicines.
+          </div>
+        </div>
+        <img class="image-44-JJFCsM" src="img/image-44-1@2x.png" />
+      </div>
+      <div class="frame-162-6xQ1V0">
+        <div class="frame-166-Cb7veP">
+          <div class="frame-158-05Kmur">
+            <div class="detailed-e-report-af-NySoze manrope-bold-black-20px">
+              Detailed E- Report after every appointment
+            </div>
+            <div class="easily-connect-with-NySoze manrope-normal-black-12px">
+              Easily connect with Referred Doctors for further treatment with Smart Reports which store all your Medical
+              report and all advised Prescriptions
+            </div>
+          </div>
+          <img class="image-44-05Kmur" src="img/image-44-2@2x.png" />
+        </div>
+      </div>
+      <div class="frame-162-xZsJSC">
+        <div class="frame-158-Tw2FHK">
+          <div class="digitalize-your-payments-WGGf8O manrope-bold-black-20px">Digitalize your payments</div>
+          <div class="make-online-transact-WGGf8O manrope-normal-black-12px">
+            Make online transactions to pre-book appointments and scan QR codes at clinic to pay fees.
+          </div>
+        </div>
+        <img class="group-103-Tw2FHK" src="img/group-103-4@2x.png" />
+      </div>
+      <div class="frame-166-C7sKX8">
+        <img class="helium-1-xGLcdl" src="img/helium-1@2x.png" />
+        <div class="frame-2-xGLcdl">
+          <a href="index.html"
+            ><div class="doctors-Pqt3At valign-text-middle manrope-normal-black-14px">Doctors</div> </a
+          ><a href="pricing.html"
+            ><div class="pricing-Pqt3At valign-text-middle manrope-normal-black-14px">Pricing</div> </a
+          ><a href="security.html"
+            ><div class="security-Pqt3At valign-text-middle manrope-normal-black-14px">Security</div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
