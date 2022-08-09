@@ -12,7 +12,24 @@
   position: relative;
   width: 100%;
 }
-
+.security-mobile .akar-iconslinkedin-v2-fill-WdRMqy {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
+.security-mobile .ant-designyoutube-filled-WdRMqy {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 24px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
 .security-mobile .rectangle-5-S89QYg {
   background-color: var(--zircon);
   height: 1187px;

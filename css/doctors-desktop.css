@@ -1592,6 +1592,40 @@
   width: calc(100.00% - 39px);
 }
 
+.doctors-mobile-all-breakpoints .buttons-2nd {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: 16px;
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  pointer-events: auto;
+  position: absolute;
+  top: 1850px;
+  transition: all 0.2s ease;
+  width: calc(100.00% - 32px);
+}
+.doctors-mobile-all-breakpoints .buttons-3rd {
+  align-items: center;
+  background-color: var(--primary);
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: min-content;
+  justify-content: center;
+  left: 16px;
+  mix-blend-mode: normal;
+  padding: 10px 16px;
+  pointer-events: auto;
+  position: absolute;
+  top: 3010px;
+  transition: all 0.2s ease;
+  width: calc(100.00% - 32px);
+}
 .doctors-mobile-all-breakpoints .buttons-xX5BKx {
   align-items: center;
   background-color: var(--primary);
@@ -1605,7 +1639,7 @@
   padding: 10px 16px;
   pointer-events: auto;
   position: absolute;
-  top: 493px;
+  top: 533px;
   transition: all 0.2s ease;
   width: calc(100.00% - 32px);
 }
@@ -2609,6 +2643,25 @@
   top: calc(50.00% + 68px);
   white-space: nowrap;
   width: auto;
+}
+.doctors-mobile-all-breakpoints .akar-iconslinkedin-v2-fill-sJ7eoO {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
+
+.doctors-mobile-all-breakpoints .ant-designyoutube-filled-sJ7eoO {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 24px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
 }
 
 .doctors-mobile-all-breakpoints .frame-135-xmR7nw {
