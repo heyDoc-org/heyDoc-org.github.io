@@ -23,6 +23,25 @@
   top: 974px;
   width: 100%;
 }
+.pricing-mobile .akar-iconslinkedin-v2-fill-AyFi7E {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
+
+.pricing-mobile .ant-designyoutube-filled-AyFi7E {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 24px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
 
 .pricing-desktop-all-breakpoints .doctors-pana-1-2-2-GZ1EuF {
   background-color: transparent;

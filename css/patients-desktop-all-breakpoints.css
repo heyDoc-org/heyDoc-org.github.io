@@ -12,7 +12,25 @@
   position: relative;
   width: 100%;
 }
+.pricing-mobile .akar-iconslinkedin-v2-fill-FfJwrr {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% - 64px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
 
+.pricing-mobile .ant-designyoutube-filled-FfJwrr {
+  background-color: transparent;
+  height: 40px;
+  left: calc(50.00% + 24px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 208px;
+  width: 40px;
+}
 .patients-desktop-all-breakpoints .frame-136-HQx8BE {
   background-color: var(--black-haze);
   height: 390px;
