@@ -1634,14 +1634,14 @@
   display: flex;
   height: min-content;
   justify-content: center;
-  left: 16px;
+  left: 24px;
   mix-blend-mode: normal;
   padding: 10px 16px;
   pointer-events: auto;
   position: absolute;
   top: 533px;
   transition: all 0.2s ease;
-  width: calc(100.00% - 32px);
+  width: calc(100.00% - 48px);
 }
 
 .doctors-mobile-all-breakpoints .buttons-xX5BKx:hover {
