@@ -477,15 +477,21 @@ i {
     background-color: #fff;
     color: #000000;
     position: relative;
-    left: 100px;
-    width: 820px;
-    height: 45px;
-    margin-top: -10px;
+    left: 10px;
+    height: 40px;
+    margin-top: -20px;
     border-radius: 20px;
   }
+
+  .docdash__nav--main{
+    color: #000000;
+    width: 160px;
+    margin-top: -10px;
+  }
+
   .header__item{
     margin-top: 15px;
-    margin-left: 10px;
+    margin-left: 8px;
   }
   .leftside2023{
     margin-left: -80px;
@@ -1034,15 +1040,14 @@ img {
 .header__logo::after,
 .icon--blippar::before,
 .icon-end--blippar::after {
-  content: "FindMyWay Ar";
-  font-size: 25px;
-
+  content: "HeyDoc";
+  font-size: 30px;
+  color: #0c2e31;
   font-weight: 700;
-  margin-left: -40px;
+  margin-left: -45px;
+
   font-family: Helvetica, sans-serif;
  
- 
-  
 }
 
 .price-plans__card-details-item::before,
@@ -3635,7 +3640,7 @@ button {
 .header--secondary,
 .header-open .header {
   color: #fff;
-  background-color: #00000000;
+  background-color: #fff;
   
 }
 
@@ -3656,13 +3661,32 @@ button {
   }
 
   .header--scroll.header--reveal {
-    background-color: #0a2540;
+    background-color: #fff;
   }
 
   .header--scroll .header__shader {
-    padding-bottom: 28px;
-    padding-top: 20px;
-    
+    padding-bottom: 18px;
+
+  }
+  .btn--docdash {
+    width: 160;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    padding: 10px 10px 6px 10px ;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .info {
+    border-color: #032B44;
+    color: #032B44
+  }
+  
+  .info:hover {
+    background: #032B44;
+    color: white;
   }
 
   .header--reveal {
@@ -3673,13 +3697,13 @@ button {
 
 .header__shader {
   padding: 28px;
-  height: 20px;
- 
+  height: 10px;
+  background-color: #fff
 }
 
 @media only screen and (min-width: 760px) {
   .header__shader {
-    padding: 36px 60px
+    padding: 26px 60px
   }
   
 }
@@ -3867,12 +3891,33 @@ button {
   }
 }
 
+.docdash__nav--main {
+  margin-bottom: 52px
+}
+
 .header__nav--main {
   margin-bottom: 52px
 }
 
 @media only screen and (min-width: 1060px) {
+  .docdash__nav--main {
+    margin-bottom: 0;
+    margin-left: 60px;
+    text-align: left
+  }
+}
+
+@media only screen and (min-width: 1060px) {
   .header__nav--main {
+    width: 640px;
+    margin-bottom: 0;
+    margin-left: 60px;
+    text-align: left
+  }
+}
+@media only screen and (min-width: 1180px) {
+  .header__nav--main {
+    width: 720px;
     margin-bottom: 0;
     margin-left: 60px;
     text-align: left
@@ -3907,7 +3952,7 @@ button {
 
 @media only screen and (min-width: 1060px) {
   .header__item {
-    font-size: 12px;
+    font-size: 16px;
     display: inline-block;
     vertical-align: middle
   }
@@ -3969,7 +4014,7 @@ button {
   }
 
   .header__nav--main .header__item:not(:nth-child(1)) {
-    padding-left: 40px
+    padding-left: 30px
   }
 }
 
@@ -4029,7 +4074,12 @@ button {
 
 @media only screen and (min-width: 1060px) {
   .header__side {
-    width: 160px
+    width: 120px
+  }
+}
+@media only screen and (min-width: 1060px) {
+  .docdash__button_width{
+    width: 220px
   }
 }
 
