@@ -1296,8 +1296,8 @@ img {
   width: 186px
 }
 
-.landing__fun-zone,
-.fun-zone {
+.section__fun-zone,
+.landing__fun-zone {
   padding-left: 10px;
   height: 340px;
 
@@ -1310,8 +1310,8 @@ img {
     height: 385px;
     width: 217px
   }
-  .landing__fun-zone,
-  .fun-zone {
+  .section__fun-zone,
+  .landing__fun-zone{
     padding: 0px 40px;
     height: 385px;
     width: 385px
@@ -1325,8 +1325,8 @@ img {
     height: 440px;
     width: 248px
   }
-  .landing__fun-zone,
-  .fun-zone {
+  .section__fun-zone,
+  .landing__fun-zone{
     padding: 0px 40px;
     height: 385px;
     width: 440px
@@ -1340,8 +1340,8 @@ img {
     height: 550px;
     width: 310px
   }
-  .landing__fun-zone,
-  .fun-zone {
+  .section__fun-zone,
+  .landing__fun-zone{
     padding: 0px 80px;
     height: 385px;
     width: 410px
@@ -7632,7 +7632,7 @@ width: 90px;
 }
 
 .slideshow {
-position: relative;
+  position: relative;
   z-index: 1
 }
 
