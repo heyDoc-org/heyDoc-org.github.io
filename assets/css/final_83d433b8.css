@@ -2119,7 +2119,7 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between; /* Distribute space between children */
   align-items: end;
   text-align: start;
-  height: 360px; /* Full height */
+  height: 380px; /* Full height */
 }
 
 
@@ -2167,7 +2167,7 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
 
 .card-image {
   width: 70%;
-  height: 160px;
+  height: 200px;
   display: flex;
   object-fit: contain;
   justify-content: end; /* Center the image horizontally */
@@ -2200,7 +2200,7 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between; /* Distribute space between children */
   align-items: end;
   text-align: start;
-  height: 370px; /* Full height */
+  height: 400px; /* Full height */
 }
 }
 
@@ -2250,7 +2250,7 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
     justify-content: space-between; /* Distribute space between children */
     align-items: end;
     text-align: start;
-    height: 460px; /* Full height */
+    height: 480px; /* Full height */
   }
   .comic-button {
     display: inline-block;
@@ -2288,7 +2288,7 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
 
   .card-image {
     width: 80%;
-    height: 200px;
+    height: 230px;
     display: flex;
     object-fit: contain;
     justify-content: end; /* Center the image horizontally */
