@@ -2487,7 +2487,7 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
 .typeset ul,
 .ul {
   margin: 32px 0 48px;
-  padding-left: 40px
+  padding-left: 20px
 }
 
 @media only screen and (min-width: 760px) {
@@ -2495,14 +2495,14 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
   .typeset ol,
   .typeset ul,
   .ul {
-    margin: 60px 0 80px
+    margin: 40px 0 40px
   }
 }
 
 .typeset ol li,
 .typeset ul li,
 .ul li {
-  margin-bottom: 24px
+  margin-bottom: 16px
 }
 
 .typeset ul li,
@@ -6009,7 +6009,7 @@ width: 90px;
 
 @media only screen and (min-width: 760px) {
   .section--inset-s {
-    padding: 100px 0
+    padding: 60px 0
   }
 }
 
