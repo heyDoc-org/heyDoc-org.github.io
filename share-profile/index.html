@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeyDoc App Launcher</title>
+    <link rel="stylesheet" href="/assets/css/final_83d433b8.css" media="screen" />
+	<link rel="stylesheet" href="/assets/css/animate.css">
+    <title>HeyDoc AI App Launcher</title>
     <script type="text/javascript">
         window.onload = function() {
             const userAgent = navigator.userAgent.toLowerCase();
@@ -17,14 +19,67 @@
             } else {
                 // Non-mobile devices or unknown User-Agent
                 document.body.innerHTML = `
-                    <h1>Welcome to HeyDoc</h1>
-                    <p>Please visit our site on a mobile device to get the full experience.</p>
-                    <a href="${appStoreUrl}" target="_blank">Download on the App Store</a><br>
-                    <a href="${playStoreUrl}" target="_blank">Get it on Google Play</a>
+                <div class="container">
+                        <h1>Welcome to HeyDoc AI</h1>
+                        <p>Seems you are trying to download our application, scan the qr code below to download the application</p>
+                        <a href="${appStoreUrl}" target="_blank">Download from the App Store</a><br>
+                        <a href="${playStoreUrl}" target="_blank">Download from Google Play</a>
+                        <img src="qr.png" width="300" style="box-shadow: 5px 7px 12px #d5d5d5;"
+																				height="300" alt="Download HeyDoc AI from Play store and App store">
+                    </div>
+
+                    
                 `;
             }
         }
     </script>
+    <style>
+        /* Basic CSS for non-mobile users */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px 0px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+        img {
+            
+            margin: 40px auto;
+    display: block;
+}
+
+        a {
+            display: inline-block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        a:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 </body>
