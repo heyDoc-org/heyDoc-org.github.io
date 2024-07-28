@@ -2088,6 +2088,22 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
   transition-delay: 0ms;
 }
+.hero-title-launch {
+  color: #042b44;
+  font-size: 40px;
+  font-weight: 700; font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  transition-delay: 0ms;
+  }
+
+.hero-launch {
+  color: #042b44;
+  font-size: 25px;
+  font-weight: 700; font-family: Arial, Helvetica, sans-serif;
+  margin: 0 10px 20px 10px;
+  text-transform: capitalize;
+  transition-delay: 0ms;
+}
 
 .hero-description {
   color: #042b44;
@@ -2222,6 +2238,23 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
       text-transform: capitalize;
       transition-delay: 3ms;
     }
+    .hero-title-launch {
+      font-weight: 700; font-family: Arial, Helvetica, sans-serif;
+       text-transform: none; 
+       transition-delay: 3ms;
+        color: #042b44;
+        font-size: 56px;    
+      }
+    .hero-launch {
+      color: #042b44;
+      font-size: 48px;
+      font-weight: 700; 
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 30px 0 55px 0;
+      text-transform: capitalize;
+      transition-delay: 3ms;
+    }
+    
     
     .hero-description {
       color: #042b44;
@@ -6869,6 +6902,15 @@ width: 90px;
   margin-bottom: 1rem;
   max-width: 200px
 }
+.inline-element {
+  display: inline-block;
+}
+
+.inline-image {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
 
 .work-slide__heading {
   text-align: center;
@@ -6881,6 +6923,11 @@ width: 90px;
     font-size: 22px;
     text-align: start;
     margin-bottom: 2rem
+  }
+  .inline-image {
+    height: 70px;
+    width: 70px;
+    vertical-align: middle;
   }
 }
 
