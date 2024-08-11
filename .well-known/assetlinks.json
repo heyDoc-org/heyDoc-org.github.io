@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.heyDoc.heyDoc",
+      "sha256_cert_fingerprints": [
+        "A4:CB:DB:8E:E8:90:33:65:3C:64:AD:07:75:A7:DD:1C:1F:3C:42:70:A1:E5:64:33:02:C7:AD:B6:6E:4F:C2:F6"
+      ]
+    }
+  }
+]
