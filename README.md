@@ -21,6 +21,26 @@ b. the purpose, means, and modes of collection, usage, processing, retention, an
 
 c. process of disclosure of such information.”.
 
+**HEALTH CONNECT DATA COLLECTED**
+
+a. Collection and Usage of Health Data:
+We value the privacy and security of our users. Our mobile application requests access to health-related permissions, specifically the ability to read height, weight, steps, distance, calories burnt, exercise and sleep information. This data is collected for the sole purpose of enhancing the user experience and providing features related to health and fitness.
+
+b. Purpose of Health Data Access:
+Our app utilizes health-related permissions to track daily weight, steps, distance, calories burnt, exercise and sleep information. This data is processed locally on the user's device and is not shared with any third parties.
+
+c. User Consent:
+By using our app, you explicitly consent to the collection and usage of health-related data for the purposes outlined in this privacy policy. You have the option to grant or deny these permissions within the app settings.
+
+d. Security Measures:
+We implement robust security measures to protect the confidentiality and integrity of health-related data. This includes encryption and secure storage.
+
+e. Data Retention:
+We retain health-related data only for as long as necessary to fulfill the purposes outlined in this privacy policy. Users can request the deletion of their data by 
+
+f. Third-Party Services:
+Our app does not share health-related data with any third-party services, advertisers, or external entities. We do not engage in the sale or exchange of user data.
+
 **PERSONAL INFORMATION COLLECTED**
 
 Considering the nature of our services, we may require you to provide your Personal Information for using the, which Platform shall include but not be limited to the following (“Personal Information”):
