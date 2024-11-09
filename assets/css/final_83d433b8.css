@@ -1040,11 +1040,11 @@ img {
 .header__logo::after,
 .icon--blippar::before,
 .icon-end--blippar::after {
-  content: "HeyDoc";
+  content: "HeyDoc AI";
   font-size: 30px;
-  color: #0c2e31;
+  color: #fff;
   font-weight: 700;
-  margin-left: -45px;
+  margin-left: -20px;
 
   font-family: Helvetica, sans-serif;
  
@@ -4437,7 +4437,7 @@ button {
 
 @media only screen and (max-width: 759px) {
   .header__inner {
-    padding-left: 28px;
+    padding-left: 58px;
     padding-right: 28px
   }
 }
@@ -4590,17 +4590,17 @@ width: 90px;
 
 @media only screen and (min-width: 1060px) {
   .header__nav--main {
-    width: 640px;
+
     margin-bottom: 0;
-    margin-left: 60px;
+
     text-align: left
   }
 }
 @media only screen and (min-width: 1180px) {
   .header__nav--main {
-    width: 720px;
+
     margin-bottom: 0;
-    margin-left: 60px;
+
     text-align: left
   }
 }
@@ -4755,7 +4755,15 @@ width: 90px;
 
 @media only screen and (min-width: 1060px) {
   .header__side {
-    width: 120px
+    width: 120px;
+    margin-left: 10px;
+  }
+}
+@media only screen and (min-width: 1060px) {
+  .header__wellnessgptside {
+    width: 190px;
+    margin-right: 30px;
+    margin-top: -15px;
   }
 }
 @media only screen and (min-width: 1060px) {
