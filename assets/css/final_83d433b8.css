@@ -2298,42 +2298,6 @@ font-weight: 700; font-family: Arial, Helvetica, sans-serif;
     font-family: Arial, Helvetica, sans-serif; 
     text-transform:none"
   }
-  .team-card { /* Light blue background */
-    border-radius: 16px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 340px; /* Fixed width */
-    padding: 20px; /* Padding inside the card */
-    margin: 10px 30px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Distribute space between children */
-    align-items: center;
-    text-align: center;
-    height: 480px; /* Full height */
-  }
-  .team-card h2 {
-    color: #000000;font-size:1.5em;font-weight: 500; font-family: Arial, Helvetica, sans-serif; text-transform: none; transition-delay: 0ms;
-    margin: 0 0 20px 0;
-  
-  }
-  .team-card p {
-    font-size: 1.3em; /* Adjust font size */
-    margin: 0 0 20px 0;
-    color: #000;
-  }
-  .team-card-image {
-
-    height: 220px;
-    width: 220px;
-    display: flex;
-    object-fit: contain;
-    justify-content: end; /* Center the image horizontally */
-  }
-  .team-card-image img {
-    width: 100%; /* Full width image */
-    border-radius: 16px; /* Rounded corners */
-  }
-
   .card { /* Light blue background */
     border-radius: 16px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
