@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +23,6 @@
 <!-- fevicon icon add end -->
 
 	<link rel="stylesheet" href="assets/css/final_83d433b8.css" media="screen" />
-	<link rel="stylesheet" href="assets/css/heydoc-styles.css" media="screen" />
 	<link rel="stylesheet" href="assets/css/animate.css">
 	<title itemprop="name">HeyDoc AI - Personalized Health, powered by WellnessGPT</title>
     <style>
@@ -1289,17 +1287,17 @@
 																	width="1000" height="1200" alt=""
 																	srcset="img/icon/mallicon.png 1000w, img/icon/mallicon.png 2000w"
 																	src="img/icon/mallicon.png">
-															</div> -->
+															</div>
 
 
-															<!-- <div class="video video--ctrls slideshow__video crop crop--rounded"
+															<div class="video video--ctrls slideshow__video crop crop--rounded"
 																data-video-player="">
 																<div class="uncloak__lazy video__poster"><img
 																		class="uncloak__lazy__image" data-lazy-src=""
 																		width="310" height="550" alt="" /><noscript><img
 																			src="" width="310"
 																			height="550" alt="" /></noscript></div>
-																<video class="video__video allvideo"
+																<video class="video__video"
 																	data-src="img/video/hosptal.mov" muted="" loop=""
 																	playsinline="" autoplay=""></video>
 															</div> -->
@@ -2224,26 +2222,30 @@
 			
 			// Animation for elements in viewport
             function animateIfInView() {
-                $('.wow').each(function () {
-                    if (isElementInViewport($(this))) {
-                        $(this).addClass('wow-in-view');
-                    } else {
-                        // (Optional) Fade out when out of view
-                        $(this).removeClass('wow-in-view');
-                    }
-                });
+                // Check if elements exist before processing
+                if ($('.wow').length) {
+                    $('.wow').each(function () {
+                        if (isElementInViewport($(this))) {
+                            $(this).addClass('wow-in-view');
+                        } else {
+                            $(this).removeClass('wow-in-view');
+                        }
+                    });
+                }
 
-				// Check if metrics section is in viewport
-				if (isElementInViewport($('.metrics-section'))) {
-					animateNumbers();
-				}
+                // Check if metrics section exists before processing
+                if ($('.metrics-section').length && isElementInViewport($('.metrics-section'))) {
+                    animateNumbers();
+                }
 
-				// Check if platform heading section is in viewport
-				$('.platform-heading-section').each(function() {
-					if (isElementInViewport($(this))) {
-						animateHighlights();
-					}
-				});
+                // Check if platform heading section exists before processing
+                if ($('.platform-heading-section').length) {
+                    $('.platform-heading-section').each(function() {
+                        if (isElementInViewport($(this))) {
+                            animateHighlights();
+                        }
+                    });
+                }
             }
 
 			function animateHighlights() {
@@ -2257,6 +2259,10 @@
 
             // Check if element is in the viewport
             function isElementInViewport(el) {
+                // Check if el exists and has elements
+                if (!el || !el.length) {
+                    return false;
+                }
                 var rect = el[0].getBoundingClientRect();
                 return (
                     rect.top >= 0 &&
