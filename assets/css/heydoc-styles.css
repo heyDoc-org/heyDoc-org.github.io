@@ -295,16 +295,20 @@ body {
 
 .feature-section__image {
   border-radius: var(--border-radius-lg);
-  /* box-shadow: var(--card-shadow); */
   max-width: 100%;
   position: relative;
-  height: 75%;
+  /* Maintain a consistent aspect ratio */
 }
 
 .feature-image-container {
   position: relative;
   margin-bottom: 20px;
   padding: 0 40px;
+  /* 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
 }
 
 .feature-icon-overlay {
@@ -407,9 +411,6 @@ body {
     font-size: 16px;
   }
   
-  .feature-image-container {
-    padding: 0 20px;
-  }
   
   .feature-icon-overlay {
     width: 50px;
@@ -421,6 +422,38 @@ body {
   .feature-overlay-icon {
     width: 35px;
     height: 35px;
+  }
+}
+
+/* Mobile responsiveness fixes */
+@media (max-width: 767px) {
+  .feature-section__image {
+    max-height: 350px; /* Limit maximum height on mobile */
+    width: 100%;
+    aspect-ratio: 4/3; /* Slightly different aspect ratio for mobile */
+    height: auto;
+  object-fit: contain;
+ 
+  }
+  
+  .feature-image-container {
+    padding: 0 0;
+    margin-bottom: 15px;
+     width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .feature-section__image {
+    max-height: 400px;
+  }
+  
+  .feature-image-container {
+    padding: 0 30px;
   }
 }
 
