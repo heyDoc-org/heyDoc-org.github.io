@@ -1325,7 +1325,9 @@ body {
 
 @media (max-width: 767px) {
     .hero-carousel {
-        height: 220px;
+        width: 100%;
+        overflow: hidden;
+        aspect-ratio: 1.66;
         margin: 20px 0px 0px 0px;
         object-fit: cover;
     }
