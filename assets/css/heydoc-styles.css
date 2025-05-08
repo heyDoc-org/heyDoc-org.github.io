@@ -12,6 +12,8 @@
   --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   --border-radius: 8px;
   --border-radius-lg: 16px;
+  --border-radius-xlg: 32px;
+
   --dark-purple: #1D0C5B;
   --metric-color: #73f6db;
   --card-color: #E2FDF8;
@@ -180,6 +182,7 @@ body {
   /* border-radius: var(--border-radius-lg); */
   /* box-shadow: var(--card-shadow); */
   max-width: 100%;
+  aspect-ratio: 1.66;
   /* filter: drop-shadow(0 10px 20px rgba(74, 0, 224, 0.15)); */
 }
 
@@ -1289,5 +1292,41 @@ body {
     .nha-certification__image-container {
         min-height: 200px;
         margin-top: 32px;
+    }
+}
+
+/* Hero Carousel Styles */
+.hero-carousel {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1.66;
+    overflow: hidden;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.hero-carousel__track {
+    position: relative;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.hero-carousel__slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-radius-xlg);
+
+
+}
+
+@media (max-width: 767px) {
+    .hero-carousel {
+        height: 220px;
+        margin: 20px 0px 0px 0px;
+        object-fit: cover;
     }
 } 
