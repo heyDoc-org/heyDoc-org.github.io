@@ -2,35 +2,76 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+      xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+      xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+      xmlns:loc="http://www.w3.org/2007/04/purl.org/dc/elements/1.1/"
+      xmlns:geo="http://www.opengis.net/gml"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+            http://www.google.com/schemas/sitemap-image/1.1
+            http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd
+            http://www.google.com/schemas/sitemap-video/1.1
+            http://www.google.com/schemas/sitemap-video/1.1/sitemap-video.xsd
+            http://www.google.com/schemas/sitemap-news/0.9
+            http://www.google.com/schemas/sitemap-news/0.9/sitemap-news.xsd
+            http://www.opengis.net/gml
+            http://www.opengis.net/gml/3.2.1/gml.xsd">
 
 
 <url>
-  <loc>https://www.heydoc.co.in/</loc>
-  <lastmod>2022-08-14T10:10:17+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
+    <loc>https://www.heydoc.co.in/</loc>
+    <lastmod>2024-05-27T10:00:00+05:30</lastmod> <priority>1.00</priority>
+    <changefreq>daily</changefreq> <image:image>
+      <image:loc>https://www.heydoc.co.in/logo/heydoc_logo.png</image:loc>
+      <image:caption>HeyDoc AI - Personalized Health, Powered by WellnessGPT</image:caption>
+    </image:image>
+    <news:news>
+      <news:publication>
+        <news:name>HeyDoc AI - Personalized Health, Powered by WellnessGPT</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-05-27T10:00:00+05:30</news:publication_date>
+      <news:title>HeyDoc AI : Revolutionizing Agentic Healthcare in India</news:title>
+    </news:news>
+  </url>
 <url>
-  <loc>https://www.heydoc.co.in/index.html</loc>
-  <lastmod>2022-08-14T10:10:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    <loc>https://www.heydoc.co.in/index.html</loc>
+    <lastmod>2025-05-27T10:00:00+05:30</lastmod>
+    <priority>0.80</priority>
+    <changefreq>weekly</changefreq>
+    </url>
 <url>
-  <loc>https://www.heydoc.co.in/hospital.html</loc>
-  <lastmod>2022-08-14T10:10:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    <loc>https://www.heydoc.co.in/hospital.html</loc>
+    <lastmod>2025-05-27T10:30:00+05:30</lastmod>
+    <priority>0.90</priority> <changefreq>daily</changefreq>
+    <image:image>
+      <image:loc>https://www.heydoc.co.in/img/hero/analysis.png</image:loc>
+      <image:caption>HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified</image:caption>
+    </image:image>
+    </url>
+  <url>
+    <loc>https://www.heydoc.co.in/abdm.html</loc>
+    <lastmod>2025-05-27T11:00:00+05:30</lastmod>
+    <priority>0.85</priority> <changefreq>weekly</changefreq>
+    <news:news>
+      <news:publication>
+        <news:name>HeyDoc Healthcare</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-05-27T11:00:00+05:30</news:publication_date>
+      <news:title>ABDM Integration | HeyDoc AI - UPI of healthcare</news:title>
+      <news:keywords>ABDM, HeyDoc AI, WellnessGPT, Ayushman Bharat Digital Mission, ABHA health ID, Healthcare Professionals Registry, Digital Health Incentive Scheme, healthcare digitization, health records, medical data, healthcare technology, digital healthcare India</news:keywords>
+    </news:news>
+  </url>
 <url>
-  <loc>https://www.heydoc.co.in/abdm.html</loc>
-  <lastmod>2022-08-14T10:10:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.heydoc.co.in/about-us.html</loc>
-  <lastmod>2022-08-14T10:10:17+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+    <loc>https://www.heydoc.co.in/about-us.html</loc>
+    <lastmod>2025-05-27T09:00:00+05:30</lastmod>
+    <priority>0.70</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>
+
 <!-- <url>
   <loc>https://www.heydoc.co.in/heydoc.html</loc>
   <lastmod>2022-08-14T10:10:17+00:00</lastmod>
@@ -68,4 +109,3 @@
 </url> -->
 
 
-</urlset>
