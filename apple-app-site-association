@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "RFBSVJYN62.com.heyDocs.heyDoc" ],
+             "paths": [
+             "/share-profile",
+             "/share-profile/",
+             "/share-profile?url=*",
+             "/share-profile/?url=*"
+            ]
+           }
+       ]
+   }
+}
