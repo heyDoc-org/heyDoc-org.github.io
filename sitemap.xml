@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
-            http://www.google.com/schemas/sitemap-image/1.1
-            http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
 
   <url>
     <loc>https://www.heydoc.co.in/</loc>
@@ -19,16 +17,9 @@
   </url>
 
   <url>
-    <loc>https://www.heydoc.co.in/index.html</loc>
-    <lastmod>2025-03-27</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-
-  <url>
     <loc>https://www.heydoc.co.in/hospital.html</loc>
     <lastmod>2025-03-27</lastmod>
-    <priority>0.9</priority>
+    <priority>1.0</priority>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://www.heydoc.co.in/img/hero/analysis.png</image:loc>
@@ -39,18 +30,15 @@
   <url>
     <loc>https://www.heydoc.co.in/abdm.html</loc>
     <lastmod>2025-03-27</lastmod>
-    <priority>0.85</priority>
+    <priority>1.0</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
     <loc>https://www.heydoc.co.in/about-us.html</loc>
     <lastmod>2024-03-27</lastmod>
-    <priority>0.7</priority>
+    <priority>1.0</priority>
     <changefreq>monthly</changefreq>
   </url>
 
 </urlset>
-
-
-
