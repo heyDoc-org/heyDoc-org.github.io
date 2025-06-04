@@ -9,8 +9,8 @@
 
   <url>
     <loc>https://www.heydoc.co.in/</loc>
-    <lastmod>2025-05-27T10:00:00+05:30</lastmod>
-    <priority>1.00</priority>
+    <lastmod>2025-03-27</lastmod>
+    <priority>1.0</priority>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://www.heydoc.co.in/logo/heydoc_logo.png</image:loc>
@@ -20,15 +20,15 @@
 
   <url>
     <loc>https://www.heydoc.co.in/index.html</loc>
-    <lastmod>2025-05-27T10:00:00+05:30</lastmod>
-    <priority>0.80</priority>
+    <lastmod>2025-03-27</lastmod>
+    <priority>0.8</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
     <loc>https://www.heydoc.co.in/hospital.html</loc>
-    <lastmod>2025-05-27T10:30:00+05:30</lastmod>
-    <priority>0.90</priority>
+    <lastmod>2025-03-27</lastmod>
+    <priority>0.9</priority>
     <changefreq>daily</changefreq>
     <image:image>
       <image:loc>https://www.heydoc.co.in/img/hero/analysis.png</image:loc>
@@ -38,15 +38,15 @@
 
   <url>
     <loc>https://www.heydoc.co.in/abdm.html</loc>
-    <lastmod>2025-05-27T11:00:00+05:30</lastmod>
+    <lastmod>2025-03-27</lastmod>
     <priority>0.85</priority>
     <changefreq>weekly</changefreq>
   </url>
 
   <url>
     <loc>https://www.heydoc.co.in/about-us.html</loc>
-    <lastmod>2025-05-27T09:00:00+05:30</lastmod>
-    <priority>0.70</priority>
+    <lastmod>2024-03-27</lastmod>
+    <priority>0.7</priority>
     <changefreq>monthly</changefreq>
   </url>
 
