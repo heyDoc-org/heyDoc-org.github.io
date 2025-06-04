@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
   <url>
-    <loc>https://www.heydoc.co.in/</loc>
-    <lastmod>2025-03-14T10:10:17+00:00</lastmod>
-    <priority>1.0</priority>
+    <loc>https://www.heydoc.co.in</loc>
+    <lastmod>2024-06-02T10:00:00+05:30</lastmod>
     <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.heydoc.co.in/hospital.html</loc>
-    <lastmod>2025-03-14T10:10:17+00:00</lastmod>
-    <priority>1.0</priority>
+    <lastmod>2024-06-02T10:00:00+05:30</lastmod>
     <changefreq>daily</changefreq>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://www.heydoc.co.in/abdm.html</loc>
-    <lastmod>2025-03-14T10:10:17+00:00</lastmod>
-    <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
+    <lastmod>2024-06-02T10:00:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.heydoc.co.in/about-us.html</loc>
-    <lastmod>2025-03-14T10:10:17+00:00</lastmod>
-    <priority>1.0</priority>
-    <changefreq>monthly</changefreq>
-  </url>
+    <lastmod>2024-06-02T10:00:00+05:30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.85</priority>
+  </url>     
 </urlset>
