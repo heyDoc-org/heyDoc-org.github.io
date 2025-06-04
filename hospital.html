@@ -671,18 +671,137 @@ Built on the Ayushman Bharat Digital Mission (ABDM), we unify your hospital's da
 				"bestRating": "5",
 				"worstRating": "1"
 			  },
-			  "review": {
-				"@type": "Review",
-				"reviewRating": {
-				  "@type": "Rating",
-				  "ratingValue": "5",
-				  "bestRating": "5"
+			  "review": [
+				{
+				  "@type": "Review",
+				  "reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "5",
+					"bestRating": "5"
+				  },
+				  "author": {
+					"@type": "Person",
+					"name": "Dr. Aakash Rastogi",
+					"jobTitle": "Chief Medical Officer",
+					"worksFor": {
+					  "@type": "Hospital",
+					  "name": "Metro Healthcare"
+					}
+				  },
+				  "reviewBody": "We chose HeyDoc because it just makes sense in our clinical workflow. It helps us identify gaps in care, ensures proper hospital operations, and ultimately allows our doctors to focus on what they do best – caring for patients. It's truly been a game-changer.",
+				  "reviewAspect": "Clinical Workflow Integration"
 				},
-				"author": {
-				  "@type": "Person",
-				  "name": "Dr. Aakash Rastogi"
+				{
+				  "@type": "Review",
+				  "reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "5",
+					"bestRating": "5"
+				  },
+				  "author": {
+					"@type": "Person",
+					"name": "Ms. L S Changsan",
+					"jobTitle": "Chief Executive Officer",
+					"worksFor": {
+					  "@type": "GovernmentOrganization",
+					  "name": "National Health Authority (NHA)"
+					}
+				  },
+				  "reviewBody": "HospiDash's integration with ABDM and ABHA ecosystem sets a new standard for digital healthcare in India. Their commitment to compliance and innovation makes them a valuable partner in our mission to digitize healthcare.",
+				  "reviewAspect": "ABDM Integration & Compliance"
 				},
-				"reviewBody": "We chose HeyDoc because it just makes sense in our clinical workflow. It helps us identify gaps in care, ensures proper hospital opeations, and ultimately allows our doctors to focus on what they do best – caring for patients. It's truly been a game-changer."
+				{
+				  "@type": "Review",
+				  "reviewRating": {
+					"@type": "Rating",
+					"ratingValue": "4.9",
+					"bestRating": "5"
+				  },
+				  "author": {
+					"@type": "Person",
+					"name": "Dr. Sarah Wilson",
+					"jobTitle": "Hospital Administrator",
+					"worksFor": {
+					  "@type": "Hospital",
+					  "name": "Northeast Health Partners"
+					}
+				  },
+				  "reviewBody": "The AI-powered features of HospiDash have transformed our hospital operations. From automated patient management to intelligent resource allocation, it has significantly improved our efficiency and patient care quality.",
+				  "reviewAspect": "AI-Powered Operations"
+				}
+			  ],
+			  "offers": {
+				"@type": "Offer",
+				"availability": "https://schema.org/InStock",
+				"category": "Hospital Management Software",
+				"priceCurrency": "INR",
+				"priceSpecification": {
+				  "@type": "PriceSpecification",
+				  "priceType": "https://schema.org/ListPrice",
+				  "description": "Custom pricing based on hospital size and requirements"
+				},
+				"featureList": [
+				  {
+					"@type": "SoftwareApplication",
+					"name": "ABDM Integration",
+					"description": "Seamless integration with India's ABHA ecosystem for connected care"
+				  },
+				  {
+					"@type": "SoftwareApplication",
+					"name": "WellnessGPT AI",
+					"description": "AI-powered clinical decision support and operational intelligence"
+				  },
+				  {
+					"@type": "SoftwareApplication",
+					"name": "Patient Management",
+					"description": "End-to-end patient journey management from appointment to discharge"
+				  },
+				  {
+					"@type": "SoftwareApplication",
+					"name": "Resource Optimization",
+					"description": "Intelligent allocation of hospital resources and staff"
+				  },
+				  {
+					"@type": "SoftwareApplication",
+					"name": "Compliance Management",
+					"description": "Built-in compliance with NHA and ABDM standards"
+				  }
+				],
+				"applicationCategory": "Hospital Management System",
+				"operatingSystem": "Web-based",
+				"softwareVersion": "2.0",
+				"softwareHelp": "https://www.heydoc.co.in/support",
+				"permissions": "Requires hospital registration and NHA certification",
+				"statistics": {
+				  "@type": "StatisticalVariable",
+				  "statType": "https://schema.org/StatisticalVariable",
+				  "value": [
+					{
+					  "@type": "QuantitativeValue",
+					  "name": "Weekly Patients",
+					  "value": "11000",
+					  "unitText": "patients"
+					},
+					{
+					  "@type": "QuantitativeValue",
+					  "name": "Quality Score",
+					  "value": "86",
+					  "unitText": "percent"
+					},
+					{
+					  "@type": "QuantitativeValue",
+					  "name": "AI Interactions",
+					  "value": "30000",
+					  "unitText": "interactions"
+					},
+					{
+					  "@type": "QuantitativeValue",
+					  "name": "Daily Clinical Insights",
+					  "value": "600",
+					  "unitText": "insights"
+					}
+				  ]
+				}
 			  }
 			},
 			{
@@ -692,21 +811,47 @@ Built on the Ayushman Bharat Digital Mission (ABDM), we unify your hospital's da
 				  "@type": "ListItem",
 				  "position": 1,
 				  "name": "Home",
-				  "item": "https://www.heydoc.co.in"
+				  "item": "https://www.heydoc.co.in",
+				  "description": "HeyDoc AI - Digital Healthcare Solutions"
 				},
 				{
 				  "@type": "ListItem",
 				  "position": 2,
-				  "name": "Hospital Solutions",
-				  "item": "https://www.heydoc.co.in/hospital.html"
+				  "name": "Solutions",
+				  "item": "https://www.heydoc.co.in/solutions",
+				  "description": "Healthcare Solutions for Patients, Doctors, and Hospitals"
 				},
 				{
 				  "@type": "ListItem",
 				  "position": 3,
+				  "name": "Hospital Solutions",
+				  "item": "https://www.heydoc.co.in/hospital.html",
+				  "description": "Agentic Solutions for Modern Hospitals"
+				},
+				{
+				  "@type": "ListItem",
+				  "position": 4,
 				  "name": "HospiDash",
-				  "item": "https://www.heydoc.co.in/hospidash.html"
+				  "item": "https://www.heydoc.co.in/hospidash.html",
+				  "description": "NHA & ABDM-Certified AI Hospital Management System"
 				}
 			  ]
+			},
+			{
+			  "@type": "WebPage",
+			  "@id": "https://www.heydoc.co.in/hospidash.html",
+			  "name": "HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified",
+			  "description": "India's first NHA & ABDM‑certified AI‑powered HMIS linking hospitals to India's ABHA ecosystem.",
+			  "inLanguage": "en",
+			  "isPartOf": {
+				"@id": "https://www.heydoc.co.in/#website"
+			  },
+			  "about": {
+				"@id": "https://www.heydoc.co.in/#Hospidash"
+			  },
+			  "mainEntity": {
+				"@id": "https://www.heydoc.co.in/#Hospidash"
+			  }
 			}
 		  ]
 		}

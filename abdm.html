@@ -47,53 +47,204 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "MedicalWebPage",
-        "name": "ABDM Integration | HeyDoc AI",
-        "description": "Personalized, AI-powered healthcare with Ayushman Bharat Digital Mission (ABDM) integration and healthcare digitization solutions.",
-        "url": "https://www.heydoc.co.in/abdm.html",
-        "publisher": {
-            "@type": "Organization",
-            "name": "HeyDoc AI",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.heydoc.co.in/img/logo/heydoc_logo.png"
-            }
-        },
-        "mainEntity": {
-            "@type": "Article",
-            "name": "Ayushman Bharat Digital Mission (ABDM) Guide",
-            "headline": "Complete Guide to ABDM Integration and Healthcare Digitization",
-            "description": "Learn about ABHA health ID, Healthcare Professionals Registry, and Digital Health Incentive Scheme for healthcare digitization in India.",
-            "keywords": "ABDM, Ayushman Bharat Digital Mission, ABHA health ID, Healthcare Professionals Registry, Digital Health Incentive Scheme",
-            "articleSection": "Healthcare Technology",
-            "about": {
-                "@type": "Thing",
-                "name": "Ayushman Bharat Digital Mission",
-                "description": "A digital healthcare initiative by the National Health Authority (NHA) to create a digital health ecosystem for India."
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://www.heydoc.co.in/#organization",
+                "name": "HeyDoc AI",
+                "url": "https://www.heydoc.co.in",
+                "logo": "https://www.heydoc.co.in/img/logo/heydoc_logo.png",
+                "description": "HeyDoc AI is a certified ABDM partner providing AI-powered healthcare solutions integrated with India's digital health ecosystem.",
+                "sameAs": [
+                    "https://twitter.com/HeyDoc_Ai",
+                    "https://www.facebook.com/heydoc.co.in/",
+                    "https://www.instagram.com/heydoc_ai",
+                    "https://in.linkedin.com/company/heydoc-healthtech"
+                ],
+                "hasCredential": [
+                    {
+                        "@type": "MedicalCertification",
+                        "name": "ABDM Certification",
+                        "issuer": {
+                            "@type": "GovernmentOrganization",
+                            "name": "National Health Authority (NHA)"
+                        }
+                    }
+                ]
             },
-            "mainEntityOfPage": {
+            {
+                "@type": "DigitalHealthBusiness",
+                "@id": "https://www.heydoc.co.in/#ABDMIntegration",
+                "name": "HeyDoc AI ABDM Integration",
+                "description": "Personalized, AI-powered healthcare with Ayushman Bharat Digital Mission (ABDM) integration and healthcare digitization solutions.",
+                "url": "https://www.heydoc.co.in/abdm.html",
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "200",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                },
+                "review": [
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5",
+                            "bestRating": "5"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "Dr. Vikrant Kanwar",
+                            "jobTitle": "A. Professor cum Dy. Medical Superintendent",
+                            "worksFor": {
+                                "@type": "Organization",
+                                "name": "AIIMS Bilaspur"
+                            }
+                        },
+                        "reviewBody": "HeyDoc AI's ABDM integration has revolutionized our healthcare delivery. The seamless ABHA integration and digital health record management have significantly improved our operational efficiency and patient care quality.",
+                        "reviewAspect": "ABDM Integration & Healthcare Delivery"
+                    },
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "5",
+                            "bestRating": "5"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "Ms. L S Changsan",
+                            "jobTitle": "Chief Executive Officer",
+                            "worksFor": {
+                                "@type": "GovernmentOrganization",
+                                "name": "National Health Authority (NHA)"
+                            }
+                        },
+                        "reviewBody": "HeyDoc AI's commitment to ABDM integration and healthcare digitization sets a new standard in India's digital health ecosystem. Their innovative approach to ABHA implementation and compliance makes them a valuable partner in our mission.",
+                        "reviewAspect": "ABDM Compliance & Innovation"
+                    },
+                    {
+                        "@type": "Review",
+                        "reviewRating": {
+                            "@type": "Rating",
+                            "ratingValue": "4.8",
+                            "bestRating": "5"
+                        },
+                        "author": {
+                            "@type": "Person",
+                            "name": "Dr. Arnav Bhavsar",
+                            "jobTitle": "Chief Tech Advisor",
+                            "worksFor": {
+                                "@type": "Organization",
+                                "name": "IIT Mandi"
+                            }
+                        },
+                        "reviewBody": "The combination of AI technology with ABDM integration in HeyDoc AI's platform is groundbreaking. It not only ensures compliance but also enhances healthcare delivery through intelligent automation and data-driven insights.",
+                        "reviewAspect": "AI Integration & Technical Excellence"
+                    }
+                ],
+                "offers": {
+                    "@type": "Offer",
+                    "availability": "https://schema.org/InStock",
+                    "category": "Digital Health Solutions",
+                    "priceCurrency": "INR",
+                    "priceSpecification": {
+                        "@type": "PriceSpecification",
+                        "priceType": "https://schema.org/ListPrice",
+                        "description": "Custom pricing based on healthcare provider requirements"
+                    }
+                },
+                "featureList": [
+                    {
+                        "@type": "SoftwareApplication",
+                        "name": "ABHA Integration",
+                        "description": "Seamless integration with India's ABHA ecosystem for connected care"
+                    },
+                    {
+                        "@type": "SoftwareApplication",
+                        "name": "Healthcare Professionals Registry",
+                        "description": "Comprehensive management of healthcare provider registrations"
+                    },
+                    {
+                        "@type": "SoftwareApplication",
+                        "name": "Digital Health Incentive Scheme",
+                        "description": "Automated processing and management of DHIS benefits"
+                    },
+                    {
+                        "@type": "SoftwareApplication",
+                        "name": "WellnessGPT AI",
+                        "description": "AI-powered healthcare insights and decision support"
+                    }
+                ],
+                "statistics": {
+                    "@type": "StatisticalVariable",
+                    "statType": "https://schema.org/StatisticalVariable",
+                    "value": [
+                        {
+                            "@type": "QuantitativeValue",
+                            "name": "ABHA IDs Processed",
+                            "value": "640000000",
+                            "unitText": "IDs"
+                        },
+                        {
+                            "@type": "QuantitativeValue",
+                            "name": "Healthcare Providers",
+                            "value": "50000",
+                            "unitText": "providers"
+                        },
+                        {
+                            "@type": "QuantitativeValue",
+                            "name": "Digital Health Transactions",
+                            "value": "1000000",
+                            "unitText": "transactions"
+                        }
+                    ]
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.heydoc.co.in",
+                        "description": "HeyDoc AI - Digital Healthcare Solutions"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Solutions",
+                        "item": "https://www.heydoc.co.in/solutions",
+                        "description": "Healthcare Solutions for Patients, Doctors, and Hospitals"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "ABDM Integration",
+                        "item": "https://www.heydoc.co.in/abdm.html",
+                        "description": "Ayushman Bharat Digital Mission Integration Services"
+                    }
+                ]
+            },
+            {
                 "@type": "WebPage",
-                "@id": "https://www.heydoc.co.in/abdm.html"
+                "@id": "https://www.heydoc.co.in/abdm.html",
+                "name": "ABDM Integration | HeyDoc AI - UPI of healthcare",
+                "description": "Personalized, AI-powered healthcare with Ayushman Bharat Digital Mission (ABDM) integration. Learn about ABHA health ID, Healthcare Professionals Registry, and Digital Health Incentive Scheme.",
+                "inLanguage": "en",
+                "isPartOf": {
+                    "@id": "https://www.heydoc.co.in/#website"
+                },
+                "about": {
+                    "@id": "https://www.heydoc.co.in/#ABDMIntegration"
+                },
+                "mainEntity": {
+                    "@id": "https://www.heydoc.co.in/#ABDMIntegration"
+                }
             }
-        },
-        "breadcrumb": {
-            "@type": "BreadcrumbList",
-            "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Home",
-                "item": "https://www.heydoc.co.in"
-            }, {
-                "@type": "ListItem",
-                "position": 2,
-                "name": "ABDM Integration",
-                "item": "https://www.heydoc.co.in/abdm.html"
-            }]
-        },
-        "speakable": {
-            "@type": "SpeakableSpecification",
-            "cssSelector": ["#section-6", "#section-1", "#section-2", "#section-5"]
-        }
+        ]
     }
     </script>
 
@@ -102,42 +253,72 @@
     {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": [{
-            "@type": "Question",
-            "name": "How is HeyDoc AI integrating with ABDM for better healthcare?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "HeyDoc AI is a certified ABDM partner that seamlessly integrates with the Ayushman Bharat Digital Mission to provide AI-powered healthcare solutions. We enable healthcare providers to digitize their services, manage ABHA health IDs, and leverage advanced AI technology for improved patient care and medical record management."
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "How is HeyDoc AI integrating with ABDM for better healthcare?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI is a certified ABDM partner that seamlessly integrates with the Ayushman Bharat Digital Mission to provide AI-powered healthcare solutions. We enable healthcare providers to digitize their services, manage ABHA health IDs, and leverage advanced AI technology for improved patient care and medical record management."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What makes HeyDoc AI's ABDM integration unique?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI combines the power of artificial intelligence with ABDM's digital healthcare infrastructure to offer personalized healthcare solutions. Our platform provides intelligent health record management, AI-driven medical insights, and seamless ABHA integration, making us a pioneer in AI-powered healthcare digitization in India."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does HeyDoc AI help healthcare providers with ABDM compliance?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI provides comprehensive ABDM compliance solutions for healthcare providers, including automated ABHA ID management, digital health record integration, and Healthcare Professionals Registry (HPR) enrollment assistance. Our AI-powered platform ensures seamless compliance with ABDM guidelines while enhancing operational efficiency."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What AI features does HeyDoc AI offer with ABDM integration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI offers advanced AI features integrated with ABDM, including intelligent health record analysis, personalized health insights through WellnessGPT, automated medical documentation, and predictive healthcare analytics. Our platform leverages AI to enhance the digital healthcare experience while maintaining ABDM compliance."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How can healthcare providers benefit from HeyDoc AI's ABDM solutions?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Healthcare providers partnering with HeyDoc AI gain access to our comprehensive ABDM integration suite, including AI-powered patient management, automated ABHA processing, digital health incentive scheme optimization, and intelligent healthcare analytics. Our solutions help providers maximize the benefits of ABDM while delivering superior patient care."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What are the key benefits of HeyDoc AI's ABDM integration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI's ABDM integration offers multiple benefits including seamless ABHA ID management, automated healthcare provider registration, digital health incentive scheme optimization, and AI-powered healthcare insights. Our platform ensures 100% compliance with NHA standards while providing intelligent automation for better healthcare delivery."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does HeyDoc AI ensure secure ABHA integration?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI implements enterprise-grade security measures for ABHA integration, including end-to-end encryption, secure consent management, and comprehensive audit trails. Our platform is certified by NHA and follows all ABDM security protocols to ensure safe and compliant health data exchange."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What makes HeyDoc AI's ABDM solution unique?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "HeyDoc AI combines ABDM integration with advanced AI technology through WellnessGPT, offering intelligent healthcare insights and automated workflows. Our platform processes over 640 million ABHA IDs and supports 50,000+ healthcare providers, making it one of India's most comprehensive digital health solutions."
+                }
             }
-        }, {
-            "@type": "Question",
-            "name": "What makes HeyDoc AI's ABDM integration unique?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "HeyDoc AI combines the power of artificial intelligence with ABDM's digital healthcare infrastructure to offer personalized healthcare solutions. Our platform provides intelligent health record management, AI-driven medical insights, and seamless ABHA integration, making us a pioneer in AI-powered healthcare digitization in India."
-            }
-        }, {
-            "@type": "Question",
-            "name": "How does HeyDoc AI help healthcare providers with ABDM compliance?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "HeyDoc AI provides comprehensive ABDM compliance solutions for healthcare providers, including automated ABHA ID management, digital health record integration, and Healthcare Professionals Registry (HPR) enrollment assistance. Our AI-powered platform ensures seamless compliance with ABDM guidelines while enhancing operational efficiency."
-            }
-        }, {
-            "@type": "Question",
-            "name": "What AI features does HeyDoc AI offer with ABDM integration?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "HeyDoc AI offers advanced AI features integrated with ABDM, including intelligent health record analysis, personalized health insights through WellnessGPT, automated medical documentation, and predictive healthcare analytics. Our platform leverages AI to enhance the digital healthcare experience while maintaining ABDM compliance."
-            }
-        }, {
-            "@type": "Question",
-            "name": "How can healthcare providers benefit from HeyDoc AI's ABDM solutions?",
-            "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Healthcare providers partnering with HeyDoc AI gain access to our comprehensive ABDM integration suite, including AI-powered patient management, automated ABHA processing, digital health incentive scheme optimization, and intelligent healthcare analytics. Our solutions help providers maximize the benefits of ABDM while delivering superior patient care."
-            }
-        }]
+        ]
     }
     </script>
 
