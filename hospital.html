@@ -622,172 +622,131 @@ Built on the Ayushman Bharat Digital Mission (ABDM), we unify your hospital's da
 	<!-- ===== JSON‑LD Structured Data for GEO & SEO ===== -->
 	<script type="application/ld+json">
 		{
-		  "@context": "https://schema.org",
-		  "@graph": [
-			{
-			  "@type": "Organization",
-			  "name": "HeyDoc AI",
-			  "url": "https://www.heydoc.co.in",
-			  "logo": "https://www.heydoc.co.in/img/logo/heydoc_logo.png",
-			  "sameAs": [
-				"https://twitter.com/HeyDoc_Ai",
-				"https://www.facebook.com/heydoc.co.in/",
-				"https://www.instagram.com/heydoc_ai",
-				"https://in.linkedin.com/company/heydoc-healthtech",
-				"https://youtube.com/@heydocai"
-			  ],
-			  "contactPoint": {
-				"@type": "ContactPoint",
-				"telephone": "+91-9027391190",
-				"contactType": "customer service",
-				"email": "support@heydoc.co.in",
-				"areaServed": "IN"
-			  }
-			},
-			{
-			  "@type": "WebSite",
-			  "url": "https://www.heydoc.co.in/hospidash.html",
-			  "name": "HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified",
-			  "description": "NHA & ABDM‑certified AI‑powered HMIS linking hospitals to India's ABHA ecosystem.",
-			  "inLanguage": "en"
-			},
-			{
-			  "@type": "DigitalHealthBusiness",
-			  "@id": "https://www.heydoc.co.in/#Hospidash",
-			  "name": "HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified",
-			  "description": "India's first NHA & ABDM‑certified hospital management system, powered by WellnessGPT.",
-			  "url": "https://www.heydoc.co.in/hospidash.html",
-			  "logo": "https://www.heydoc.co.in/img/logo/fevicon2.png",
-			  "hasCredential": [
-				{
-				  "@type": "MedicalCertification",
-				  "name": "ABDM Certification",
-				  "issuer": {
-					"@type": "GovernmentOrganization",
-					"name": "National Health Authority (NHA)"
-				  }
-				}
-			  ],
-			  "areaServed": {
-				"@type": "Country",
-				"name": "India"
-			  },
-			  "aggregateRating": {
-				"@type": "AggregateRating",
-				"ratingValue": "4.8",
-				"ratingCount": "1000"
-			  },
-			  "offers": {
-				"@type": "Offer",
-				"availability": "https://schema.org/InStock",
-				"category": "Hospital Management Software",
-				"priceCurrency": "INR",
-				"priceSpecification": {
-				  "@type": "PriceSpecification",
-				  "priceType": "https://schema.org/ListPrice",
-				  "description": "Custom pricing based on hospital size and requirements"
-				},
-				"featureList": [
-				  {
-					"@type": "SoftwareApplication",
-					"name": "ABDM Integration",
-					"description": "Seamless integration with India's ABHA ecosystem for connected care"
-				  },
-				  {
-					"@type": "SoftwareApplication",
-					"name": "WellnessGPT AI",
-					"description": "AI-powered clinical decision support and operational intelligence"
-				  },
-				  {
-					"@type": "SoftwareApplication",
-					"name": "Patient Management",
-					"description": "End-to-end patient journey management from appointment to discharge"
-				  },
-				  {
-					"@type": "SoftwareApplication",
-					"name": "Resource Optimization",
-					"description": "Intelligent allocation of hospital resources and staff"
-				  },
-				  {
-					"@type": "SoftwareApplication",
-					"name": "Compliance Management",
-					"description": "Built-in compliance with NHA and ABDM standards"
-				  }
+			"@context": "https://schema.org",
+			"@graph": [
+			  {
+				"@type": "Organization",
+				"@id": "https://www.heydoc.co.in/#organization",
+				"name": "HeyDoc AI",
+				"url": "https://www.heydoc.co.in",
+				"logo": "https://www.heydoc.co.in/img/logo/heydoc_logo.png",
+				"sameAs": [
+				  "https://twitter.com/HeyDoc_Ai",
+				  "https://www.facebook.com/heydoc.co.in/",
+				  "https://www.instagram.com/heydoc_ai",
+				  "https://in.linkedin.com/company/heydoc-healthtech",
+				  "https://youtube.com/@heydocai"
 				],
+				"contactPoint": {
+				  "@type": "ContactPoint",
+				  "telephone": "+91-9027391190",
+				  "contactType": "customer service",
+				  "email": "support@heydoc.co.in",
+				  "areaServed": "IN"
+				}
+			  },
+			  {
+				"@type": "WebSite",
+				"@id": "https://www.heydoc.co.in/#website",
+				"url": "https://www.heydoc.co.in",
+				"name": "HeyDoc AI - Personalized Healthcare with WellnessGPT",
+				"inLanguage": "en",
+				"publisher": {
+				  "@id": "https://www.heydoc.co.in/#organization"
+				}
+			  },
+			  {
+				"@type": "SoftwareApplication",
+				"@id": "https://www.heydoc.co.in/#Hospidash",
+				"name": "HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified",
+				"description": "India's first NHA & ABDM certified hospital management system, powered by WellnessGPT.",
+				"url": "https://www.heydoc.co.in/hospidash.html",
 				"applicationCategory": "Hospital Management System",
 				"operatingSystem": "Web-based",
 				"softwareVersion": "2.0",
 				"softwareHelp": "https://www.heydoc.co.in/support",
 				"permissions": "Requires hospital registration and NHA certification",
-				"statistics": {
-				  "@type": "StatisticalVariable",
-				  "statType": "https://schema.org/StatisticalVariable",
-				  "value": [
+				"offers": {
+				  "@type": "Offer",
+				  "availability": "https://schema.org/InStock",
+				  "priceCurrency": "INR",
+				  "priceSpecification": {
+					"@type": "PriceSpecification",
+					"priceType": "https://schema.org/ListPrice",
+					"description": "Custom pricing based on hospital size and requirements"
+				  }
+				},
+				"featureList": [
+				  "ABDM Integration",
+				  "WellnessGPT AI",
+				  "Patient Management",
+				  "Resource Optimization",
+				  "Compliance Management"
+				],
+				"aggregateRating": {
+				  "@type": "AggregateRating",
+				  "ratingValue": "4.8",
+				  "ratingCount": "1000"
+				},
+				"hasCredential": [
+				  {
+					"@type": "EducationalOccupationalCredential",
+					"credentialCategory": "Medical",
+					"name": "ABDM Certification",
+					"issuer": {
+					  "@type": "GovernmentOrganization",
+					  "name": "National Health Authority (NHA)"
+					}
+				  }
+				],
+				"areaServed": {
+				  "@type": "Country",
+				  "name": "India"
+				}
+			  },
+			  {
+				"@type": "MedicalWebPage",
+				"@id": "https://www.heydoc.co.in/hospidash.html",
+				"url": "https://www.heydoc.co.in/hospidash.html",
+				"name": "HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified",
+				"description": "India's first NHA & ABDM certified AI powered HMIS linking hospitals to India's ABHA ecosystem.",
+				"isPartOf": {
+				  "@id": "https://www.heydoc.co.in/#website"
+				},
+				"about": {
+				  "@id": "https://www.heydoc.co.in/#Hospidash"
+				},
+				"mainEntity": {
+				  "@id": "https://www.heydoc.co.in/#Hospidash"
+				},
+				"breadcrumb": {
+				  "@type": "BreadcrumbList",
+				  "itemListElement": [
 					{
-					  "@type": "QuantitativeValue",
-					  "name": "Weekly Patients",
-					  "value": "11000",
-					  "unitText": "patients"
+					  "@type": "ListItem",
+					  "position": 1,
+					  "name": "Home",
+					  "item": "https://www.heydoc.co.in"
 					},
 					{
-					  "@type": "QuantitativeValue",
-					  "name": "Quality Score",
-					  "value": "86",
-					  "unitText": "percent"
+					  "@type": "ListItem",
+					  "position": 2,
+					  "name": "Hospital Solutions",
+					  "item": "https://www.heydoc.co.in/hospital.html"
 					},
 					{
-					  "@type": "QuantitativeValue",
-					  "name": "AI Interactions",
-					  "value": "30000",
-					  "unitText": "interactions"
-					},
-					{
-					  "@type": "QuantitativeValue",
-					  "name": "Daily Clinical Insights",
-					  "value": "600",
-					  "unitText": "insights"
+					  "@type": "ListItem",
+					  "position": 3,
+					  "name": "HospiDash",
+					  "item": "https://www.heydoc.co.in/hospidash.html"
 					}
 				  ]
-				}
-			  }
-			},
-			{
-			  "@type": "BreadcrumbList",
-			  "itemListElement": [
-				{
-				  "@type": "ListItem",
-				  "position": 1,
-				  "name": "Home",
-				  "item": "https://www.heydoc.co.in",
-				  "description": "HeyDoc AI - Digital Healthcare Solutions"
 				},
-				{
-				  "@type": "ListItem",
-				  "position": 2,
-				  "name": "Hospital Solutions",
-				  "item": "https://www.heydoc.co.in/hospital.html",
-				  "description": "NHA & ABDM-Certified Agentic Hospital Management Solutions for Modern Hospitals"
-				},
-			  ]
-			},
-			{
-			  "@type": "WebPage",
-			  "@id": "https://www.heydoc.co.in/hospidash.html",
-			  "name": "HospiDash: Digital hospital with WellnessGPT | NHA & ABDM Certified",
-			  "description": "India's first NHA & ABDM‑certified AI‑powered HMIS linking hospitals to India's ABHA ecosystem.",
-			  "inLanguage": "en",
-			  "isPartOf": {
-				"@id": "https://www.heydoc.co.in/#website"
-			  },
-			  "about": {
-				"@id": "https://www.heydoc.co.in/#Hospidash"
-			  },
-			  "mainEntity": {
-				"@id": "https://www.heydoc.co.in/#Hospidash"
+				"inLanguage": "en"
 			  }
-			}
-		  ]
-		}
+			]
+		  }
+		  
 	</script>
 
 	<!-- FAQ Structured Data for Hospital Solutions -->
