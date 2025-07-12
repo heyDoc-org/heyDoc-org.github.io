@@ -942,57 +942,61 @@
 						</div>
 
 					</div>
+					<div class="section" style="background-color: #ffffff;">
 
-		<!-- AI Platform Heading -->
-		<!-- <section class="platform-heading-section">
-			<div class="container container--m">
-				<h2 class="platform-heading">The AI platform Hospitals <br> actually <span class="highlight">want</span> to use</h2>
-			</div>
-		</section> -->
+						<div class="container container--m">
 
-					<!-- Statistics Section -->
-		<!-- <section class="metrics-section">
-			<div class="container container--m">
-				<div class="row metrics-grid">
-					<div class="col metric-col">
-						<div class="metric-card">
-							<div class="metric-icon">
-								<i class="fas fa-user-md"></i>
+				<!-- AI Platform Heading -->
+				<section class="pplatform-heading-section">
+					<div class="container container--m">
+						<h2 class="pplatform-heading">Personalized Health which people <br> actually <span class="highlight">want</span> to use</h2>
+					</div>
+				</section>
+		
+				<!-- Statistics Section -->
+				<section class="pmetrics-section">
+					<div class="container container--m">
+						<div class="row pmetrics-grid">
+							<div class="col pmetric-col">
+								<div class="pmetric-card">
+									<div class="pmetric-icon">
+										<i class="fas fa-user-md"></i>
+									</div>
+									<div class="pmetric-number" data-count="4000">0</div>
+									<div class="pmetric-label">AI Medical Report Analysis</div>
+								</div>
 							</div>
-							<div class="metric-number" data-count="10000">0</div>
-							<div class="metric-label">Clinicians and care team members</div>
+							<div class="col pmetric-col">
+								<div class="pmetric-card">
+									<div class="pmetric-icon">
+										<i class="fas fa-chart-line"></i>
+									</div>
+									<div class="pmetric-number" data-count="86">0</div>
+									<div class="pmetric-label">Quality score accuracy</div>
+								</div>
+							</div>
+							<div class="col pmetric-col">
+								<div class="pmetric-card">
+									<div class="pmetric-icon">
+										<i class="fas fa-comments"></i>
+									</div>
+									<div class="pmetric-number" data-count="30000">0</div>
+									<div class="pmetric-label">WellnessGPT Interactions</div>
+								</div>
+							</div>
+							<div class="col pmetric-col">
+								<div class="pmetric-card">
+									<div class="pmetric-icon">
+										<i class="fas fa-lightbulb"></i>
+									</div>
+									<div class="pmetric-number" data-count="45000">0</div>
+									<div class="pmetric-label">Appointments</div>
+								</div>
+							</div>
 						</div>
 					</div>
-					<div class="col metric-col">
-						<div class="metric-card">
-							<div class="metric-icon">
-								<i class="fas fa-chart-line"></i>
-							</div>
-							<div class="metric-number" data-count="86">0</div>
-							<div class="metric-label">Quality score accuracy</div>
-						</div>
-					</div>
-					<div class="col metric-col">
-						<div class="metric-card">
-							<div class="metric-icon">
-								<i class="fas fa-comments"></i>
-							</div>
-							<div class="metric-number" data-count="3000000">0</div>
-							<div class="metric-label">Interactions</div>
-						</div>
-					</div>
-					<div class="col metric-col">
-						<div class="metric-card">
-							<div class="metric-icon">
-								<i class="fas fa-lightbulb"></i>
-							</div>
-							<div class="metric-number" data-count="600">0</div>
-							<div class="metric-label">Clinical insights per day</div>
-						</div>
-					</div>
+				</section>
 				</div>
-			</div>
-		</section> -->
 					<div class="section" style="background-color: #ffffff;">
 
 							<div class="container container--m">
@@ -2404,7 +2408,7 @@
 			
 			function animateHighlights() {
 				if (!highlightsAnimated) {
-					$('.platform-heading .highlight').each(function() {
+					$('.pplatform-heading .highlight').each(function() {
 						$(this).addClass('animate');
 					});
 					highlightsAnimated = true;
@@ -2424,14 +2428,14 @@
                     });
                 }
 
-                // Check if metrics section exists before processing
-                if ($('.metrics-section').length && isElementInViewport($('.metrics-section'))) {
+                // Check if pmetrics section exists before processing
+                if ($('.pmetrics-section').length && isElementInViewport($('.pmetrics-section'))) {
                     animateNumbers();
                 }
 
                 // Check if platform heading section exists before processing
-                if ($('.platform-heading-section').length) {
-                    $('.platform-heading-section').each(function() {
+                if ($('.pplatform-heading-section').length) {
+                    $('.pplatform-heading-section').each(function() {
                         if (isElementInViewport($(this))) {
                             animateHighlights();
                         }
@@ -2441,7 +2445,7 @@
 
 			function animateHighlights() {
 				if (!highlightsAnimated) {
-					$('.platform-heading .highlight').each(function() {
+					$('.pplatform-heading .highlight').each(function() {
 						$(this).addClass('animate');
 					});
 					highlightsAnimated = true;
@@ -2468,13 +2472,13 @@
 			function animateNumbers() {
 				if (numbersAnimated) return;
 				
-				$('.metric-number').each(function() {
+				$('.pmetric-number').each(function() {
 					var $this = $(this);
 					var countTo = parseInt($this.attr('data-count'));
 					
 					// Add plus sign for numbers that need it
 					var suffix = '';
-					if ($this.attr('data-count') === '10000' || $this.attr('data-count') === '600') {
+					if ($this.attr('data-count') === '4000' || $this.attr('data-count') === '45000') {
 						suffix = '+';
 					} else if ($this.attr('data-count') === '86') {
 						suffix = '%';

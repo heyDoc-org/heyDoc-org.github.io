@@ -145,7 +145,13 @@ section {
 body {
   line-height: 1
 }
-
+:root{
+--text-color: #1A1A1A;
+--pdark-purple: #10033e;
+--pmetric-color: #bce9ff;
+--card-color: #E2FDF8;
+--metric-color: #73f6db;
+}
 body,
 input[type=submit],
 input[type=button],
@@ -2093,6 +2099,185 @@ img {
   .badge:hover {
     transform: scale(1.1); /* Slightly enlarge the badge on hover */
   }
+}
+/* Platform Heading Section */
+.pplatform-heading-section {
+  padding: 60px 0 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.pplatform-heading {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: var(--text-color);
+  max-width: 780px;
+  margin: 0 auto;
+  line-height: 1.3;
+}
+
+.pplatform-heading .highlight {
+  color: var(--text-color);
+  background: linear-gradient(to right, var(--metric-color) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  position: relative;
+  transition: background-position 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.pplatform-heading .highlight.animate {
+  background-position: left center;
+}
+
+@media (max-width: 767px) {
+  .pplatform-heading {
+    font-size: 28px;
+  }
+  
+  .pplatform-heading .highlight {
+    padding: 1px 4px;
+    border-radius: 3px;
+  }
+}
+
+/* 4. pmetrics Section */
+
+
+.pmetrics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -12px;
+}
+
+.pmetric-col {
+  padding: 0 12px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.pmetric-card {
+  background: linear-gradient(to right, #a1d6ff, #8adeff,#b2fff0);
+  /* background-color: var(--pmetric-color); */
+  color: white;
+  border-radius: 12px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+  box-sizing: border-box;
+}
+
+.pmetric-icon {
+  font-size: 20px;
+  margin-bottom: 16px;
+  height: 42px;
+  width: 42px;
+  color: var(--pdark-purple);
+  border-radius: 50%;
+  background-color: rgba(69, 127, 190, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  flex-shrink: 0;
+}
+
+.pmetric-number {
+  font-size: 68px;
+  font-weight: 800;
+  font-family: 'Inter', sans-serif;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  transition: color 0.3s ease;
+  color: var(--pdark-purple);
+  line-height: 1;
+}
+
+.pmetric-label {
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.9;
+  line-height: 1.4;
+  margin-bottom: 0;
+  color: var(--pdark-purple);
+}
+
+/* Desktop View */
+@media (min-width: 768px) {
+  .pmetric-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  
+  .pmetric-card {
+    min-height: 200px;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .pmetrics-section {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #FFFFFF;
+  }
+  .pmetric-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  
+  .pmetric-card {
+    min-height: 180px;
+  }
+  
+  .pmetric-number {
+    font-size: 36px;
+  }
+  
+  .pmetric-label {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+/* pmetrics Grid */
+.pmetrics-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.pmetric-col {
+  padding: 0 12px;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 768px) {
+  .pmetrics-section {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #FFFFFF;
+  }
+  .pmetric-col {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+  /* Platform Heading Section */
+.pplatform-heading-section {
+  padding: 100px 0 20px;
+  text-align: center;
+  background-color: #FFFFFF;
+}
 }
 
 .hero-title {
