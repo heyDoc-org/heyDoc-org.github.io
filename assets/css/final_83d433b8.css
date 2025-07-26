@@ -2261,6 +2261,38 @@ img {
   padding: 0 12px;
   margin-bottom: 24px;
 }
+@media (max-width: 759px) {
+  .hero-title {
+    font-weight: 700; font-family: Arial, Helvetica, sans-serif;
+     text-transform: none; 
+     text-align: center;
+     transition-delay: 0ms;
+      color: #042b44;
+      font-size: 44px;
+      font-weight: 600;
+    
+    }
+    
+    .hero-tagline {
+      color: #042b44;
+      font-size: 29px;
+      font-weight: 700; font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      margin: 0 0 20px 0;
+      text-transform: capitalize;
+      transition-delay: 0ms;
+    }
+    .hero-description {
+      color: #042b44;
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 1.5;
+      margin: 0 0 30px 0;
+    
+    }
+
+}
 
 @media (min-width: 768px) {
   .pmetrics-section {
