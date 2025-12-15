@@ -8,6 +8,8 @@
 //
 // Remove or replace these mocks in production.
 
+let chatMessageCounter = 0;
+
 (function () {
   // ---------- Config ----------
   const DEFAULT_DELAY_MS = 900;      // default simulated latency
@@ -28,6 +30,21 @@
 
   // ---------- Mock handlers ----------
   const handlers = {
+    INCREMENT_CHAT_COUNTER: async (payload) => {
+      console.log("[ClientMock] INCREMENT_CHAT_COUNTER", payload);
+
+      // Simulate real API latency
+      await wait(300);
+
+      chatMessageCounter += 1;
+
+      return {
+        counter: chatMessageCounter,
+        reason: payload?.reason || "chat_message",
+        updatedAt: new Date().toISOString(),
+      };
+    },
+
     // Return a mock user profile (fast)
     GET_USER_PROFILE: async (payload) => {
       console.log("[ClientMock] GET_USER_PROFILE", payload);
@@ -93,7 +110,7 @@
         fetchedAt: new Date().toISOString()
       };
     },
-
+    
     // Simulate a slow backend call to test timeouts / waiting
     SLOW_TEST: async (payload) => {
       console.log("[ClientMock] SLOW_TEST", payload);
