@@ -2548,6 +2548,23 @@
 	<script src="assets/js/clearmedi_dummy_api.js"></script>
 
 	<script>
+		window.HealthAssistantBridge = {
+			getHospitals: (payload) => {
+				return window.ClearMediDummyAPI.getHospitals(payload);
+			},
+			getDoctors: (payload) => {
+				return window.ClearMediDummyAPI.getDoctors(payload);
+			},
+			getSlots: (payload) => {
+				return window.ClearMediDummyAPI.getSlots(payload);
+			}
+		};
+
+		console.log("[Parent] HealthAssistantBridge ready", window.HealthAssistantBridge);
+	</script>
+
+
+	<script>
 (function () {
   console.log("[Parent] ClearMedi bridge ready");
 
