@@ -2549,18 +2549,20 @@
 
 	<script>
 		window.HealthAssistantBridge = {
-			getHospitals: (payload) => {
+			GET_HOSPITALS: async (payload) => {
 				return window.ClearMediDummyAPI.getHospitals(payload);
 			},
-			getDoctors: (payload) => {
+
+			GET_DOCTORS: async (payload) => {
 				return window.ClearMediDummyAPI.getDoctors(payload);
 			},
-			getSlots: (payload) => {
+
+			GET_SLOTS: async (payload) => {
 				return window.ClearMediDummyAPI.getSlots(payload);
 			}
-		};
+			};
 
-		console.log("[Parent] HealthAssistantBridge ready", window.HealthAssistantBridge);
+			console.log("[Parent] HealthAssistantBridge ready", Object.keys(window.HealthAssistantBridge));
 	</script>
 
 
