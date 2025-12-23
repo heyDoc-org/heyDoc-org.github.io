@@ -2537,7 +2537,7 @@
         });
     </script>
 	<!-- 1️⃣ Load mock client APIs for testing -->
-	<script src="/assets/js/functions.js"></script>
+	<!-- <script src="/assets/js/functions.js"></script> -->
 
 	<!-- 2️⃣ Load the deployed embed.js from your backend -->
 	<script 
@@ -2546,69 +2546,58 @@
 		data-path="/assistant">
 	</script>
 	<script src="assets/js/clearmedi_dummy_api.js"></script>
-	
+
 	<script>
-			(function () {
-		console.log("[Parent] Unified bridge loaded");
+(function () {
+  console.log("[Parent] ClearMedi bridge ready");
 
-		const TRUSTED_IFRAME_ORIGIN =
-			"https://wellnessgpt-api-v2-qrjr5crkfa-em.a.run.app";
+  const TRUSTED_IFRAME_ORIGIN = "https://wellnessgpt-api-v2-qrjr5crkfa-em.a.run.app";
 
-		window.addEventListener("message", async (event) => {
-			if (event.origin !== TRUSTED_IFRAME_ORIGIN) return;
+  window.addEventListener("message", async (event) => {
+	if (event.origin !== TRUSTED_IFRAME_ORIGIN) return;
 
-			const data = event.data || {};
-			if (data.type !== "CLIENT_API_REQUEST") return;
+    const data = event.data || {};
+    if (data.type !== "CLIENT_API_REQUEST") return;
 
-			const { action, payload, requestId } = data;
+    const { action, payload, requestId } = data;
+    let result = null;
+    let error = null;
 
-			let result = null;
-			let error = null;
+    try {
+      if (!window.ClearMediDummyAPI) {
+        throw new Error("ClearMediDummyAPI not loaded");
+      }
 
-			try {
-			/* 🔹 Existing HealthAssistant mock APIs */
-			if (window.HealthAssistantBridge?.handlers?.[action]) {
-				result = await window.HealthAssistantBridge.handlers[action](payload);
-			}
+      switch (action) {
+        case "GET_HOSPITALS":
+          result = window.ClearMediDummyAPI.getHospitals(payload);
+          break;
+        case "GET_DOCTORS":
+          result = window.ClearMediDummyAPI.getDoctors(payload);
+          break;
+        case "GET_SLOTS":
+          result = window.ClearMediDummyAPI.getSlots(payload);
+          break;
+        default:
+          throw new Error("Unknown action: " + action);
+      }
+    } catch (e) {
+      error = e.message;
+    }
 
-			/* 🔹 ClearMedi APIs */
-			else if (window.ClearMediDummyAPI) {
-				switch (action) {
-				case "GET_HOSPITALS":
-					result = window.ClearMediDummyAPI.getHospitals(payload);
-					break;
-
-				case "GET_DOCTORS":
-					result = window.ClearMediDummyAPI.getDoctors(payload);
-					break;
-
-				case "GET_SLOTS":
-					result = window.ClearMediDummyAPI.getSlots(payload);
-					break;
-
-				default:
-					throw new Error("Unknown action: " + action);
-				}
-			} else {
-				throw new Error("No API handler available");
-			}
-			} catch (err) {
-			error = err.message;
-			}
-
-			event.source.postMessage(
-			{
-				type: "CLIENT_API_RESPONSE",
-				requestId,
-				action,
-				result,
-				error,
-			},
-			event.origin
-			);
-		});
-		})();
-	</script>
+    event.source.postMessage(
+      {
+        type: "CLIENT_API_RESPONSE",
+        requestId,
+        action,
+        result,
+        error,
+      },
+      event.origin
+    );
+  });
+})();
+</script>
 
 </body>
 
