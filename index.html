@@ -2545,6 +2545,63 @@
 		data-base-url="https://wellnessgpt-api-v2-qrjr5crkfa-em.a.run.app"
 		data-path="/assistant">
 	</script>
+	<script src="assets/js/clearmedi_dummy_api.js"></script>
+
+	<script>
+		(function () {
+		console.log("[Parent] Bridge loaded");
+
+		const TRUSTED_IFRAME_ORIGIN = "https://wellnessgpt-api-v2-qrjr5crkfa-em.a.run.app";
+		window.addEventListener("message", async (event) => {
+			if (event.origin !== TRUSTED_IFRAME_ORIGIN) return;
+			const data = event.data || {};
+			if (data.type !== "CLIENT_API_REQUEST") return;
+
+			console.log("[Parent] API request:", data);
+
+			const { action, payload, requestId } = data;
+			let result = null;
+			let error = null;
+
+			try {
+			if (!window.ClearMediDummyAPI) {
+				throw new Error("ClearMediDummyAPI not loaded");
+			}
+
+			switch (action) {
+				case "GET_HOSPITALS":
+				result = window.ClearMediDummyAPI.getHospitals(payload);
+				break;
+
+				case "GET_DOCTORS":
+				result = window.ClearMediDummyAPI.getDoctors(payload);
+				break;
+
+				case "GET_SLOTS":
+				result = window.ClearMediDummyAPI.getSlots(payload);
+				break;
+
+				default:
+				throw new Error("Unknown action: " + action);
+			}
+			} catch (err) {
+			error = err.message;
+			}
+
+			event.source.postMessage(
+			{
+				type: "CLIENT_API_RESPONSE",
+				requestId,
+				action,
+				result,
+				error,
+			},
+			event.origin
+			);
+		});
+		})();
+</script>
+
 
 </body>
 
