@@ -2546,43 +2546,51 @@
 		data-path="/assistant">
 	</script>
 	<script src="assets/js/clearmedi_dummy_api.js"></script>
-
+	
 	<script>
-		(function () {
-		console.log("[Parent] Bridge loaded");
+			(function () {
+		console.log("[Parent] Unified bridge loaded");
 
-		const TRUSTED_IFRAME_ORIGIN = "https://wellnessgpt-api-v2-qrjr5crkfa-em.a.run.app";
+		const TRUSTED_IFRAME_ORIGIN =
+			"https://wellnessgpt-api-v2-qrjr5crkfa-em.a.run.app";
+
 		window.addEventListener("message", async (event) => {
 			if (event.origin !== TRUSTED_IFRAME_ORIGIN) return;
+
 			const data = event.data || {};
 			if (data.type !== "CLIENT_API_REQUEST") return;
 
-			console.log("[Parent] API request:", data);
-
 			const { action, payload, requestId } = data;
+
 			let result = null;
 			let error = null;
 
 			try {
-			if (!window.ClearMediDummyAPI) {
-				throw new Error("ClearMediDummyAPI not loaded");
+			/* 🔹 Existing HealthAssistant mock APIs */
+			if (window.HealthAssistantBridge?.handlers?.[action]) {
+				result = await window.HealthAssistantBridge.handlers[action](payload);
 			}
 
-			switch (action) {
+			/* 🔹 ClearMedi APIs */
+			else if (window.ClearMediDummyAPI) {
+				switch (action) {
 				case "GET_HOSPITALS":
-				result = window.ClearMediDummyAPI.getHospitals(payload);
-				break;
+					result = window.ClearMediDummyAPI.getHospitals(payload);
+					break;
 
 				case "GET_DOCTORS":
-				result = window.ClearMediDummyAPI.getDoctors(payload);
-				break;
+					result = window.ClearMediDummyAPI.getDoctors(payload);
+					break;
 
 				case "GET_SLOTS":
-				result = window.ClearMediDummyAPI.getSlots(payload);
-				break;
+					result = window.ClearMediDummyAPI.getSlots(payload);
+					break;
 
 				default:
-				throw new Error("Unknown action: " + action);
+					throw new Error("Unknown action: " + action);
+				}
+			} else {
+				throw new Error("No API handler available");
 			}
 			} catch (err) {
 			error = err.message;
@@ -2600,8 +2608,7 @@
 			);
 		});
 		})();
-</script>
-
+	</script>
 
 </body>
 
