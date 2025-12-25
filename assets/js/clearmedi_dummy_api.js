@@ -73,7 +73,37 @@ window.ClearMediDummyAPI = {
 
     return hospitals;
   },
+  getDepartments({ hospital_id }) {
+    const hospitalsById = {
+      HOSP001: {
+        departments: ["general medicine", "orthopedics"]
+      },
+      HOSP002: {
+        departments: ["orthopedics"]
+      },
+      HOSP003: {
+        departments: ["general medicine", "cardiology"]
+      },
+      HOSP004: {
+        departments: ["orthopedics"]
+      },
+      HOSP005: {
+        departments: ["cardiology", "general medicine"]
+      },
+      HOSP006: {
+        departments: ["general medicine", "neurology"]
+      }
+    };
 
+    const hospital = hospitalsById[hospital_id];
+    if (!hospital) return [];
+
+    return hospital.departments.map((dept, index) => ({
+      department_id: `DEPT_${hospital_id}_${index}`,
+      name: dept,
+      description: `${dept} consultation`
+    }));
+  },
   getDoctors({ hospital_id, department }) {
     const doctorsByHospital = {
       HOSP001: [
@@ -148,6 +178,7 @@ window.ClearMediDummyAPI = {
 
     return doctors;
   },
+  
 
   getSlots({ doctor_id, date }) {
     const baseDate = date || new Date().toISOString().split("T")[0];
