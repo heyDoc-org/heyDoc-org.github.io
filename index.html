@@ -59,6 +59,7 @@
           "name": "HeyDoc AI",
           "url": "https://www.heydoc.co.in",
           "logo": "https://www.heydoc.co.in/img/logo/fevicon2.png",
+          "description": "HeyDoc AI provides seamless, connected care by combining cutting-edge technology with deep medical expertise. Our team comprises leaders from top institutions like IIT & AIIMS, backed by industry giants like Google and Microsoft.",
           "sameAs": [
             "https://twitter.com/HeyDoc_Ai",
             "https://www.facebook.com/heydoc.co.in/",
@@ -66,13 +67,72 @@
             "https://in.linkedin.com/company/heydoc-healthtech",
             "https://youtube.com/@heydocai"
           ],
-          "contactPoint": {
-            "@type": "ContactPoint",
-            "telephone": "+91-9027391190",
-            "contactType": "customer service",
-            "email": "support@heydoc.co.in",
-            "areaServed": "IN"
-          }
+          "foundingDate": "2022",
+          "areaServed": {
+            "@type": "Country",
+            "name": "India"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+91-9027391190",
+              "contactType": "customer service",
+              "email": "support@heydoc.co.in",
+              "areaServed": "IN",
+              "availableLanguage": ["en", "hi"]
+            },
+            {
+              "@type": "ContactPoint",
+              "contactType": "sales",
+              "email": "support@heydoc.co.in",
+              "areaServed": "IN"
+            }
+          ],
+          "hasCredential": [
+            {
+              "@type": "MedicalCertification",
+              "name": "ABDM Certification",
+              "issuer": {
+                "@type": "GovernmentOrganization",
+                "name": "National Health Authority (NHA)"
+              }
+            }
+          ],
+          "award": [
+            {
+              "@type": "Award",
+              "name": "Google for Startups AI Cohort",
+              "awardedBy": {
+                "@type": "Organization",
+                "name": "Google"
+              }
+            },
+            {
+              "@type": "Award",
+              "name": "Microsoft for Startups",
+              "awardedBy": {
+                "@type": "Organization",
+                "name": "Microsoft"
+              }
+            }
+          ],
+          "affiliation": [
+            {
+              "@type": "Organization",
+              "name": "IIT Mandi",
+              "roleName": "Research and Development Partner"
+            },
+            {
+              "@type": "Organization",
+              "name": "AIIMS Bilaspur",
+              "roleName": "Research and Development Partner"
+            },
+            {
+              "@type": "GovernmentOrganization",
+              "name": "National Health Authority (NHA)",
+              "roleName": "Certified Partner"
+            }
+          ]
         },
         {
           "@type": "WebSite",
@@ -139,13 +199,7 @@
                 "position": 1,
                 "name": "Home",
                 "item": "https://www.heydoc.co.in"
-              },
-			  {
-				"@type": "ListItem",
-				"position": 2,
-				"name": "Hospital operatingSystem",
-				"item": "https://www.heydoc.co.in/hospital.html"
-			  },
+              }
             ]
           }
         }
@@ -979,7 +1033,7 @@
 									<div class="pmetric-icon">
 										<i class="fas fa-user-md"></i>
 									</div>
-									<div class="pmetric-number" data-count="4000">0</div>
+									<div class="pmetric-number" data-count="150000">0</div>
 									<div class="pmetric-label">AI Medical Report Analysis</div>
 								</div>
 							</div>
@@ -988,7 +1042,7 @@
 									<div class="pmetric-icon">
 										<i class="fas fa-chart-line"></i>
 									</div>
-									<div class="pmetric-number" data-count="86">0</div>
+									<div class="pmetric-number" data-count="94">0</div>
 									<div class="pmetric-label">Quality score accuracy</div>
 								</div>
 							</div>
@@ -997,7 +1051,7 @@
 									<div class="pmetric-icon">
 										<i class="fas fa-comments"></i>
 									</div>
-									<div class="pmetric-number" data-count="30000">0</div>
+									<div class="pmetric-number" data-count="400000">0</div>
 									<div class="pmetric-label">WellnessGPT Interactions</div>
 								</div>
 							</div>
@@ -1006,7 +1060,7 @@
 									<div class="pmetric-icon">
 										<i class="fas fa-lightbulb"></i>
 									</div>
-									<div class="pmetric-number" data-count="45000">0</div>
+									<div class="pmetric-number" data-count="180000">0</div>
 									<div class="pmetric-label">Appointments</div>
 								</div>
 							</div>
@@ -2407,7 +2461,7 @@
 							<div class="footer__legal__inner">
 								<ul>
 									<li>
-										<p>All Rights Reserved 2025 &copy; HeyDoc AI </p>
+										<p>All Rights Reserved 2026 &copy; HeyDoc AI </p>
 									</li>
 								</ul>
 							</div>
@@ -2495,14 +2549,14 @@
 					
 					// Add plus sign for numbers that need it
 					var suffix = '';
-					if ($this.attr('data-count') === '4000' || $this.attr('data-count') === '45000') {
+					if ($this.attr('data-count') === '150000' || $this.attr('data-count') === '180000') {
 						suffix = '+';
-					} else if ($this.attr('data-count') === '86') {
+					} else if ($this.attr('data-count') === '94') {
 						suffix = '%';
-					} else if ($this.attr('data-count') === '3000000') {
+					} else if ($this.attr('data-count') === '400000') {
 						// Special case for 3M
-						countTo = 3;
-						suffix = 'M';
+						// countTo = 3;
+						suffix = '+';
 					}
 					
 					$this.addClass('animated');
