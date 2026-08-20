@@ -571,10 +571,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ========================================================
   // Auto-Switching Interactive Feature Tabs Controller
   // ========================================================
-  const autoTabBtns = document.querySelectorAll('.auto-tab-btn');
-  const tabPanes = document.querySelectorAll('.tab-pane');
-  const macAppTitle = document.getElementById('mac-app-title');
-  const autoTabsSection = document.getElementById('interactive-features');
+  const autoTabsSections = document.querySelectorAll('.auto-tabs-section');
 
   const tabTitles = {
     1: 'Executive Intelligence · Today',
@@ -583,144 +580,148 @@ document.addEventListener('DOMContentLoaded', () => {
     4: 'Decision Execution Tracker · Decision #284'
   };
 
-  let activeTabNum = 1;
-  let autoTabTimer = null;
   const TAB_ROTATION_INTERVAL = 4800;
-  let hasAutoTabsStarted = false;
 
-  // Pause / Play Auto-Rotation Controls
-  const btnPauseTabs = document.getElementById('btn-pause-tabs');
-  const iconPause = document.getElementById('playback-icon-pause');
-  const iconPlay = document.getElementById('playback-icon-play');
-  const playbackLabel = document.getElementById('playback-label');
-  let isTabRotationPaused = false;
+  autoTabsSections.forEach(section => {
+    const autoTabBtns = section.querySelectorAll('.auto-tab-btn');
+    const tabPanes = section.querySelectorAll('.tab-pane');
+    const macAppTitle = section.querySelector('.mac-app-title');
+    const btnPauseTabs = section.querySelector('.btn-pause-animation');
+    const iconPause = section.querySelector('.icon-pause');
+    const iconPlay = section.querySelector('.icon-play');
+    const playbackLabel = section.querySelector('.playback-label');
 
-  function switchFeatureTab(tabNum) {
-    activeTabNum = parseInt(tabNum, 10);
+    let activeTabNum = 1;
+    let autoTabTimer = null;
+    let hasAutoTabsStarted = false;
+    let isTabRotationPaused = false;
 
-    // Update buttons & reset progress line animations
-    autoTabBtns.forEach(btn => {
-      const btnTab = parseInt(btn.dataset.tab, 10);
-      const isActive = btnTab === activeTabNum;
-      btn.classList.toggle('active', isActive);
-      btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+    function switchFeatureTab(tabNum) {
+      activeTabNum = parseInt(tabNum, 10);
 
-      const indicator = btn.querySelector('.tab-progress-indicator');
-      if (indicator) {
-        indicator.style.animation = 'none';
-        if (isActive && hasAutoTabsStarted) {
-          // Trigger DOM reflow to restart keyframe animation downwards from 0%
-          void indicator.offsetHeight;
-          indicator.style.animation = '';
-          if (isTabRotationPaused) {
-            indicator.style.animationPlayState = 'paused';
+      // Update buttons & reset progress line animations
+      autoTabBtns.forEach(btn => {
+        const btnTab = parseInt(btn.dataset.tab, 10);
+        const isActive = btnTab === activeTabNum;
+        btn.classList.toggle('active', isActive);
+        btn.setAttribute('aria-selected', isActive ? 'true' : 'false');
+
+        const indicator = btn.querySelector('.tab-progress-indicator');
+        if (indicator) {
+          indicator.style.animation = 'none';
+          if (isActive && hasAutoTabsStarted) {
+            // Trigger DOM reflow to restart keyframe animation downwards from 0%
+            void indicator.offsetHeight;
+            indicator.style.animation = '';
+            if (isTabRotationPaused) {
+              indicator.style.animationPlayState = 'paused';
+            }
           }
         }
+      });
+
+      // Update panes in this section
+      tabPanes.forEach(pane => {
+        const paneTab = parseInt(pane.dataset.pane || (pane.id && pane.id.match(/\d+$/) ? pane.id.match(/\d+$/)[0] : '0'), 10);
+        if (paneTab === activeTabNum) {
+          if (hasAutoTabsStarted) {
+            void pane.offsetWidth; // Force reflow to restart CSS animations cleanly
+          }
+          pane.classList.add('active');
+        } else {
+          pane.classList.remove('active');
+        }
+      });
+
+      // Update window titlebar
+      if (macAppTitle && tabTitles[activeTabNum]) {
+        macAppTitle.textContent = tabTitles[activeTabNum];
       }
-    });
-
-    // Update panes
-    tabPanes.forEach(pane => {
-      pane.classList.remove('active');
-    });
-    const targetPane = document.getElementById(`tab-pane-${activeTabNum}`);
-    if (targetPane) {
-      if (hasAutoTabsStarted) {
-        void targetPane.offsetWidth; // Force reflow to restart CSS animations cleanly
-      }
-      targetPane.classList.add('active');
     }
 
-    // Update window titlebar
-    if (macAppTitle && tabTitles[activeTabNum]) {
-      macAppTitle.textContent = tabTitles[activeTabNum];
-    }
-  }
-
-  function startAutoTabRotation() {
-    stopAutoTabRotation();
-    if (isTabRotationPaused || !hasAutoTabsStarted) return;
-    autoTabTimer = setInterval(() => {
-      const nextTab = activeTabNum >= autoTabBtns.length ? 1 : activeTabNum + 1;
-      switchFeatureTab(nextTab);
-    }, TAB_ROTATION_INTERVAL);
-  }
-
-  function stopAutoTabRotation() {
-    if (autoTabTimer) {
-      clearInterval(autoTabTimer);
-      autoTabTimer = null;
-    }
-  }
-
-  function toggleTabPlayback(shouldPause) {
-    isTabRotationPaused = typeof shouldPause === 'boolean' ? shouldPause : !isTabRotationPaused;
-    
-    if (isTabRotationPaused) {
+    function startAutoTabRotation() {
       stopAutoTabRotation();
-      if (iconPause) iconPause.style.display = 'none';
-      if (iconPlay) iconPlay.style.display = 'inline-flex';
-      if (playbackLabel) playbackLabel.textContent = 'Resume animation';
-      if (btnPauseTabs) {
-        btnPauseTabs.setAttribute('aria-label', 'Resume animation');
-        btnPauseTabs.setAttribute('title', 'Resume auto-rotation');
-        btnPauseTabs.classList.add('is-paused');
+      if (isTabRotationPaused || !hasAutoTabsStarted) return;
+      autoTabTimer = setInterval(() => {
+        const nextTab = activeTabNum >= autoTabBtns.length ? 1 : activeTabNum + 1;
+        switchFeatureTab(nextTab);
+      }, TAB_ROTATION_INTERVAL);
+    }
+
+    function stopAutoTabRotation() {
+      if (autoTabTimer) {
+        clearInterval(autoTabTimer);
+        autoTabTimer = null;
       }
-      const activeIndicator = document.querySelector('.auto-tab-btn.active .tab-progress-indicator');
-      if (activeIndicator) {
-        activeIndicator.style.animationPlayState = 'paused';
+    }
+
+    function toggleTabPlayback(shouldPause) {
+      isTabRotationPaused = typeof shouldPause === 'boolean' ? shouldPause : !isTabRotationPaused;
+      
+      if (isTabRotationPaused) {
+        stopAutoTabRotation();
+        if (iconPause) iconPause.style.display = 'none';
+        if (iconPlay) iconPlay.style.display = 'inline-flex';
+        if (playbackLabel) playbackLabel.textContent = 'Resume animation';
+        if (btnPauseTabs) {
+          btnPauseTabs.setAttribute('aria-label', 'Resume animation');
+          btnPauseTabs.setAttribute('title', 'Resume auto-rotation');
+          btnPauseTabs.classList.add('is-paused');
+        }
+        const activeIndicator = section.querySelector('.auto-tab-btn.active .tab-progress-indicator');
+        if (activeIndicator) {
+          activeIndicator.style.animationPlayState = 'paused';
+        }
+      } else {
+        if (iconPause) iconPause.style.display = 'inline-flex';
+        if (iconPlay) iconPlay.style.display = 'none';
+        if (playbackLabel) playbackLabel.textContent = 'Pause animation';
+        if (btnPauseTabs) {
+          btnPauseTabs.setAttribute('aria-label', 'Pause animation');
+          btnPauseTabs.setAttribute('title', 'Pause auto-rotation');
+          btnPauseTabs.classList.remove('is-paused');
+        }
+        const activeIndicator = section.querySelector('.auto-tab-btn.active .tab-progress-indicator');
+        if (activeIndicator) {
+          activeIndicator.style.animationPlayState = 'running';
+        }
+        startAutoTabRotation();
       }
-    } else {
-      if (iconPause) iconPause.style.display = 'inline-flex';
-      if (iconPlay) iconPlay.style.display = 'none';
-      if (playbackLabel) playbackLabel.textContent = 'Pause animation';
-      if (btnPauseTabs) {
-        btnPauseTabs.setAttribute('aria-label', 'Pause animation');
-        btnPauseTabs.setAttribute('title', 'Pause auto-rotation');
-        btnPauseTabs.classList.remove('is-paused');
-      }
-      const activeIndicator = document.querySelector('.auto-tab-btn.active .tab-progress-indicator');
-      if (activeIndicator) {
-        activeIndicator.style.animationPlayState = 'running';
-      }
+    }
+
+    if (btnPauseTabs) {
+      btnPauseTabs.addEventListener('click', () => {
+        toggleTabPlayback();
+      });
+    }
+
+    // Click listeners for manual tab selection
+    autoTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (!hasAutoTabsStarted) {
+          hasAutoTabsStarted = true;
+        }
+        const tabNum = btn.dataset.tab;
+        switchFeatureTab(tabNum);
+        if (!isTabRotationPaused) {
+          startAutoTabRotation(); // Reset timer after manual click
+        }
+      });
+    });
+
+    // Start tabs on scroll observer
+    function startTabsOnScroll() {
+      if (hasAutoTabsStarted) return;
+      hasAutoTabsStarted = true;
+      switchFeatureTab(1);
       startAutoTabRotation();
     }
-  }
 
-  if (btnPauseTabs) {
-    btnPauseTabs.addEventListener('click', () => {
-      toggleTabPlayback();
-    });
-  }
-
-  // Click listeners for manual tab selection
-  autoTabBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      if (!hasAutoTabsStarted) {
-        hasAutoTabsStarted = true;
-      }
-      const tabNum = btn.dataset.tab;
-      switchFeatureTab(tabNum);
-      if (!isTabRotationPaused) {
-        startAutoTabRotation(); // Reset timer after manual click
-      }
-    });
-  });
-
-  // Start tabs on scroll observer
-  function startTabsOnScroll() {
-    if (hasAutoTabsStarted) return;
-    hasAutoTabsStarted = true;
-    switchFeatureTab(1);
-    startAutoTabRotation();
-  }
-
-  if (autoTabsSection) {
     const tabsObserver = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (entry.isIntersecting && !hasAutoTabsStarted) {
           startTabsOnScroll();
-          observer.unobserve(autoTabsSection);
+          observer.unobserve(section);
         }
       });
     }, {
@@ -728,13 +729,13 @@ document.addEventListener('DOMContentLoaded', () => {
       rootMargin: '0px 0px -40px 0px'
     });
 
-    tabsObserver.observe(autoTabsSection);
-  }
+    tabsObserver.observe(section);
 
-  // Initial static pane setup without starting animations
-  if (autoTabBtns.length > 0) {
-    switchFeatureTab(1);
-  }
+    // Initial static pane setup without starting animations
+    if (autoTabBtns.length > 0) {
+      switchFeatureTab(1);
+    }
+  });
 
   // ========================================================
   // Section 4: 3-Card Showcase One-Time Animation Controller
