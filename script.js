@@ -39,15 +39,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const pipeActionRow = document.getElementById('pipe-action-row');
   const btnVisualizeData = document.getElementById('btn-visualize-data');
 
-  let isRunning = false;
+  let currentAnimationId = 0;
 
   // Helper sleep
   const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   // Typewriter effect function
-  async function typeWriter(element, text, speed = 45) {
+  async function typeWriter(element, text, speed = 45, animId) {
+    if (!element) return;
     element.textContent = '';
     for (let i = 0; i < text.length; i++) {
+      if (animId !== undefined && animId !== currentAnimationId) return;
       element.textContent += text[i];
       await wait(speed);
     }
@@ -55,8 +57,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Reset to Initial State
   function resetAll() {
-    isRunning = false;
-
     // Chat Intro Reset
     if (chatIntroContainer) {
       chatIntroContainer.className = 'chat-intro-container';
@@ -136,13 +136,19 @@ document.addEventListener('DOMContentLoaded', () => {
     if (kpi2) kpi2.textContent = '0';
     if (kpi3) kpi3.textContent = '0.0%';
     if (kpi4) kpi4.textContent = '0.0s';
+
+    const chartLine = document.getElementById('chart-line-path');
+    if (chartLine) {
+      chartLine.style.animation = 'none';
+    }
   }
 
   // Helper: Live Number Count-up Animation
-  function animateCount(elem, targetVal, suffix, decimals, duration) {
+  function animateCount(elem, targetVal, suffix, decimals, duration, animId) {
     if (!elem) return;
     const startTime = performance.now();
     function update(now) {
+      if (animId !== undefined && animId !== currentAnimationId) return;
       const elapsed = now - startTime;
       const progress = Math.min(elapsed / duration, 1);
       const ease = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
@@ -159,11 +165,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Master Animation Sequence
   async function runAnimationSequence() {
-    if (isRunning) return;
-    isRunning = true;
+    const animId = ++currentAnimationId;
     resetAll();
 
-    await wait(400);
+    const isCurrent = () => currentAnimationId === animId;
+    const waitStep = async (ms) => {
+      await wait(ms);
+      return isCurrent();
+    };
+
+    if (!await waitStep(400)) return;
 
     // ========================================================
     // PHASE 0: Chat Conversation Interaction
@@ -171,36 +182,38 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // 1. User Message arrives & types "Hi"
     chatUserRow.classList.add('visible');
-    await wait(350);
-    await typeWriter(chatUserText, 'Hi', 90);
-    await wait(400);
+    if (!await waitStep(350)) return;
+    await typeWriter(chatUserText, 'Hi', 90, animId);
+    if (!isCurrent()) return;
+    if (!await waitStep(400)) return;
     chatUserCaret.style.display = 'none';
 
-    await wait(300);
+    if (!await waitStep(300)) return;
 
     // 2. AI row appears with 3 pulsing typing dots
     chatAiRow.classList.add('visible');
     chatTypingDots.style.display = 'inline-flex';
-    await wait(950);
+    if (!await waitStep(950)) return;
 
     // 3. AI typing dots hide, AI message types out
     chatTypingDots.style.display = 'none';
     chatAiCaret.style.display = 'inline-block';
-    await typeWriter(chatAiText, 'Hi [USER], how may I help you?', 45);
-    await wait(600);
+    await typeWriter(chatAiText, 'Hi [USER], how may I help you?', 45, animId);
+    if (!isCurrent()) return;
+    if (!await waitStep(600)) return;
     chatAiCaret.style.display = 'none';
 
-    await wait(700);
+    if (!await waitStep(700)) return;
 
     // ========================================================
     // TRANSITION: Chat fades out, macOS Window slides up
     // ========================================================
     chatIntroContainer.classList.add('fade-out');
-    await wait(100);
+    if (!await waitStep(100)) return;
     macosWindow.classList.add('slide-up-active');
 
     // Wait for the window to finish sliding up and settling
-    await wait(1000);
+    if (!await waitStep(1000)) return;
 
     // ========================================================
     // PHASE 1: Streaming & Ingesting Agent Telemetry Data
@@ -212,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Slower, readable pacing (~60ms per step = 6.0 seconds total)
     for (let p = 1; p <= 100; p++) {
-      await wait(58);
+      if (!await waitStep(58)) return;
       if (fetchBarFill) fetchBarFill.style.width = p + '%';
       if (fetchPercent) fetchPercent.textContent = p + '%';
 
@@ -290,16 +303,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Pause so visitors can read the completed stream items
-    await wait(1200);
+    if (!await waitStep(1200)) return;
 
     // ========================================================
     // TRANSITION: Screen 1 exits, Screen 2 enters
     // ========================================================
     stageUpload.className = 'stage-screen stage-upload exit-up';
-    await wait(220);
+    if (!await waitStep(220)) return;
     stageDashboard.className = 'stage-screen stage-dashboard active';
 
-    await wait(500);
+    if (!await waitStep(500)) return;
 
     // ========================================================
     // PHASE 2: AI Intelligence Pipeline (6 Steps -> 100%)
@@ -338,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Time for step processing
-      await wait(850);
+      if (!await waitStep(850)) return;
 
       // Complete step
       if (stepItem) stepItem.className = 'pipe-step-item done';
@@ -351,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
         status.textContent = step.doneStatus;
       }
 
-      await wait(250);
+      if (!await waitStep(250)) return;
     }
 
     // Complete pipeline state
@@ -360,14 +373,14 @@ document.addEventListener('DOMContentLoaded', () => {
       pipeStepBadge.textContent = 'Complete · 6 of 6 steps';
     }
 
-    await wait(400);
+    if (!await waitStep(400)) return;
 
     // Reveal the full-length Visualize Data button
     if (pipeActionRow) {
       pipeActionRow.classList.add('visible');
     }
 
-    await wait(700);
+    if (!await waitStep(700)) return;
 
     // ========================================================
     // PHASE 3: Cursor Animation & Click on "Visualize Data"
@@ -396,16 +409,16 @@ document.addEventListener('DOMContentLoaded', () => {
       simMousePointer.style.transform = `translate(${targetX}px, ${targetY}px)`;
 
       // Wait for cursor to reach the button
-      await wait(900);
+      if (!await waitStep(900)) return;
 
       // Trigger hover state
       btnVisualizeData.classList.add('sim-hover');
-      await wait(280);
+      if (!await waitStep(280)) return;
 
       // Mouse click down
       simMousePointer.classList.add('clicking');
       btnVisualizeData.classList.add('sim-clicked');
-      await wait(220);
+      if (!await waitStep(220)) return;
 
       // Mouse click release
       simMousePointer.classList.remove('clicking');
@@ -415,22 +428,24 @@ document.addEventListener('DOMContentLoaded', () => {
       simMousePointer.style.transition = 'opacity 0.3s ease';
       simMousePointer.style.opacity = '0';
 
-      await wait(300);
+      if (!await waitStep(300)) return;
 
       // ========================================================
       // TRANSITION: Screen 2 exits -> Screen 3 (Dashboard) enters!
       // ========================================================
       stageDashboard.className = 'stage-screen stage-dashboard exit-up';
-      await wait(220);
+      if (!await waitStep(220)) return;
       stageVisualize.className = 'stage-screen stage-visualize active';
       if (macosTitle) macosTitle.textContent = 'Dashboard — Enterprise AI Intelligence';
 
       // Animate live count-up for KPI metrics on load
       setTimeout(() => {
-        animateCount(document.getElementById('kpi-val-1'), 2.4, 'M', 1, 950);
-        animateCount(document.getElementById('kpi-val-2'), 18, '', 0, 750);
-        animateCount(document.getElementById('kpi-val-3'), 84.2, '%', 1, 950);
-        animateCount(document.getElementById('kpi-val-4'), 1.4, 's', 1, 850);
+        if (isCurrent()) {
+          animateCount(document.getElementById('kpi-val-1'), 2.4, 'M', 1, 950, animId);
+          animateCount(document.getElementById('kpi-val-2'), 18, '', 0, 750, animId);
+          animateCount(document.getElementById('kpi-val-3'), 84.2, '%', 1, 950, animId);
+          animateCount(document.getElementById('kpi-val-4'), 1.4, 's', 1, 850, animId);
+        }
       }, 100);
 
       // Re-trigger SVG draw animation on load
@@ -522,7 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // "See how it works" smooth center-scroll handler
+  // "See how it works" smooth center-scroll handler & animation replay
   const btnSeeHow = document.getElementById('btn-see-how-it-works') || document.querySelector('a[href="#how-it-works"]');
   const heroDisplay = document.getElementById('hero-display') || document.getElementById('how-it-works');
 
@@ -547,6 +562,9 @@ document.addEventListener('DOMContentLoaded', () => {
         top: Math.max(0, targetScrollY),
         behavior: 'smooth'
       });
+
+      // Replay hero animation
+      runAnimationSequence();
     });
   }
 
