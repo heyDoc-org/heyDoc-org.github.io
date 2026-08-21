@@ -77,32 +77,44 @@
 .site-header .main-nav {
   display: flex;
   align-items: center;
-  gap: 36px;
+  gap: 28px;
 }
 
 .site-header .nav-links {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 32px;
+  gap: 6px;
   margin: 0;
   padding: 0;
 }
 
 .site-header .nav-link {
   color: #5c5c5c;
-  font-size: 15px;
+  font-size: 14.5px;
   font-weight: 500;
   letter-spacing: -0.01em;
   text-decoration: none;
-  padding: 6px 0;
-  transition: color 0.18s ease;
+  padding: 7px 14px;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: color 0.18s ease, background-color 0.18s ease;
   font-family: var(--font-family);
   line-height: normal;
+  display: inline-flex;
+  align-items: center;
 }
 
 .site-header .nav-link:hover {
   color: var(--text-primary);
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+.site-header .nav-link.active,
+.site-header .nav-link[aria-current="page"] {
+  color: var(--text-primary);
+  background-color: rgba(0, 0, 0, 0.07);
+  font-weight: 600;
 }
 
 .site-header .nav-cta-wrap {
@@ -177,6 +189,19 @@
   transform: translateY(-7px) rotate(-45deg);
 }
 
+@media (min-width: 861px) and (max-width: 1100px) {
+  .site-header .main-nav {
+    gap: 16px;
+  }
+  .site-header .nav-links {
+    gap: 4px;
+  }
+  .site-header .nav-link {
+    padding: 6px 10px;
+    font-size: 13.5px;
+  }
+}
+
 /* Responsive Navigation for Tablets and Mobile */
 @media (max-width: 860px) {
   .site-header .mobile-toggle {
@@ -212,15 +237,23 @@
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    gap: 12px;
+    gap: 6px;
   }
 
   .site-header .nav-link {
-    font-size: 16px;
+    font-size: 15px;
     width: 100%;
     display: block;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    padding: 10px 14px;
+    border-radius: 8px;
+    border-bottom: none;
+  }
+
+  .site-header .nav-link.active,
+  .site-header .nav-link[aria-current="page"] {
+    background-color: rgba(0, 0, 0, 0.08);
+    color: var(--text-primary);
+    font-weight: 600;
   }
 
   .site-header .nav-cta-wrap {

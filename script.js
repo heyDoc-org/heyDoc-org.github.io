@@ -535,6 +535,27 @@ document.addEventListener('DOMContentLoaded', () => {
         mobileToggle.setAttribute('aria-expanded', 'false');
       }
     });
+
+    // Active link detection based on current URL
+    const currentPath = window.location.pathname.replace(/\/$/, "");
+    const pageFile = currentPath.substring(currentPath.lastIndexOf('/') + 1) || 'index.html';
+    const navItems = mainNav.querySelectorAll('.nav-link');
+
+    if (navItems.length > 0) {
+      navItems.forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href || href.startsWith('http') || href.startsWith('#')) return;
+        const cleanHref = href.replace(/^\.\//, '').replace(/\/$/, "");
+        if (cleanHref === pageFile || ((pageFile === 'index.html' || pageFile === '') && (cleanHref === 'index.html' || cleanHref === ''))) {
+          navItems.forEach(item => {
+            item.classList.remove('active');
+            item.removeAttribute('aria-current');
+          });
+          link.classList.add('active');
+          link.setAttribute('aria-current', 'page');
+        }
+      });
+    }
   }
 
   // "See how it works" smooth center-scroll handler & animation replay
