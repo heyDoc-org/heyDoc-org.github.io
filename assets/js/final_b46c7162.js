@@ -2575,9 +2575,9 @@
 							startIndex: e.dataset.startIndex || 0
 						}, [c]);
 					return h(), u.on("init", function() {
-						x(r, f), x(r, p, 0), s.addEventListener("click", function() {
+						x(r, f), x(r, p, 0), s && s.addEventListener("click", function() {
 							c.stop(), u.scrollPrev()
-						}), a.addEventListener("click", function() {
+						}), a && a.addEventListener("click", function() {
 							c.stop(), u.scrollNext()
 						})
 					}), u.on("select", function() {
@@ -2589,7 +2589,7 @@
 						return function() {
 							var t = e.offsetHeight;
 							x([s, a], function(e) {
-								e.style.height = t + "px"
+								if (e) e.style.height = t + "px"
 							})
 						}
 					}(t))), {
@@ -3078,7 +3078,9 @@
 	}
 	document.querySelectorAll('[href*="http://ww.findmywayar"]').forEach(function(e) {
 		e.href = e.href.replace("http://ww.findmywayar.com", "../../index.html").replace(".html", "")
-	}), document.querySelector(".icon--search.header__search").remove();
+	});
+	var searchIcon = document.querySelector(".icon--search.header__search");
+	if (searchIcon) searchIcon.remove();
 	var bt, xt, k, St, _t, Lt, Et, At, Tt, kt, qt, Ct, It, q, Ot, Mt, zt, C = document.createElement("div"),
 		I = (C.style = "color: rgba(200, 0, 0, 0.85); visibility: hidden; text-align: center; margin-bottom: 1rem", C.innerText = "Please fill in all the required fields", document.querySelector("#contact-form")),
 		Pt = (null !== I && (I.prepend(C), window.onRecaptchaPass = function() {
@@ -3135,6 +3137,7 @@
 		}(Bt[jt]);
 
 	function Dt(e, t) {
+		if (!k) return;
 		0 < e && (t ? k.classList.remove("header--reveal") : k.classList.add("header--reveal")), 100 < e ? k.classList.add("header--scroll") : k.classList.remove("header--scroll")
 	}
 
@@ -3167,20 +3170,20 @@
 			for (var e = i.files, t = [], n = 0; n < e.length; n++) t.push(e[n].name);
 			r.innerHTML = t.length ? "<br /><br />" + t.join("<br />") : ""
 		})
-	}), k = document.querySelector(".header"), I = k.querySelector(".header__toggle"), q = k.querySelectorAll(".header__item--parent"), I.addEventListener("click", function() {
+	}), k = document.querySelector(".header"), I = k ? k.querySelector(".header__toggle") : null, q = k ? k.querySelectorAll(".header__item--parent") : [], I && I.addEventListener("click", function() {
 		document.body.classList.toggle("header-open")
 	}), St = w(), _t = !1, window.addEventListener("scroll", function() {
 		_t = !0
 	}), setInterval(function() {
 		var e;
 		_t && b() > _.e.width && (_t = !1, e = w(), Math.abs(St - e) <= 5 || (Dt(e, St < e), St = e))
-	}, 50), Dt(St, !1), q.forEach(function(t) {
+	}, 50), Dt(St, !1), q && q.forEach(function(t) {
 		var e = t.querySelector(".header__dropdown"),
 			n = t.querySelector(".header__link--disabled"),
 			r = t.querySelector(".header__parent-chevron");
 		n && b() > _.e.width ? t.addEventListener("click", function() {
 			t.classList.toggle("header__item--show-dropdown")
-		}) : r.addEventListener("click", function(e) {
+		}) : r && r.addEventListener("click", function(e) {
 			e.preventDefault(), t.classList.toggle("header__item--show-dropdown")
 		}), t.addEventListener("mousemove", function() {
 			b() <= _.e.width || t.classList.contains("header__item--show-dropdown") || t.classList.add("header__item--show-dropdown")
@@ -3303,5 +3306,6 @@
 }();
 
 if (window.location.pathname === '/contact-us' || window.location.search.startsWith('?success')) {
-	document.querySelector('.page__summary').style.display = 'none';
+	var pageSummary = document.querySelector('.page__summary');
+	if (pageSummary) pageSummary.style.display = 'none';
 }

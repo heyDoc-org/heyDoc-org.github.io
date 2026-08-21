@@ -40,6 +40,8 @@
   <script src="https://kit.fontawesome.com/060f122a39.js" crossorigin="anonymous"></script>
 
   <!-- Stylesheets (unchanged) -->
+  <link rel="stylesheet" href="assets/css/navbar.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
   <link rel="stylesheet" href="assets/css/final_83d433b8.css" media="screen" />
   <link rel="stylesheet" href="assets/css/heydoc-styles.css" media="screen" />
   <link rel="stylesheet" href="assets/css/animate.css" />
@@ -52,72 +54,35 @@
 	<script>(function () { document.body.className += ' js'; })();</script>
 	
 	<div class="body__inner">
-		<!-- Header - using the navigation from index.html -->
-		<div class="header header--reveal header--secondary" role="banner">
-			<div class="header__shader">
-					<div class="row row--flex" role="navigation">
-						<div class="col col--fixed header__side layered">
-							<div class="col col--fixed header__side layered">
-								<a href="https://www.heydoc.co.in" aria-label="Homepage" class="header_icon__logo">
-									<img src="img/logo/heydoc_logo.png">
-								</a>
-							</div>
-						</div>
-						<div class="col layered e-show">
-							<button class="header__toggle" aria-label="Toggle menu"></button>
-						</div>
-						<div class="col col--fixed e2-2">
-							<div class="header__inner">
-								<ul class="header__nav--main">
-									<li class="header__item" style="transition-delay:0.51s,0.51s">
-										<a class="h header__link" href="https://www.heydoc.co.in">
-											Patients
-										</a>
-									</li>
-									<li class="header__item" style="transition-delay:0.51s,0.51s">
-										<a class="h header__link" href="#">
-											Doctors
-										</a>
-									</li>
-									<li class="header__item" style="transition-delay:0.67s,0.67s">
-										<a class="h header__link" href="https://wellness-gpt.com">
-											Business
-										</a>
-									</li>
-									<li class="header__item" style="transition-delay:0.59s,0.59s">
-										<a class="h header__link" href="abdm.html">
-											ABDM
-										</a>
-									</li>
-									<li class="header__item" style="transition-delay:0.59s,0.59s">
-										<a class="h header__link" href="about-us.html">
-											Our Team
-										</a>
-									</li>
-									<li class="header__item" style="transition-delay:0.67s,0.67s">
-										<a class="h header__link" href="abdm.html">
-											Contact Us
-										</a>
-									</li>
-									<li class="header__item" style="transition-delay:0.67s,0.67s">
-										<a class="h header__link" href="https://www.wellness-gpt.com">
-											<p style="background: linear-gradient(to right, #4A83F0, #DB67D2,#D96570);
-											color: transparent; background-clip: text;">WellnessGPT</p>
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-						<div class="col col--fixed header__wellnessgptside">
-							<ul class="header__nav">
-								<li style="transition-delay:0.99s,0.99s">
-									<a href="#" class="a2 icon icon--search header__search" aria-label="Search"></a>
-								</li>
-							</ul>
-						</div>
+		<!-- Site Navigation Header -->
+		<header class="site-header" id="site-header">
+			<div class="bw-container header-container">
+				<a href="index.html" class="brand-link" aria-label="HeyDoc Home">
+					<img src="assets/heydoc_logo.png" alt="HeyDoc Logo" class="brand-logo">
+				</a>
+
+				<!-- Desktop & Mobile Navigation Links -->
+				<nav class="main-nav" id="main-nav" aria-label="Primary Navigation">
+					<ul class="nav-links">
+						<li><a href="heydoc-app.html" class="nav-link">HeyDoc App</a></li>
+						<li><a href="hospital.html" class="nav-link">Hospitals</a></li>
+						<li><a href="abdm.html" class="nav-link">ABDM</a></li>
+						<li><a href="https://wellness-gpt.com/enterprise.html" target="_blank" rel="noopener noreferrer" class="nav-link">Business</a></li>
+						<li><a href="https://wellness-gpt.com" target="_blank" rel="noopener noreferrer" class="nav-link">WellnessGPT</a></li>
+					</ul>
+					<div class="nav-cta-wrap">
+						<a href="https://forms.gle/ovwj9HLPMaPL4sgh6" target="_blank" rel="noopener noreferrer" class="btn-navbar-demo">Schedule Briefing</a>
 					</div>
+				</nav>
+
+				<!-- Mobile Navigation Hamburger Toggle -->
+				<button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
 			</div>
-		</div>
+		</header>
 
 		<a id="top-of-page"></a>
 
@@ -540,81 +505,114 @@ Built on the Ayushman Bharat Digital Mission (ABDM), we unify your hospital's da
 		</section>
 	</div>
 
-	<!-- footer -->
-	<footer class="footer section" role="contentinfo">
-		<h2 class="invisible">Footer </h2>
-		<div class="container container--inset-l">
-			<div role="navigation">
-				<div class="row row--flex">
-					<div class="footer__logo col col--fixed a4-12 h1-1"><a href="index.html" aria-label="Homepage"
-							class="header__logo" style="margin-left: 20px;"></a></div>
-					<div class="col a8-12 h1-1">
-						<div class="row row--flex">
-							<div class="col">
-								<ul class="footer__list">
-									<h3 class="h footer__heading">Our Products </h3>
-									<li><a href="https://heydoc.co.in" class="a2 footer__link">For Patients </a></li>
-									<li><a href="#" class="a2 footer__link">Doctors</a></li>
-									<li><a href="hospital.html" class="a2 footer__link">Hospitals</a></li>
-									<li><a href="https://wellness-gpt.com" class="a2 footer__link" rel="noopener">Digital health Business</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="footer__list">
-									<h3 class="h footer__heading">About </h3>
-									<li><a href="about-us.html" class="a2 footer__link" rel="noopener">Our Team</a></li>
-									<li><a href="abdm.html" class="a2 footer__link" rel="noopener">ABDM</a></li>
-
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="footer__list">
-									<h3 class="h footer__heading">Contact US </h3>
-									<ul class="footer__list">
-										<li>support@heydoc.co.in </li>
-										<li>+91 9027391190 </li>
-									</ul>
-
-								</ul>
-							</div>
-							<!-- <div class="col">
-								<h3 class="h footer__heading">Info </h3>
-								<ul class="footer__list">
-
-
-									<li><a href="contact.html" class="a2 footer__link">Contact
-											Us </a></li>
-											<li><a href="blog/blog.html" class="a2 footer__link">Blogs</a></li>
-								</ul>
-							</div> -->
-						</div>
-					</div>
+	<!-- Site Footer -->
+	<footer class="site-footer" id="site-footer">
+		<div class="bw-container">
+			
+			<!-- Top Grid: Brand Column + 3 Link Columns -->
+			<div class="footer-top-grid">
+				
+				<!-- Left: Brand Info -->
+				<div class="footer-brand-col">
+					<a href="index.html" class="footer-brand-link" aria-label="HeyDoc Home">
+						<img src="assets/heydoc_logo.png" alt="HeyDoc Logo" class="footer-brand-logo">
+					</a>
+					<p class="footer-brand-desc">
+						Transforming AI interaction signals and telemetry into actionable business intelligence.
+					</p>
 				</div>
-				<div class="row row--flex row--flex-vcen">
-					<div class="col a4-12 j2-2">
-						<div class="footer__social">
-							<p class="footer__social-heading">Follow us on </p><a href="https://x.com/HeyDoc_Ai"
-								class="a2 footer__icon icon icon--twitter" aria-label="twitter"></a><a href="https://www.facebook.com/heydoc.co.in/"
-								class="a2 footer__icon icon icon--facebook" aria-label="facebook"></a><a href="https://youtube.com/@heydocai?si=qcBqkBiHFHj_kJ-p"
-								class="a2 footer__icon icon icon--youtube" aria-label="youtube"></a><a href="https://www.instagram.com/heydoc_ai"
-								class="a2 footer__icon icon icon--instagram" aria-label="instagram"></a><a href="https://in.linkedin.com/company/heydoc-healthtech"
-								class="a2 footer__icon icon icon--linkedin" aria-label="linkedin"></a>
-						</div>
-					</div>
-					<div class="col a8-12 j2-2">
-						<ul class="footer__legal">
-							<div class="footer__legal__inner">
-								<ul>
-									<li>
-										<p>All Rights Reserved 2026 &copy; HeyDoc AI </p>
-									</li>
-								</ul>
-							</div>
+
+				<!-- Right: 3 Columns (Platform, Company, Contact) -->
+				<div class="footer-links-grid">
+					
+					<!-- Column 1: Platform -->
+					<div class="footer-col">
+						<h4 class="footer-col-title">Platform</h4>
+						<ul class="footer-links-list">
+							<li><a href="heydoc-app.html" class="footer-link">HeyDoc App</a></li>
+							<li><a href="hospital.html" class="footer-link">Hospitals</a></li>
+							<li><a href="abdm.html" class="footer-link">ABDM</a></li>
+							<li><a href="https://wellness-gpt.com/enterprise.html" target="_blank" rel="noopener noreferrer" class="footer-link">Business</a></li>
 						</ul>
 					</div>
+
+					<!-- Column 2: Company -->
+					<div class="footer-col">
+						<h4 class="footer-col-title">Company</h4>
+						<ul class="footer-links-list">
+							<li><a href="about-us.html" class="footer-link">Our Team</a></li>
+							<li><a href="https://wellness-gpt.com" target="_blank" rel="noopener noreferrer" class="footer-link">WellnessGPT</a></li>
+							<li><a href="https://forms.gle/ovwj9HLPMaPL4sgh6" target="_blank" rel="noopener noreferrer" class="footer-link">Schedule Briefing</a></li>
+						</ul>
+					</div>
+
+					<!-- Column 3: Contact -->
+					<div class="footer-col footer-contact-col">
+						<h4 class="footer-col-title">Contact</h4>
+						<ul class="footer-contact-list">
+							<li>
+								<span class="contact-lbl">Email:</span>
+								<a href="mailto:support@heydoc.co.in" class="footer-link">support@heydoc.co.in</a>
+							</li>
+							<li>
+								<span class="contact-lbl">Phone:</span>
+								<a href="tel:+919027391190" class="footer-link">+91 9027391190</a>
+							</li>
+							<li class="contact-item-block">
+								<span class="contact-lbl">Company:</span>
+								<span class="contact-val">Amogh NSMP Tech Pvt. Ltd.</span>
+							</li>
+							<li class="contact-item-block">
+								<span class="contact-lbl">Address:</span>
+								<span class="contact-val">3/20/1 Rakshapuram, Mawana Rd, Meerut, UP, 250001, India</span>
+							</li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
+
+			<!-- Bottom Bar: Copyright + 5 Circular Social Media Icons -->
+			<div class="footer-bottom-bar">
+				<div class="footer-copyright">
+					© 2026 HeyDoc. All rights reserved.
+				</div>
+
+				<div class="footer-socials" aria-label="Social Media Links">
+					<!-- Facebook -->
+					<a href="https://www.facebook.com/heydoc.co.in/" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Facebook">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+						</svg>
+					</a>
+					<!-- Instagram -->
+					<a href="https://www.instagram.com/heydoc_ai" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Instagram">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+						</svg>
+					</a>
+					<!-- X (Twitter) -->
+					<a href="https://twitter.com/HeyDoc_Ai" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="X (Twitter)">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+						</svg>
+					</a>
+					<!-- LinkedIn -->
+					<a href="https://in.linkedin.com/company/heydoc-healthtech" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="LinkedIn">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+						</svg>
+					</a>
+					<!-- YouTube -->
+					<a href="https://youtube.com/@heydocai" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="YouTube">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+
 		</div>
 	</footer>
 	</div>
@@ -855,6 +853,7 @@ Built on the Ayushman Bharat Digital Mission (ABDM), we unify your hospital's da
 	</script>
 
 	<script src="assets/js/final_b46c7162.js"></script>
+	<script src="assets/js/navbar.js"></script>
 	<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
 	<script>
 		$(document).ready(function () {

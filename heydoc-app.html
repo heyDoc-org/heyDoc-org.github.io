@@ -39,9 +39,14 @@
     <meta name="twitter:image:alt" content="HeyDoc AI - Personalized Healthcare Platform" />
 
     <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/060f122a39.js" crossorigin="anonymous"></script>
 
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <link rel="stylesheet" href="assets/css/final_83d433b8.css" media="screen" />
     <link rel="stylesheet" href="assets/css/animate.css">
 
@@ -288,79 +293,35 @@
 
 	<div class="body__inner">
 
-		<div class="header header--reveal header--secondary" role="banner">
-			<div class="header__shader ">
-				<div class="container container--border">
-					<div class="row row--flex" role="navigation">
-						<div class="col col--fixed header__side layered">
-							<div class="col col--fixed header__side layered">
-								<a href="https://www.heydoc.co.in" aria-label="Homepage" class="header_icon__logo">
+		<!-- Site Navigation Header -->
+		<header class="site-header" id="site-header">
+			<div class="bw-container header-container">
+				<a href="index.html" class="brand-link" aria-label="HeyDoc Home">
+					<img src="assets/heydoc_logo.png" alt="HeyDoc Logo" class="brand-logo">
+				</a>
 
-
-									<img src="img/logo/heydoc_logo.png"> </a>
-							</div>
-						</div>
-						<div class="col layered e-show">
-							<button class="header__toggle" aria-label="Toggle menu"></button>
-						</div>
-						<div class="col col--fixed e2-2">
-							<div class="header__inner">
-								<!-- <div class="row row--flex row--flex-vcen"> -->
-										<ul class=" header__nav--main ">
-											<li class="header__item " style="transition-delay:0.51s,0.51s">
-												<a class="h header__link   " href="#">
-													Doctors
-												</a>
-											</li>
-											<li class="header__item " style="transition-delay:0.51s,0.51s">
-												<a class="h header__link  " href="hospital.html">
-													Hospitals
-												</a>
-											</li>
-											<li class="header__item " style="transition-delay:0.67s,0.67s">
-												<a class="h header__link  " href="https://wellness-gpt.com">
-													Business
-												</a>
-											</li>
-											<li class="header__item " style="transition-delay:0.59s,0.59s">
-												<a class="h header__link  " href="abdm.html">
-													ABDM
-												</a>
-											</li>
-											<li class="header__item " style="transition-delay:0.59s,0.59s">
-												<a class="h header__link  " href="about-us.html">
-													Our Team
-												</a>
-											</li>
-											<li class="header__item " style="transition-delay:0.67s,0.67s">
-												<a class="h header__link  " href="abdm.html">
-													Contact Us  
-												</a>
-											</li>
-											<li class="header__item " style="transition-delay:0.67s,0.67s">
-												<a class="h header__link  " href="https://www.wellness-gpt.com">
-													<p style="background: linear-gradient(to right, #4A83F0, #DB67D2,#D96570);
-										color: transparent;    background-clip: text;">WellnessGPT</p>      
-												</a>
-											</li>
-										</ul>
-									</div>
-									
-
-						</div>
-						<div class="col col--fixed header__wellnessgptside">
-							<ul class="header__nav ">
-								
-								<li  style="transition-delay:0.99s,0.99s"><a
-									href="#" class="a2 icon icon--search header__search"
-									aria-label="Search"></a></li>
-							</ul>
-						</div>
-						
+				<!-- Desktop & Mobile Navigation Links -->
+				<nav class="main-nav" id="main-nav" aria-label="Primary Navigation">
+					<ul class="nav-links">
+						<li><a href="heydoc-app.html" class="nav-link">HeyDoc App</a></li>
+						<li><a href="hospital.html" class="nav-link">Hospitals</a></li>
+						<li><a href="abdm.html" class="nav-link">ABDM</a></li>
+						<li><a href="https://wellness-gpt.com/enterprise.html" target="_blank" rel="noopener noreferrer" class="nav-link">Business</a></li>
+						<li><a href="https://wellness-gpt.com" target="_blank" rel="noopener noreferrer" class="nav-link">WellnessGPT</a></li>
+					</ul>
+					<div class="nav-cta-wrap">
+						<a href="https://forms.gle/ovwj9HLPMaPL4sgh6" target="_blank" rel="noopener noreferrer" class="btn-navbar-demo">Schedule Briefing</a>
 					</div>
-				</div>
+				</nav>
+
+				<!-- Mobile Navigation Hamburger Toggle -->
+				<button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</button>
 			</div>
-		</div>
+		</header>
 
 		<a id="top-of-page"></a>
 		<div role="main" class="page state">
@@ -515,35 +476,19 @@
 									<h2 class="h2 h2--m h2--gutter-m h2--pri  animate fadeInUp one">WellnessGPT : Your Health Companion</h2>
 									<p class="h2--sec carousel__desc wow typeset">
 										<span style="color: #000000;font-weight: 600; font-family: Arial, Helvetica, sans-serif; text-transform: capitalize; transition-delay: 0ms;">Wellness</span><span style="color: #5e17eb;font-weight: 600; font-family: Arial, Helvetica, sans-serif; text-transform: capitalize; transition-delay: 3ms;">GPT</span> understands that every user is unique, creating personalized health profiles to deliver tailored care and support.</p>
-									</h2>
 								</div>
-								<div class="slider slider--inset-l" data-slider-init="" data-resize-arrows="">
+								<div class="slider slider--inset-l" data-slider-init="" data-align-left="">
 									<div class="slider__main">
 										<div class="slider__slider">
-											<div class="slider__container"
-												style="transform: translate3d(-400%, 0px, 0px);">
+											<div class="slider__container">
 
-												<div class="slider__slide slider__spaced slider__slide--inactive"
-													style="left: 0%;">
+												<div class="slider__slide slider__spaced">
 													<div class="slide">
 														<div class="uncloak">
 															<div class="work-slide">
 																<div class="work-slide__graphic-container">
 
 																	<div class="fun-zone">
-
-																		<div
-																			class="fun-zone__graphic fun-zone__graphic--left fun-zone__graphic--bottom fun-zone__graphic--over">
-
-																			<!-- left image -->
-																			<img class=""
-																				sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																				width="1000" height="1200" alt=""
-																				srcset="img/icon/shop2023.png 1000w, img/icon/shop2023.png 2000w"
-																				src="./img/icon/shop2023.png">
-																		</div>
-
-
 
 																		<div>
 																			<img 
@@ -553,26 +498,6 @@
 																					alt="ABHA creation and integration with HeyDoc AI's WellnessGPT">
 																			</noscript>
 																		</div>
-
-
-																		<!-- location pin right side phone image  -->
-
-																			
-				
-																			<div
-																				class="fun-zone__graphic fun-zone__graphic--right fun-zone__graphic--bottom fun-zone__graphic--over  location_pin">
-				
-				
-																				<img class="location_pin"
-																					sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																					width="1000" height="1200" alt=""
-																					srcset="img/icon/abdm.svg 1000w, img/icon/abdm.svg 2000w"
-																					src="img/icon/abdm.svg" style="margin-left: 20px; margin-top: -50px; ">
-																			</div>
-				
-				
-																			
-																		
 																	</div>
 																</div>
 																<div class="work-slide__text-container">
@@ -619,28 +544,13 @@
 														</div>
 													</div>
 												</div>
-												<div class="slider__slide slider__spaced slider__slide--inactive">
+												<div class="slider__slide slider__spaced">
 													<div class="slide">
 														<div class="uncloak">
 															<div class="work-slide">
 																<div class="work-slide__graphic-container">
 
 																	<div class="fun-zone">
-
-																		<div
-																			class="fun-zone__graphic fun-zone__graphic--left fun-zone__graphic--bottom fun-zone__graphic--over">
-
-
-
-																			<!-- Universities slider left image   -->
-
-																			<img class=""
-																				sizes="230.5px, (max-width: 1280px) 184.4px, (max-width: 829px) 115.25px"
-																				width="230.5" height="300" alt=""
-																				srcset="img/icon/uni2023.png 138w, img/icon/uni2023.png 461w"
-																				src="img/icon/uni2023.png"
-																				style="margin-left: 20px;">
-																		</div>
 
 																		<!-- Universities video add  -->
 																		<div>
@@ -651,21 +561,6 @@
 																					alt="AI-Powered Doctor Discovery with HeyDoc AI's WellnessGPT">
 																			</noscript>
 																		</div>
-
-																		<!-- location pin right side phone image  -->
-
-																			
-				
-																		<div
-																		class="fun-zone__graphic fun-zone__graphic--right fun-zone__graphic--bottom fun-zone__graphic--over  location_pin">
-		
-		
-																		<img class="location_pin"
-																			sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																			width="1000" height="1200" alt=""
-																			srcset="img/icon/ai.svg 1000w, img/icon/ai.svg 2000w"
-																			src="img/icon/ai.svg" style="margin-left: 20px; margin-top: -50px; ">
-																	</div>
 																	</div>
 																</div>
 																<div class="work-slide__text-container">
@@ -714,28 +609,13 @@
 												</div>
 
 												<!-- Hospital     slider top  -->
-												<div class="slider__slide slider__spaced slider__slide--inactive">
+												<div class="slider__slide slider__spaced">
 													<div class="slide">
 														<div class="uncloak">
 															<div class="work-slide">
 																<div class="work-slide__graphic-container">
 
 																	<div class="fun-zone">
-
-																		<div
-																			class="fun-zone__graphic fun-zone__graphic--left fun-zone__graphic--bottom fun-zone__graphic--over">
-
-
-
-																			<!-- Hospital      left image   -->
-
-																			<img class=""
-																				sizes="230.5px, (max-width: 1280px) 184.4px, (max-width: 829px) 115.25px"
-																				width="230.5" height="300" alt=""
-																				srcset="img/icon/host2023.png 138w, img/icon/host2023.png 461w"
-																				src="./img/icon/host2023.png"
-																				style="margin-left: 20px;">
-																		</div>
 
 																		<!-- Hospital     video add  -->
 																		<div>
@@ -746,17 +626,6 @@
 																					alt="Personalized Healthcare Plans by HeyDoc AI's WellnessGPT">
 																			</noscript>
 																		</div>
-																		<!-- location pin right side phone image  -->
-																		<div
-																		class="fun-zone__graphic fun-zone__graphic--right fun-zone__graphic--bottom fun-zone__graphic--over  location_pin">
-		
-		
-																		<img class="location_pin"
-																			sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																			width="1000" height="1200" alt=""
-																			srcset="img/icon/healthConnect.svg 1000w, img/icon/healthConnect.svg 2000w"
-																			src="img/icon/healthConnect.svg" style="margin-left: 20px; margin-top: -50px; ">
-																	</div>
 																	</div>
 																</div>																
 																<div class="work-slide__text-container">
@@ -804,29 +673,13 @@
 												</div>
 
 												<!-- Retails slider top  -->
-												<div class="slider__slide slider__spaced slider__slide--inactive"
-													style="left: 0%;">
+												<div class="slider__slide slider__spaced">
 													<div class="slide">
 														<div class="uncloak">
 															<div class="work-slide">
 																<div class="work-slide__graphic-container">
 
 																	<div class="fun-zone">
-
-																		<div
-																			class="fun-zone__graphic fun-zone__graphic--left fun-zone__graphic--bottom fun-zone__graphic--over">
-
-
-
-
-																			<!-- left image -->
-																			<img class=""
-																				sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																				width="1000" height="1200" alt=""
-																				srcset="img/icon/re2023.png 1000w, img/icon/re2023.png 2000w"
-																				src="img/icon/re2023.png">
-																		</div>
-
 
 																		<div>
 																			<img 
@@ -836,20 +689,6 @@
 																					alt="AI Medical record analysis and Follow-Up Appointments tracking with HeyDoc AI's WellnessGPT">
 																			</noscript>
 																		</div>
-																		<!-- location pin right side phone image  -->
-
-																			
-				
-																		<div
-																		class="fun-zone__graphic fun-zone__graphic--right fun-zone__graphic--bottom fun-zone__graphic--over  location_pin">
-		
-		
-																		<img class="location_pin"
-																			sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																			width="1000" height="1200" alt=""
-																			srcset="./img/icon/ai_report.svg 1000w, ./img/icon/ai_report.svg 2000w"
-																			src="./img/icon/ai_report.svg" style="margin-left: 20px; margin-top: -50px; ">
-																	</div>
 																	</div>
 																</div>
 																<div class="work-slide__text-container">
@@ -904,20 +743,6 @@
 
 																	<div class="fun-zone">
 
-																		<div
-																			class="fun-zone__graphic fun-zone__graphic--left fun-zone__graphic--bottom fun-zone__graphic--over">
-
-
-
-																			<!-- Transport left image  -->
-
-																			<img class=""
-																				sizes="224.5px, (max-width: 1280px) 179.6px, (max-width: 829px) 112.25px"
-																				width="224.5" height="300" alt=""
-																				srcset="img/icon/trans2023.png 134w, img/icon/trans2023.png 449w"
-																				src="img/icon/trans2023.png">
-																		</div>
-
 																		<!-- Transport video -->
 																		<div>
 																			<img 
@@ -927,21 +752,6 @@
 																					alt="AI-Powered Family Health cover with HeyDoc AI's WellnessGPT">
 																			</noscript>
 																		</div>
-
-																		<!-- location pin right side phone image  -->
-
-																			
-				
-																		<div
-																		class="fun-zone__graphic fun-zone__graphic--right fun-zone__graphic--bottom fun-zone__graphic--over  location_pin">
-		
-		
-																		<img class="location_pin"
-																			sizes="1000px, (max-width: 1280px) 800px, (max-width: 829px) 500px"
-																			width="1000" height="1200" alt=""
-																			srcset="img/icon/medicalReport.png 1000w, img/icon/medicalReport.png 2000w"
-																			src="img/icon/medicalReport.png" style="margin-left: 10px; margin-top: -50px; ">
-																	</div>
 																	</div>
 																</div>
 																<div class="work-slide__text-container">
@@ -993,29 +803,19 @@
 
 											</div>
 										</div>
-										<button class="slider__arrow slider__arrow--prev" data-slider-prev=""
-											aria-label="Previous slide" style="height: 143px;"></button>
-										<button class="slider__arrow slider__arrow--next" data-slider-next=""
-											aria-label="Next slide" style="height: 143px;"></button>
 									</div>
-									<div class="pips" data-slider-nav=""><button class="pips__item pips__item--pri"
-											aria-label="View slide 1" data-slider-pip=""></button>
-										<button class="pips__item pips__item--pri" aria-label="View slide 2"
-											data-slider-pip=""></button><button class="pips__item pips__item--pri"
-											aria-label="View slide 3" data-slider-pip=""></button>
-										<button class="pips__item pips__item--pri active" aria-label="View slide 4"
-											data-slider-pip=""></button><button class="pips__item pips__item--pri"
-											aria-label="View slide 5" data-slider-pip=""></button>
-
+									<div class="pips" data-slider-nav="" style="display: none !important; height: 0 !important; margin: 0 !important; padding: 0 !important; visibility: hidden !important; overflow: hidden !important;">
+										<button class="pips__item pips__item--pri" aria-label="View slide 1" data-slider-pip=""></button>
+										<button class="pips__item pips__item--pri" aria-label="View slide 2" data-slider-pip=""></button>
+										<button class="pips__item pips__item--pri" aria-label="View slide 3" data-slider-pip=""></button>
+										<button class="pips__item pips__item--pri active" aria-label="View slide 4" data-slider-pip=""></button>
+										<button class="pips__item pips__item--pri" aria-label="View slide 5" data-slider-pip=""></button>
 									</div>
 								</div>
 							</div>
 						</div>
 
-					</div>
 					<div class="section" style="background-color: #ffffff;">
-
-						<div class="container container--m">
 
 				<!-- AI Platform Heading -->
 				<section class="pplatform-heading-section">
@@ -1067,7 +867,7 @@
 						</div>
 					</div>
 				</section>
-				</div>
+					</div>
 					<div class="section" style="background-color: #ffffff;">
 
 							<div class="container container--m">
@@ -1075,7 +875,7 @@
 							<h2 class="section-title">Benefits of Your Personalized Wellness Score</h2>
 							</div>
 
-							<div class="app-badges cards-container" style="padding: 20px 0px 40px 0px;">
+							<div class="cards-container">
 					<div class="card" style=" background-color: #84e8fc;">
 						<div class="card-content">
 							<h2>AI-Powered Doctor Discovery</h2>
@@ -1931,160 +1731,7 @@
 
 
 
-					<div id="section-5" class="faqs state__section propagate-theme-white">
-						<div class="section section--inset-l bg-color-white">
-							<div class="container container--m container--inset-l">
-								<div class="faq2">
-									<!-- <div class="faq2__heading-container">
-										<h2 class="section__heading section__heading--l section__heading--align-left wow" style="text-transform: capitalize;">
-											Why HeyDoc?</h2>
 
-										
-											<div class="section__summary wow">
-												<p style="color: #000000;" class="wow">Our minimalist approach to indoor navigation is driven by a passion for seamless human interaction. We're more than just a product; we're the future of growth, efficiency, and engagement. With HeyDoc, you're not just a business; you're a pioneer.
-												</p>
-											</div>
-										
-									</div>
-									<div class="row faq2__faqs">
-										<div class="col expandable faq2__faq wow" data-expandable-parent="">
-											<button class="expandable__trigger faq2__heading faq2__heading--question"
-												data-expandable-id="0">
-												<div class="faq2__question">Seamless Indoor Navigation</div>
-												<div class="faq2__button">
-													<div class="faq2__button__inner faq2__button__inner--plus"></div>
-													<div class="faq2__button__inner faq2__button__inner--minus"></div>
-												</div>
-											</button>
-											<div class="expandable__content">
-												<div class="faq2__inner" data-expandable-sizer="">
-													<div class="faq2__answer">Say goodbye to confusion and hello to effortless indoor navigation.
-
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col expandable faq2__faq wow" data-expandable-parent="">
-											<button class="expandable__trigger faq2__heading faq2__heading--question"
-												data-expandable-id="1">
-												<div class="faq2__question">Enhanced Customer Engagement
-												</div>
-												<div class="faq2__button">
-													<div class="faq2__button__inner faq2__button__inner--plus"></div>
-													<div class="faq2__button__inner faq2__button__inner--minus"></div>
-												</div>
-											</button>
-											<div class="expandable__content">
-												<div class="faq2__inner" data-expandable-sizer="">
-													<div class="faq2__answer">Keep customers informed and engaged with real-time updates.
-
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col expandable faq2__faq wow" data-expandable-parent="">
-											<button class="expandable__trigger faq2__heading faq2__heading--question"
-												data-expandable-id="2">
-												<div class="faq2__question">Tailored Solutions</div>
-												<div class="faq2__button">
-													<div class="faq2__button__inner faq2__button__inner--plus"></div>
-													<div class="faq2__button__inner faq2__button__inner--minus"></div>
-												</div>
-											</button>
-											<div class="expandable__content">
-												<div class="faq2__inner" data-expandable-sizer="">
-													<div class="faq2__answer">Sector-specific solutions for maximum impact.</div>
-												</div>
-											</div>
-										</div>
-										<div class="col expandable faq2__faq wow" data-expandable-parent="">
-											<button class="expandable__trigger faq2__heading faq2__heading--question"
-												data-expandable-id="3">
-												<div class="faq2__question">Trust and Reliability
-												</div>
-												<div class="faq2__button">
-													<div class="faq2__button__inner faq2__button__inner--plus"></div>
-													<div class="faq2__button__inner faq2__button__inner--minus"></div>
-												</div>
-											</button>
-											<div class="expandable__content">
-												<div class="faq2__inner" data-expandable-sizer="">
-													<div class="faq2__answer">Built by IITians, ensuring cutting-edge technology and innovation.</div>
-												</div>
-											</div>
-										</div>
-										<div class="col expandable faq2__faq wow" data-expandable-parent="">
-											<button class="expandable__trigger faq2__heading faq2__heading--question"
-												data-expandable-id="4">
-												<div class="faq2__question">Unlock Growth</div>
-												<div class="faq2__button">
-													<div class="faq2__button__inner faq2__button__inner--plus"></div>
-													<div class="faq2__button__inner faq2__button__inner--minus"></div>
-												</div>
-											</button>
-											<div class="expandable__content">
-												<div class="faq2__inner" data-expandable-sizer="">
-													<div class="faq2__answer">Position your business for success with HeyDoc.
-													</div>
-												</div>
-											</div>
-										</div>
-
-
-
-									</div> -->
-									<div class="faq2__cta-container" >
-										<div class="container container--m container--inset-l">
-											<div class="row row--wide row--gutter-m row--reverse layered flex flex--wrap">
-												<div class="col a6-12 i2-2  align-self-center">
-													
-													<p class="section__heading section__heading--l wow" style="color: #000000;font-size: 20px;">Contact Us</p>
-													<div class="typeset typeset--body-light wow">
-														<div class="section__summary">
-															<p style="color: #000000;">Have questions or need more information? Our team is here to assist you.
-															</p>
-														</div>
-													</div>
-			
-													<div class="particles wow">
-														<div class="particles__container wow"><canvas width="614" height="338"
-																style="width: 307px; height: 169px;"></canvas></div><a href="#"
-															class="particles__btn comic-button btn--fill-quaternary color-inherit  btn--shadow">
-															Contact Us </a>
-													</div>
-												</div>
-												<div class="col a6-12 i2-2  align-self-center">
-													
-													<p class="section__heading section__heading--l wow" style="color: #000000; font-size: 20px;">Stay Connected
-													</p>
-													<div class="typeset typeset--body-light wow">
-														<div class="section__summary">
-															<p style="color: #000000;">Follow us on social media for the latest updates, success stories, and industry insights.
-															</p>
-														</div>
-													</div>
-			
-													<div class="footer__social" >
-														<p class="footer__social-heading" style="color: #000000;">Follow us on </p><a href="https://x.com/HeyDoc_Ai"
-															class="a2 footer__icon icon icon--twitter" aria-label="twitter" target="_blank" rel="noopener" style="color: #000000;"></a>
-															<a href="https://www.facebook.com/heydoc.co.in/" class="a2 footer__icon icon icon--facebook"
-															aria-label="facebook" target="_blank" rel="noopener" style="color: #000000;"></a>
-															<a href="https://youtube.com/@heydocai?si=qcBqkBiHFHj_kJ-p"
-															class="a2 footer__icon icon icon--youtube" aria-label="youtube" target="_blank" rel="noopener" style="color: #000000;"></a>
-															<a href="https://www.instagram.com/heydoc_ai" class="a2 footer__icon icon icon--instagram"
-															aria-label="instagram" target="_blank" rel="noopener" style="color: #000000;"></a>
-															<a href="https://in.linkedin.com/company/heydoc-healthtech"
-															class="a2 footer__icon icon icon--linkedin" aria-label="linkedin" target="_blank" rel="noopener" style="color: #000000;"></a>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
 
 
                   <!-- blog section
@@ -2384,94 +2031,126 @@
 						</div>
 		
 					</div>
-
-			
+					-->
 
 				</div>
 			</div>
 		</div>
 
+	</div>
 
-	</div> -->
-
-	<!-- footer -->
-	<footer class="footer section" role="contentinfo">
-		<h2 class="invisible">Footer </h2>
-		<div class="container container--inset-l">
-			<div role="navigation">
-				<div class="row row--flex">
-					<div class="footer__logo col col--fixed a4-12 h1-1"><a href="index.html" aria-label="Homepage"
-							class="header__logo" style="margin-left: 20px;"></a></div>
-					<div class="col a8-12 h1-1">
-						<div class="row row--flex">
-							<div class="col">
-								<ul class="footer__list">
-									<h3 class="h footer__heading">Our Products </h3>
-									<li><a href="https://heydoc.co.in" class="a2 footer__link">For Patients </a></li>
-									<li><a href="#" class="a2 footer__link">Doctors</a></li>
-									<li><a href="hospital.html" class="a2 footer__link">Hospitals</a></li>
-									<li><a href="https://wellness-gpt.com" class="a2 footer__link" rel="noopener">Digital health Business</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="footer__list">
-									<h3 class="h footer__heading">About </h3>
-									<li><a href="about-us.html" class="a2 footer__link" rel="noopener">Our Team</a></li>
-									<li><a href="abdm.html" class="a2 footer__link" rel="noopener">ABDM</a></li>
-
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="footer__list">
-									<h3 class="h footer__heading">Contact US </h3>
-									<ul class="footer__list">
-										<li>support@heydoc.co.in </li>
-										<li>+91 9027391190 </li>
-									</ul>
-
-								</ul>
-							</div>
-							<!-- <div class="col">
-								<h3 class="h footer__heading">Info </h3>
-								<ul class="footer__list">
-
-
-									<li><a href="contact.html" class="a2 footer__link">Contact
-											Us </a></li>
-											<li><a href="blog/blog.html" class="a2 footer__link">Blogs</a></li>
-								</ul>
-							</div> -->
-						</div>
-					</div>
+	<!-- Site Footer -->
+	<footer class="site-footer" id="site-footer">
+		<div class="bw-container">
+			
+			<!-- Top Grid: Brand Column + 3 Link Columns -->
+			<div class="footer-top-grid">
+				
+				<!-- Left: Brand Info -->
+				<div class="footer-brand-col">
+					<a href="index.html" class="footer-brand-link" aria-label="HeyDoc Home">
+						<img src="assets/heydoc_logo.png" alt="HeyDoc Logo" class="footer-brand-logo">
+					</a>
+					<p class="footer-brand-desc">
+						Transforming AI interaction signals and telemetry into actionable business intelligence.
+					</p>
 				</div>
-				<div class="row row--flex row--flex-vcen">
-					<div class="col a4-12 j2-2">
-						<div class="footer__social">
-							<p class="footer__social-heading">Follow us on </p><a href="https://x.com/HeyDoc_Ai"
-								class="a2 footer__icon icon icon--twitter" aria-label="twitter"></a><a href="https://www.facebook.com/heydoc.co.in/"
-								class="a2 footer__icon icon icon--facebook" aria-label="facebook"></a><a href="https://youtube.com/@heydocai?si=qcBqkBiHFHj_kJ-p"
-								class="a2 footer__icon icon icon--youtube" aria-label="youtube"></a><a href="https://www.instagram.com/heydoc_ai"
-								class="a2 footer__icon icon icon--instagram" aria-label="instagram"></a><a href="https://in.linkedin.com/company/heydoc-healthtech"
-								class="a2 footer__icon icon icon--linkedin" aria-label="linkedin"></a>
-						</div>
-					</div>
-					<div class="col a8-12 j2-2">
-						<ul class="footer__legal">
-							<div class="footer__legal__inner">
-								<ul>
-									<li>
-										<p>All Rights Reserved 2026 &copy; HeyDoc AI </p>
-									</li>
-								</ul>
-							</div>
+
+				<!-- Right: 3 Columns (Platform, Company, Contact) -->
+				<div class="footer-links-grid">
+					
+					<!-- Column 1: Platform -->
+					<div class="footer-col">
+						<h4 class="footer-col-title">Platform</h4>
+						<ul class="footer-links-list">
+							<li><a href="heydoc-app.html" class="footer-link">HeyDoc App</a></li>
+							<li><a href="hospital.html" class="footer-link">Hospitals</a></li>
+							<li><a href="abdm.html" class="footer-link">ABDM</a></li>
+							<li><a href="https://wellness-gpt.com/enterprise.html" target="_blank" rel="noopener noreferrer" class="footer-link">Business</a></li>
 						</ul>
 					</div>
+
+					<!-- Column 2: Company -->
+					<div class="footer-col">
+						<h4 class="footer-col-title">Company</h4>
+						<ul class="footer-links-list">
+							<li><a href="about-us.html" class="footer-link">Our Team</a></li>
+							<li><a href="https://wellness-gpt.com" target="_blank" rel="noopener noreferrer" class="footer-link">WellnessGPT</a></li>
+							<li><a href="https://forms.gle/ovwj9HLPMaPL4sgh6" target="_blank" rel="noopener noreferrer" class="footer-link">Schedule Briefing</a></li>
+						</ul>
+					</div>
+
+					<!-- Column 3: Contact -->
+					<div class="footer-col footer-contact-col">
+						<h4 class="footer-col-title">Contact</h4>
+						<ul class="footer-contact-list">
+							<li>
+								<span class="contact-lbl">Email:</span>
+								<a href="mailto:support@heydoc.co.in" class="footer-link">support@heydoc.co.in</a>
+							</li>
+							<li>
+								<span class="contact-lbl">Phone:</span>
+								<a href="tel:+919027391190" class="footer-link">+91 9027391190</a>
+							</li>
+							<li class="contact-item-block">
+								<span class="contact-lbl">Company:</span>
+								<span class="contact-val">Amogh NSMP Tech Pvt. Ltd.</span>
+							</li>
+							<li class="contact-item-block">
+								<span class="contact-lbl">Address:</span>
+								<span class="contact-val">3/20/1 Rakshapuram, Mawana Rd, Meerut, UP, 250001, India</span>
+							</li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
+
+			<!-- Bottom Bar: Copyright + 5 Circular Social Media Icons -->
+			<div class="footer-bottom-bar">
+				<div class="footer-copyright">
+					© 2026 HeyDoc. All rights reserved.
+				</div>
+
+				<div class="footer-socials" aria-label="Social Media Links">
+					<!-- Facebook -->
+					<a href="https://www.facebook.com/heydoc.co.in/" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Facebook">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+						</svg>
+					</a>
+					<!-- Instagram -->
+					<a href="https://www.instagram.com/heydoc_ai" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="Instagram">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+						</svg>
+					</a>
+					<!-- X (Twitter) -->
+					<a href="https://twitter.com/HeyDoc_Ai" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="X (Twitter)">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+						</svg>
+					</a>
+					<!-- LinkedIn -->
+					<a href="https://in.linkedin.com/company/heydoc-healthtech" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="LinkedIn">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+						</svg>
+					</a>
+					<!-- YouTube -->
+					<a href="https://youtube.com/@heydocai" target="_blank" rel="noopener noreferrer" class="social-circle-btn" aria-label="YouTube">
+						<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+							<path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+						</svg>
+					</a>
+				</div>
+
+			</div>
+
 		</div>
 	</footer>
 	<script src="assets/js/final_b46c7162.js"></script>
+	<script src="assets/js/navbar.js"></script>
 	<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
     <script>
         $(document).ready(function () {
